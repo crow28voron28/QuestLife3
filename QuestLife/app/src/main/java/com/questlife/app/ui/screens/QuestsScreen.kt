@@ -51,7 +51,8 @@ fun Float.degrees(): Float = this * PI.toFloat() / 180f
 fun QuestsScreen(
     character: Character?,
     onSetupCharacter: () -> Unit,
-    onCharacterUpdate: (Character) -> Unit
+    onCharacterUpdate: (Character) -> Unit,
+    onAddToCalendar: (Quest) -> Unit = {}
 ) {
     val scope = rememberCoroutineScope()
     var visibleDailyQuests by remember { mutableStateOf<List<Quest>>(emptyList()) }
@@ -294,7 +295,11 @@ fun QuestsScreen(
                                 Text("⚔️ ЕЖЕДНЕВНЫЕ КВЕСТЫ", color = Color(0xFFe94560), fontFamily = PixelFontFamily, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold, fontSize = 16.sp)
                             }
                             items(visibleDailyQuests, key = { it.id }) { quest ->
-                                QuestCard(quest = quest, onClick = { completeQuest(quest) })
+                                QuestCard(
+                                    quest = quest, 
+                                    onClick = { completeQuest(quest) },
+                                    onAddToCalendar = { onAddToCalendar(it) }
+                                )
                             }
                         }
                         
@@ -346,7 +351,7 @@ fun QuestsScreen(
 }
 
 @Composable
-fun QuestCard(quest: Quest, onClick: () -> Unit) {
+fun QuestCard(quest: Quest, onClick: () -> Unit, onAddToCalendar: (Quest) -> Unit = {}) {
     val difficultyColor = when (quest.difficulty) {
         QuestDifficulty.TRIVIAL -> Color(0xFF8bc34a)
         QuestDifficulty.EASY -> Color(0xFF4caf50)
@@ -356,21 +361,38 @@ fun QuestCard(quest: Quest, onClick: () -> Unit) {
     }
 
     Card(
-        modifier = Modifier.fillMaxWidth().clickable { onClick() },
+        modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(containerColor = Color(0xFF0f3460)),
         border = BorderStroke(1.dp, difficultyColor),
         shape = RoundedCornerShape(8.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
-        Row(modifier = Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
-            Column(modifier = Modifier.weight(1f)) {
-                Text(text = quest.title, color = Color.White, fontFamily = PixelFontFamily, fontSize = 14.sp, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
-                Spacer(modifier = Modifier.height(4.dp))
-                Text(text = "${quest.description} | Награда: ${quest.xpReward} XP, ${quest.goldReward} G", color = Color(0xFFa0a0a0), fontFamily = PixelFontFamily, fontSize = 10.sp)
-                Spacer(modifier = Modifier.height(4.dp))
-                Text(text = "Сложность: ${quest.difficulty}", color = difficultyColor, fontFamily = PixelFontFamily, fontSize = 10.sp, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
+        Column(modifier = Modifier.fillMaxWidth().padding(16.dp)) {
+            Row(modifier = Modifier.weight(1f), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(text = quest.title, color = Color.White, fontFamily = PixelFontFamily, fontSize = 14.sp, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(text = "${quest.description} | Награда: ${quest.xpReward} XP, ${quest.goldReward} G", color = Color(0xFFa0a0a0), fontFamily = PixelFontFamily, fontSize = 10.sp)
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(text = "Сложность: ${quest.difficulty}", color = difficultyColor, fontFamily = PixelFontFamily, fontSize = 10.sp, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
+                }
+                IconButton(onClick = { onClick() }) {
+                    Icon(imageVector = Icons.Default.Star, contentDescription = "Complete", tint = difficultyColor, modifier = Modifier.size(32.dp).rotate(15f))
+                }
             }
-            Icon(imageVector = Icons.Default.Star, contentDescription = "Complete", tint = difficultyColor, modifier = Modifier.size(32.dp).rotate(15f))
+            Spacer(modifier = Modifier.height(8.dp))
+            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                TextButton(onClick = { onAddToCalendar(quest) }) {
+                    Icon(
+                        imageVector = Icons.Default.CalendarToday,
+                        contentDescription = "В календарь",
+                        tint = Color(0xFFa0a0a0),
+                        modifier = Modifier.size(16.dp)
+                    )
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text("В календарь", color = Color(0xFFa0a0a0), fontFamily = PixelFontFamily, fontSize = 10.sp)
+                }
+            }
         }
     }
 }

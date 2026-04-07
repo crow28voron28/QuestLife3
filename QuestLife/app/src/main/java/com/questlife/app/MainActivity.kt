@@ -393,6 +393,8 @@ fun QuestLifeApp() {
     // Состояние персонажа - сохраняется в памяти
     var character by remember { mutableStateOf<Character?>(null) }
     var showGenderSelection by remember { mutableStateOf(false) }
+    var showClassSelection by remember { mutableStateOf(false) }
+    var selectedGender by remember { mutableStateOf<String?>(null) }
     
     // Хранилище задач календаря
     var calendarTasks by remember { mutableStateOf<List<CalendarTask>>(emptyList()) }
@@ -415,6 +417,20 @@ fun QuestLifeApp() {
                     },
                     onCharacterUpdate = { updatedCharacter ->
                         character = updatedCharacter
+                    },
+                    onAddToCalendar = { quest ->
+                        val newTask = CalendarTask(
+                            title = quest.title,
+                            description = quest.description,
+                            dateTime = quest.scheduledDateTime ?: LocalDateTime.now().plusDays(1).withHour(10),
+                            isCompleted = false,
+                            reminderEnabled = quest.hasReminder,
+                            reminderTime = if (quest.hasReminder) quest.scheduledDateTime?.minusMinutes(30) else null,
+                            category = QuestCategory.HEALTH,
+                            xpReward = quest.xpReward,
+                            goldReward = quest.goldReward
+                        )
+                        calendarTasks = calendarTasks + newTask
                     }
                 )
             }
@@ -488,11 +504,24 @@ fun QuestLifeApp() {
         if (showGenderSelection) {
             GenderSelectionScreen(
                 onGenderSelected = { gender ->
+                    selectedGender = gender
+                    showGenderSelection = false
+                    showClassSelection = true
+                }
+            )
+        }
+        
+        // Диалог выбора класса
+        if (showClassSelection && selectedGender != null) {
+            ClassSelectionScreen(
+                onClassSelected = { characterClass ->
                     character = Character(
                         name = "Герой",
-                        gender = gender
+                        gender = selectedGender!!,
+                        characterClass = characterClass
                     )
-                    showGenderSelection = false
+                    showClassSelection = false
+                    selectedGender = null
                 }
             )
         }
