@@ -12,6 +12,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.CalendarMonth
 import androidx.compose.material.icons.filled.History
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.*
@@ -384,7 +385,7 @@ fun QuestCard(quest: Quest, onClick: () -> Unit, onAddToCalendar: (Quest) -> Uni
             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
                 TextButton(onClick = { onAddToCalendar(quest) }) {
                     Icon(
-                        imageVector = Icons.Default.CalendarToday,
+                        imageVector = Icons.Default.CalendarMonth,
                         contentDescription = "В календарь",
                         tint = Color(0xFFa0a0a0),
                         modifier = Modifier.size(16.dp)
