@@ -31,8 +31,6 @@ import com.questlife.app.data.MegaQuestDatabase
 import com.questlife.app.data.getXpRequiredForLevel
 import com.questlife.app.data.CompletedQuestEntry
 import com.questlife.app.models.Character
-import com.questlife.app.models.Profession
-import com.questlife.app.models.CharacterClass
 import com.questlife.app.models.Quest
 import com.questlife.app.models.QuestDifficulty
 import com.questlife.app.models.QuestType
@@ -77,8 +75,9 @@ fun QuestsScreen(
 
     LaunchedEffect(character) {
         if (character != null) {
-            visibleDailyQuests = MegaQuestDatabase.generateDailyQuests(5, character.profession, character.characterClass)
-            visibleWeeklyQuests = MegaQuestDatabase.generateWeeklyQuests(character.profession, character.characterClass)
+            // Квесты теперь создаются пользователем самостоятельно
+            visibleDailyQuests = emptyList()
+            visibleWeeklyQuests = emptyList()
         } else {
             visibleDailyQuests = emptyList()
             visibleWeeklyQuests = emptyList()
@@ -235,12 +234,7 @@ fun QuestsScreen(
                         Row(horizontalArrangement = Arrangement.SpaceEvenly, modifier = Modifier.fillMaxWidth()) {
                             AssistChip(
                                 onClick = {},
-                                label = { Text("${character.profession.icon} ${character.profession.displayName}", fontSize = 11.sp, fontFamily = PixelFontFamily) },
-                                colors = AssistChipDefaults.assistChipColors(containerColor = Color(0xFF0f3460))
-                            )
-                            AssistChip(
-                                onClick = {},
-                                label = { Text("${character.characterClass.icon} ${character.characterClass.displayName}", fontSize = 11.sp, fontFamily = PixelFontFamily) },
+                                label = { Text("Пол: ${character.gender}", fontSize = 11.sp, fontFamily = PixelFontFamily) },
                                 colors = AssistChipDefaults.assistChipColors(containerColor = Color(0xFF0f3460))
                             )
                         }

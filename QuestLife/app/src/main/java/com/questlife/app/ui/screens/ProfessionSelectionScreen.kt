@@ -11,20 +11,22 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.questlife.app.models.Profession
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ProfessionSelectionScreen(
-    onProfessionSelected: (Profession) -> Unit,
+fun GenderSelectionScreen(
+    onGenderSelected: (String) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val professions = Profession.getAll()
+    val genders = listOf(
+        "Мужской" to "👨",
+        "Женский" to "👩"
+    )
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Выберите профессию") },
+                title = { Text("Выберите пол") },
                 navigationIcon = {}
             )
         }
@@ -37,14 +39,14 @@ fun ProfessionSelectionScreen(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Ваша реальная профессия",
+                text = "Ваш пол",
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(bottom = 8.dp)
             )
             
             Text(
-                text = "Это поможет подобрать релевантные квесты",
+                text = "Это поможет настроить персонализированные задачи",
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(bottom = 24.dp)
             )
@@ -53,11 +55,11 @@ fun ProfessionSelectionScreen(
                 modifier = Modifier.fillMaxSize(),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                items(professions) { profession ->
+                items(genders) { (name, icon) ->
                     Card(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clickable { onProfessionSelected(profession) },
+                            .clickable { onGenderSelected(name) },
                         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
                     ) {
                         Row(
@@ -68,12 +70,12 @@ fun ProfessionSelectionScreen(
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             Text(
-                                text = profession.icon,
+                                text = icon,
                                 fontSize = 24.sp,
                                 modifier = Modifier.padding(end = 12.dp)
                             )
                             Text(
-                                text = profession.displayName,
+                                text = name,
                                 fontSize = 18.sp,
                                 fontWeight = FontWeight.Medium
                             )

@@ -391,9 +391,7 @@ fun QuestLifeApp() {
     
     // Состояние персонажа - сохраняется в памяти
     var character by remember { mutableStateOf<Character?>(null) }
-    var showProfessionSelection by remember { mutableStateOf(false) }
-    var showClassSelection by remember { mutableStateOf(false) }
-    var selectedProfession by remember { mutableStateOf<Profession?>(null) }
+    var showGenderSelection by remember { mutableStateOf(false) }
 
     Scaffold(
         bottomBar = { BottomNavigationBar(navController) }
@@ -408,7 +406,7 @@ fun QuestLifeApp() {
                     character = character,
                     onSetupCharacter = {
                         if (character == null) {
-                            showProfessionSelection = true
+                            showGenderSelection = true
                         }
                     },
                     onCharacterUpdate = { updatedCharacter ->
@@ -460,27 +458,15 @@ fun QuestLifeApp() {
             }
         }
         
-        // Диалог выбора профессии
-        if (showProfessionSelection) {
-            ProfessionSelectionScreen(
-                onProfessionSelected = { profession ->
-                    selectedProfession = profession
-                    showProfessionSelection = false
-                    showClassSelection = true
-                }
-            )
-        }
-        
-        // Диалог выбора класса
-        if (showClassSelection) {
-            ClassSelectionScreen(
-                onClassSelected = { charClass ->
+        // Диалог выбора пола
+        if (showGenderSelection) {
+            GenderSelectionScreen(
+                onGenderSelected = { gender ->
                     character = Character(
                         name = "Герой",
-                        profession = selectedProfession ?: Profession.STUDENT,
-                        characterClass = charClass
+                        gender = gender
                     )
-                    showClassSelection = false
+                    showGenderSelection = false
                 }
             )
         }
