@@ -14,6 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.questlife.app.models.*
+import com.questlife.app.ui.utils.getRarityColor
+import com.questlife.app.ui.utils.getRarityText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
