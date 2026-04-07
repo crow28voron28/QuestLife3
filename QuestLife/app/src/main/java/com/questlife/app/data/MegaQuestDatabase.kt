@@ -703,6 +703,7 @@ data class Inventory(
 }
 
 data class InventoryItem(
+    val id: String = java.util.UUID.randomUUID().toString(),
     val item: Item,
     val quantity: Int = 1,
     val acquiredAt: java.time.LocalDateTime = java.time.LocalDateTime.now()

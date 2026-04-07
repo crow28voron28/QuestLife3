@@ -20,6 +20,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.questlife.app.models.*
+import com.questlife.app.data.getXpRequiredForLevel
 import com.questlife.app.ui.theme.PixelFontFamily
 
 @OptIn(ExperimentalMaterial3Api::class)
