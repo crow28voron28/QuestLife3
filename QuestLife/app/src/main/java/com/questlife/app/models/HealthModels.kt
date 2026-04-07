@@ -215,7 +215,7 @@ data class Quest(
 // Для совместимости
 typealias HealthQuest = Quest
 
-enum class QuestType { DAILY, WEEKLY, MONTHLY }
+enum class QuestType { DAILY, WEEKLY, MONTHLY, CUSTOM }
 enum class QuestDifficulty { TRIVIAL, EASY, MEDIUM, HARD, EPIC }
 enum class QuestCategory { PHYSICAL, MENTAL, SOCIAL, CREATIVE, HEALTH }
 

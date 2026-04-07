@@ -1,28 +1,34 @@
-# Compiled and build artifacts
+```
+# Compiled/Binary files
 *.class
 *.o
 *.obj
-*.out
-*.dll
 *.so
+*.dll
+*.exe
 *.a
-*.pyc
-__pycache__/
+*.out
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-*.env.*
-
-# Build directories (common in Android/Kotlin projects)
-build/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 .gradle/
+build/
 target/
 
-# IDE specific
+# Android specific
+*.apk
+*.aar
+*.dex
+local.properties
+captures/
+.externalNativeBuild/
+
+# IDE files
 .vscode/
 .idea/
 *.swp
@@ -32,15 +38,39 @@ target/
 # System files
 .DS_Store
 Thumbs.db
+.env
+.env.local
+*.env.*
 
 # Logs
 *.log
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Python specific
-.mypy_cache/
-.pytest_cache/
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
