@@ -215,7 +215,7 @@ data class Quest(
 // Для совместимости
 typealias HealthQuest = Quest
 
-enum class QuestType { DAILY, WEEKLY, MONTHLY, CUSTOM }
+enum class QuestType { DAILY, WEEKLY, MONTHLY }
 enum class QuestDifficulty { TRIVIAL, EASY, MEDIUM, HARD, EPIC }
 enum class QuestCategory { PHYSICAL, MENTAL, SOCIAL, CREATIVE, HEALTH }
 
@@ -228,7 +228,7 @@ data class CalendarTask(
     val isCompleted: Boolean = false,
     val reminderEnabled: Boolean = true,
     val reminderTime: LocalDateTime? = null,
-    val category: QuestCategory = QuestCategory.CUSTOM,
+    val category: QuestCategory = QuestCategory.HEALTH,
     val xpReward: Int = 50,
     val goldReward: Int = 10
 )
@@ -338,6 +338,8 @@ data class Character(
     val maxHealth: Int = 100,
     val gold: Int = 0,
     val gender: String = "Мужской",
+    val profession: Profession = Profession.STUDENT,
+    val characterClass: CharacterClass = CharacterClass.WARRIOR,
     val stats: CharacterStats = CharacterStats(),
     val equippedItems: EquippedItems = EquippedItems()
 )
