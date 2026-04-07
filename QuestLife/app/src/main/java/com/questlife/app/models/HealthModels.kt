@@ -193,7 +193,17 @@ enum class AchievementType {
     STREAK_MASTER, 
     PERSONAL_RECORD,
     CONSISTENCY_CHAMPION,
-    MUSCLE_SPECIALIST
+    MUSCLE_SPECIALIST,
+    // Квестовые достижения
+    QUEST_MASTER,
+    GOLD_HOARDER,
+    LEVEL_UP,
+    DAILY_STREAK,
+    WEEKLY_BOSS,
+    CUSTOM_QUEST,
+    EARLY_BIRD,
+    NIGHT_OWL,
+    COMPLETIONIST
 }
 
 // ============= КВЕСТЫ И КАЛЕНДАРЬ =============

@@ -1,7 +1,11 @@
 package com.questlife.app.ui.screens
 
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
@@ -9,9 +13,14 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.questlife.app.models.*
+import com.questlife.app.ui.theme.PixelFontFamily
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -21,7 +30,7 @@ fun CharacterScreen(character: Character?) {
         name = "Новый Герой",
         level = 1,
         experience = 0,
-        experienceToNextLevel = 100,
+        experienceToNextLevel = 200,
         health = 100,
         maxHealth = 100,
         gold = 0,
@@ -42,15 +51,11 @@ fun CharacterScreen(character: Character?) {
                 .padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Аватар - иконка класса
-            Box(
-                modifier = Modifier
-                    .size(120.dp)
-                    .padding(8.dp),
-                contentAlignment = Alignment.Center
-            ) {
-                Text(displayCharacter.characterClass.icon, style = MaterialTheme.typography.displayLarge)
-            }
+            // Пиксельный человек с экипировкой
+            PixelCharacterView(
+                character = displayCharacter,
+                modifier = Modifier.size(200.dp)
+            )
 
             Text(
                 displayCharacter.name,
@@ -101,10 +106,10 @@ fun CharacterScreen(character: Character?) {
                     Text("Опыт", style = MaterialTheme.typography.titleMedium)
                     Spacer(modifier = Modifier.height(8.dp))
                     LinearProgressIndicator(
-                        progress = { displayCharacter.experience.toFloat() / displayCharacter.experienceToNextLevel },
+                        progress = { displayCharacter.experience.toFloat() / getXpRequiredForLevel(displayCharacter.level + 1) },
                         modifier = Modifier.fillMaxWidth()
                     )
-                    Text("${displayCharacter.experience}/${displayCharacter.experienceToNextLevel} XP", modifier = Modifier.align(Alignment.End))
+                    Text("${displayCharacter.experience}/${getXpRequiredForLevel(displayCharacter.level + 1)} XP", modifier = Modifier.align(Alignment.End))
                 }
             }
 
@@ -134,17 +139,13 @@ fun CharacterScreen(character: Character?) {
             StatsRow("Интеллект", displayCharacter.stats.intelligence)
             StatsRow("Живучесть", displayCharacter.stats.vitality)
 
-            Spacer(modifier = Modifier.height(32.dp))
+            Spacer(modifier = Modifier.height(24.dp))
 
-            // Экипировка (заглушка)
+            // Ячейки экипировки
             Text("Экипировка", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.height(12.dp))
 
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                EquipmentSlot("Оружие", displayCharacter.equippedItems.weapon)
-                EquipmentSlot("Броня", displayCharacter.equippedItems.armor)
-                EquipmentSlot("Аксессуар", displayCharacter.equippedItems.accessory)
-            }
+            EquipmentGrid(equippedItems = displayCharacter.equippedItems)
             
             if (character == null) {
                 Spacer(modifier = Modifier.height(32.dp))
@@ -155,6 +156,196 @@ fun CharacterScreen(character: Character?) {
                 )
             }
         }
+    }
+}
+
+// Пиксельный человек с визуализацией экипировки
+@Composable
+fun PixelCharacterView(character: Character, modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier
+            .background(Color(0xFF1a1a2e), RoundedCornerShape(16.dp))
+            .border(2.dp, Color(0xFFe94560), RoundedCornerShape(16.dp)),
+        contentAlignment = Alignment.Center
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
+        ) {
+            // Голова (с шлемом если есть)
+            Box(
+                modifier = Modifier.size(60.dp),
+                contentAlignment = Alignment.Center
+            ) {
+                // Базовая голова
+                Canvas(modifier = Modifier.size(50.dp)) {
+                    // Лицо
+                    drawRect(
+                        color = Color(0xFFFFDBAC),
+                        topLeft = Offset(10f, 10f),
+                        size = androidx.compose.ui.geometry.Size(30f, 35f)
+                    )
+                    // Глаза
+                    drawRect(
+                        color = Color.Black,
+                        topLeft = Offset(18f, 20f),
+                        size = androidx.compose.ui.geometry.Size(4f, 4f)
+                    )
+                    drawRect(
+                        color = Color.Black,
+                        topLeft = Offset(28f, 20f),
+                        size = androidx.compose.ui.geometry.Size(4f, 4f)
+                    )
+                    // Рот
+                    drawRect(
+                        color = Color(0xFFcc6666),
+                        topLeft = Offset(20f, 32f),
+                        size = androidx.compose.ui.geometry.Size(10f, 3f)
+                    )
+                }
+                
+                // Шлем если есть броня
+                if (character.equippedItems.armor != null) {
+                    Text(
+                        text = "🪖",
+                        fontSize = 40.sp,
+                        modifier = Modifier.offset(y = (-10).dp)
+                    )
+                }
+            }
+            
+            // Тело с оружием
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center
+            ) {
+                // Оружие в руке
+                if (character.equippedItems.weapon != null) {
+                    Text(
+                        text = character.equippedItems.weapon!!.iconEmoji,
+                        fontSize = 36.sp
+                    )
+                }
+                
+                // Тело
+                Box(
+                    modifier = Modifier
+                        .width(50.dp)
+                        .height(70.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Canvas(modifier = Modifier.fillMaxSize()) {
+                        // Туловище
+                        drawRect(
+                            color = if (character.equippedItems.armor != null) 
+                                getRarityColor(character.equippedItems.armor!!.rarity) 
+                            else Color(0xFF4a90d9),
+                            topLeft = Offset(10f, 5f),
+                            size = androidx.compose.ui.geometry.Size(30f, 50f)
+                        )
+                        // Руки
+                        drawRect(
+                            color = Color(0xFFFFDBAC),
+                            topLeft = Offset(5f, 10f),
+                            size = androidx.compose.ui.geometry.Size(5f, 35f)
+                        )
+                        drawRect(
+                            color = Color(0xFFFFDBAC),
+                            topLeft = Offset(40f, 10f),
+                            size = androidx.compose.ui.geometry.Size(5f, 35f)
+                        )
+                    }
+                }
+                
+                // Оружие в другой руке или щит
+                if (character.equippedItems.weapon == null && character.equippedItems.armor != null) {
+                    Text(
+                        text = "🛡️",
+                        fontSize = 32.sp
+                    )
+                }
+            }
+            
+            // Ноги
+            Canvas(modifier = Modifier.size(50.dp, 40.dp)) {
+                // Ноги
+                drawRect(
+                    color = Color(0xFF3366cc),
+                    topLeft = Offset(12f, 0f),
+                    size = androidx.compose.ui.geometry.Size(10f, 35f)
+                )
+                drawRect(
+                    color = Color(0xFF3366cc),
+                    topLeft = Offset(28f, 0f),
+                    size = androidx.compose.ui.geometry.Size(10f, 35f)
+                )
+            }
+            
+            // Аксессуар
+            if (character.equippedItems.accessory != null) {
+                Text(
+                    text = character.equippedItems.accessory!!.iconEmoji,
+                    fontSize = 20.sp,
+                    modifier = Modifier.offset(x = 40.dp, y = (-80).dp)
+                )
+            }
+        }
+    }
+}
+
+// Сетка экипировки с ячейками
+@Composable
+fun EquipmentGrid(equippedItems: EquippedItems) {
+    Row(
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        EquipmentSlotWithLabel("Оружие", equippedItems.weapon, "⚔️")
+        EquipmentSlotWithLabel("Броня", equippedItems.armor, "🛡️")
+        EquipmentSlotWithLabel("Аксессуар", equippedItems.accessory, "💍")
+    }
+}
+
+@Composable
+fun EquipmentSlotWithLabel(slotName: String, item: Item?, defaultIcon: String) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Card(
+            modifier = Modifier.size(80.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = if (item != null) 
+                    getRarityColor(item.rarity).copy(alpha = 0.3f) 
+                else MaterialTheme.colorScheme.surfaceVariant
+            ),
+            border = if (item != null) 
+                androidx.compose.foundation.BorderStroke(2.dp, getRarityColor(item.rarity)) 
+            else null
+        ) {
+            Column(
+                modifier = Modifier.fillMaxSize(),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center
+            ) {
+                Text(
+                    item?.iconEmoji ?: defaultIcon, 
+                    style = MaterialTheme.typography.headlineMedium
+                )
+                if (item != null) {
+                    Text(
+                        item.name,
+                        style = MaterialTheme.typography.labelSmall,
+                        maxLines = 1
+                    )
+                }
+            }
+        }
+        Spacer(modifier = Modifier.height(4.dp))
+        Text(
+            slotName,
+            style = MaterialTheme.typography.labelSmall,
+            fontFamily = PixelFontFamily
+        )
     }
 }
 
@@ -171,21 +362,11 @@ private fun StatsRow(label: String, value: Int) {
     }
 }
 
-@Composable
-private fun EquipmentSlot(slotName: String, item: Item?) {
-    Card(
-        modifier = Modifier.size(100.dp),
-        colors = CardDefaults.cardColors(
-            containerColor = if (item != null) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.surfaceVariant
-        )
-    ) {
-        Column(
-            modifier = Modifier.fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
-        ) {
-            Text(item?.iconEmoji ?: "❓", style = MaterialTheme.typography.headlineMedium)
-            Text(slotName, style = MaterialTheme.typography.labelSmall)
-        }
-    }
+// Функция цвета редкости (для использования в CharacterScreen)
+fun getRarityColor(rarity: ItemRarity): Color = when (rarity) {
+    ItemRarity.COMMON -> Color.Gray
+    ItemRarity.UNCOMMON -> Color(0xFF4CAF50)
+    ItemRarity.RARE -> Color(0xFF2196F3)
+    ItemRarity.EPIC -> Color(0xFF9C27B0)
+    ItemRarity.LEGENDARY -> Color(0xFFFFC107)
 }

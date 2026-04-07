@@ -645,10 +645,10 @@ object MegaQuestDatabase {
         householdQuests.size +
         weeklyBosses.size
 
-    // Формула опыта для уровня (RPG прогрессия)
+    // Формула опыта для уровня (RPG прогрессия - замедленная)
     fun getXpRequiredForLevel(level: Int): Int {
-        if (level <= 1) return 100
-        return (level - 1) * 100 + (level - 1) * (level - 1) * 50
+        if (level <= 1) return 200
+        return (level * level * 100) + (level * 50)
     }
 }
 
@@ -670,4 +670,40 @@ data class CompletedQuestEntry(
     val goldReward: Int,
     val completedAt: java.time.LocalDateTime,
     val questType: QuestType
+)
+
+// Достижения и ачивки
+data class AchievementData(
+    val id: String,
+    val title: String,
+    val description: String,
+    val icon: String,
+    val isUnlocked: Boolean = false,
+    val unlockedAt: java.time.LocalDateTime? = null,
+    val requirement: Int = 0, // требуемое значение (например, количество квестов)
+    val type: com.questlife.app.models.AchievementType
+)
+
+// Система инвентаря
+data class Inventory(
+    val items: List<InventoryItem> = emptyList()
+) {
+    fun addItem(item: InventoryItem): Inventory {
+        return copy(items = items + item)
+    }
+    
+    fun removeItem(itemId: String): Inventory {
+        return copy(items = items.filter { it.id != itemId })
+    }
+    
+    fun hasItem(itemId: String): Boolean = items.any { it.id == itemId }
+    
+    fun getTotalGold(): Int = items.filter { it.item.type == ItemType.CONSUMABLE }.sumOf { it.quantity } * 0 + 
+                              items.filter { it.item.type != ItemType.CONSUMABLE }.sumOf { it.item.price }
+}
+
+data class InventoryItem(
+    val item: Item,
+    val quantity: Int = 1,
+    val acquiredAt: java.time.LocalDateTime = java.time.LocalDateTime.now()
 )
