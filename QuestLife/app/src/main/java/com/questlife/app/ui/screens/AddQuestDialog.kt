@@ -20,7 +20,7 @@ fun AddQuestDialog(
 ) {
     var title by remember { mutableStateOf("") }
     var description by remember { mutableStateOf("") }
-    var selectedType by remember { mutableStateOf(QuestType.CUSTOM) }
+    var selectedType by remember { mutableStateOf<QuestType>(QuestType.CUSTOM) }
     var selectedDifficulty by remember { mutableStateOf(QuestDifficulty.EASY) }
     var selectedDateTime by remember { mutableStateOf<LocalDateTime?>(null) }
     var hasReminder by remember { mutableStateOf(false) }
