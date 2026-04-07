@@ -18,6 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.questlife.app.models.*
+import com.questlife.app.ui.screens.CharacterScreenKt.getRarityColor
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -222,14 +223,6 @@ fun hasStatBonus(stats: CharacterStats): Boolean =
     stats.strength > 0 || stats.agility > 0 || stats.intelligence > 0 || stats.vitality > 0
 
 // ==================== ЦВЕТ И ТЕКСТ РЕДКОСТИ ====================
-fun getRarityColor(rarity: ItemRarity): Color = when (rarity) {
-    ItemRarity.COMMON -> Color.Gray
-    ItemRarity.UNCOMMON -> Color(0xFF4CAF50)
-    ItemRarity.RARE -> Color(0xFF2196F3)
-    ItemRarity.EPIC -> Color(0xFF9C27B0)
-    ItemRarity.LEGENDARY -> Color(0xFFFFC107)
-}
-
 fun getRarityText(rarity: ItemRarity): String = when (rarity) {
     ItemRarity.COMMON -> "Обычный"
     ItemRarity.UNCOMMON -> "Необычный"

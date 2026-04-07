@@ -280,46 +280,67 @@ fun QuestsScreen(
                     }
                 }
 
-                if (visibleDailyQuests.isEmpty() && visibleWeeklyQuests.isEmpty()) {
-                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        Text(
-                            "✅ Все квесты выполнены!\nЗаходи завтра за новыми.",
-                            color = Color.Gray,
-                            fontFamily = PixelFontFamily,
-                            textAlign = TextAlign.Center
-                        )
+                // Показываем список квестов или подсказку для добавления
+                LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.weight(1f)) {
+                    if (visibleDailyQuests.isEmpty() && visibleWeeklyQuests.isEmpty()) {
+                        item {
+                            Card(
+                                modifier = Modifier.fillMaxWidth(),
+                                colors = CardDefaults.cardColors(containerColor = Color(0xFF0f3460)),
+                                shape = RoundedCornerShape(8.dp)
+                            ) {
+                                Column(
+                                    modifier = Modifier.padding(16.dp),
+                                    horizontalAlignment = Alignment.CenterHorizontally
+                                ) {
+                                    Text(
+                                        "📝 Нет активных квестов",
+                                        color = Color(0xFFe94560),
+                                        fontFamily = PixelFontFamily,
+                                        fontWeight = androidx.compose.ui.text.font.FontWeight.Bold,
+                                        fontSize = 16.sp
+                                    )
+                                    Spacer(modifier = Modifier.height(8.dp))
+                                    Text(
+                                        "Нажмите кнопку \"КВЕСТ\" чтобы создать новый квест",
+                                        color = Color.Gray,
+                                        fontFamily = PixelFontFamily,
+                                        textAlign = TextAlign.Center,
+                                        fontSize = 12.sp
+                                    )
+                                }
+                            }
+                        }
                     }
-                } else {
-                    LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.weight(1f)) {
-                        if (visibleDailyQuests.isNotEmpty()) {
-                            item {
-                                Text("⚔️ ЕЖЕДНЕВНЫЕ КВЕСТЫ", color = Color(0xFFe94560), fontFamily = PixelFontFamily, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold, fontSize = 16.sp)
-                            }
-                            items(visibleDailyQuests, key = { it.id }) { quest ->
-                                QuestCard(
-                                    quest = quest, 
-                                    onClick = { completeQuest(quest) },
-                                    onAddToCalendar = { onAddToCalendar(it) }
-                                )
-                            }
+                    
+                    if (visibleDailyQuests.isNotEmpty()) {
+                        item {
+                            Text("⚔️ ЕЖЕДНЕВНЫЕ КВЕСТЫ", color = Color(0xFFe94560), fontFamily = PixelFontFamily, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold, fontSize = 16.sp)
                         }
-                        
-                        // Недельные боссы - отдельной секцией с ограничением
-                        if (visibleWeeklyQuests.isNotEmpty()) {
-                            item {
-                                Spacer(modifier = Modifier.height(20.dp))
-                                Text("👑 НЕДЕЛЬНЫЕ БОССЫ", color = Color(0xFF9c27b0), fontFamily = PixelFontFamily, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold, fontSize = 18.sp)
-                                Text("(доступно до конца недели)", color = Color(0xFF9c27b0).copy(alpha = 0.7f), fontFamily = PixelFontFamily, fontSize = 10.sp)
-                            }
-                            items(visibleWeeklyQuests, key = { it.id }) { quest ->
-                                WeeklyBossCard(quest = quest, onClick = { completeQuest(quest) })
-                            }
+                        items(visibleDailyQuests, key = { it.id }) { quest ->
+                            QuestCard(
+                                quest = quest, 
+                                onClick = { completeQuest(quest) },
+                                onAddToCalendar = { onAddToCalendar(it) }
+                            )
                         }
-                        
-                        items(floatingRewards) { reward ->
-                            Box(modifier = Modifier.fillMaxWidth().height(40.dp), contentAlignment = Alignment.Center) {
-                                Text(text = reward.text, color = reward.color, fontSize = 20.sp, fontFamily = PixelFontFamily, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
-                            }
+                    }
+                    
+                    // Недельные боссы - отдельной секцией с ограничением
+                    if (visibleWeeklyQuests.isNotEmpty()) {
+                        item {
+                            Spacer(modifier = Modifier.height(20.dp))
+                            Text("👑 НЕДЕЛЬНЫЕ БОССЫ", color = Color(0xFF9c27b0), fontFamily = PixelFontFamily, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold, fontSize = 18.sp)
+                            Text("(доступно до конца недели)", color = Color(0xFF9c27b0).copy(alpha = 0.7f), fontFamily = PixelFontFamily, fontSize = 10.sp)
+                        }
+                        items(visibleWeeklyQuests, key = { it.id }) { quest ->
+                            WeeklyBossCard(quest = quest, onClick = { completeQuest(quest) })
+                        }
+                    }
+                    
+                    items(floatingRewards) { reward ->
+                        Box(modifier = Modifier.fillMaxWidth().height(40.dp), contentAlignment = Alignment.Center) {
+                            Text(text = reward.text, color = reward.color, fontSize = 20.sp, fontFamily = PixelFontFamily, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
                         }
                     }
                 }
