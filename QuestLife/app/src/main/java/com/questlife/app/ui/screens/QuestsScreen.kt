@@ -383,7 +383,7 @@ fun QuestCard(quest: Quest, onClick: () -> Unit, onAddToCalendar: (Quest) -> Uni
     }
 
     Card(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().clickable { onClick() },
         colors = CardDefaults.cardColors(containerColor = Color(0xFF0f3460)),
         border = BorderStroke(1.dp, difficultyColor),
         shape = RoundedCornerShape(8.dp),
@@ -398,7 +398,10 @@ fun QuestCard(quest: Quest, onClick: () -> Unit, onAddToCalendar: (Quest) -> Uni
                     Spacer(modifier = Modifier.height(4.dp))
                     Text(text = "Сложность: ${quest.difficulty}", color = difficultyColor, fontFamily = PixelFontFamily, fontSize = 10.sp, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
                 }
-                IconButton(onClick = { onClick() }) {
+                IconButton(onClick = { 
+                    // Предотвращаем срабатывание клика по карточке при нажатии на кнопку
+                    onClick()
+                }) {
                     Icon(imageVector = Icons.Default.Star, contentDescription = "Complete", tint = difficultyColor, modifier = Modifier.size(32.dp).rotate(15f))
                 }
             }

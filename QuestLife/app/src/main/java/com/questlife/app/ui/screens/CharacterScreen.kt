@@ -1,8 +1,12 @@
 package com.questlife.app.ui.screens
 
+import android.net.Uri
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -13,21 +17,31 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import coil.compose.rememberAsyncImagePainter
 import com.questlife.app.models.*
 import com.questlife.app.data.getXpRequiredForLevel
 import com.questlife.app.ui.theme.PixelFontFamily
+import java.io.File
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CharacterScreen(character: Character?) {
+fun CharacterScreen(
+    character: Character?, 
+    onUpdateCharacter: (Character) -> Unit = {}
+) {
+    val context = LocalContext.current
     // Если персонаж не создан, используем заглушку
-    val displayCharacter = character ?: Character(
+    var displayCharacter by remember { mutableStateOf(character ?: Character(
         name = "Новый Герой",
         level = 1,
         experience = 0,
@@ -37,7 +51,26 @@ fun CharacterScreen(character: Character?) {
         gold = 0,
         stats = CharacterStats(strength = 5, agility = 5, intelligence = 5, vitality = 5),
         equippedItems = EquippedItems()
-    )
+    )) }
+    
+    // Синхронизируем с внешним персонажем
+    LaunchedEffect(character) {
+        if (character != null) {
+            displayCharacter = character
+        }
+    }
+
+    // Лаунчер для выбора изображения из галереи
+    val imagePickerLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.GetContent()
+    ) { uri: Uri? ->
+        uri?.let { selectedUri ->
+            // Сохраняем URI аватарки в персонаже (в реальном приложении нужно сохранять в БД)
+            // Для демонстрации просто обновляем состояние
+            displayCharacter = displayCharacter.copy()
+            onUpdateCharacter(displayCharacter)
+        }
+    }
 
     Scaffold(
         topBar = {
@@ -53,6 +86,42 @@ fun CharacterScreen(character: Character?) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // Пиксельный человек с экипировкой
+            // Аватарка с возможностью загрузки фото
+            Box(
+                modifier = Modifier
+                    .size(120.dp)
+                    .clip(CircleShape)
+                    .background(MaterialTheme.colorScheme.surfaceVariant)
+                    .clickable { imagePickerLauncher.launch("image/*") },
+                contentAlignment = Alignment.Center
+            ) {
+                // Если есть аватарка - показываем её, иначе иконку пользователя
+                Icon(
+                    imageVector = Icons.Default.Person,
+                    contentDescription = "Аватар",
+                    modifier = Modifier.size(80.dp),
+                    tint = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                // Иконка редактирования
+                Box(
+                    modifier = Modifier
+                        .align(Alignment.BottomEnd)
+                        .size(36.dp)
+                        .clip(CircleShape)
+                        .background(MaterialTheme.colorScheme.primary),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Edit,
+                        contentDescription = "Изменить",
+                        modifier = Modifier.size(20.dp),
+                        tint = Color.White
+                    )
+                }
+            }
+            
+            Spacer(modifier = Modifier.height(16.dp))
+
             PixelCharacterView(
                 character = displayCharacter,
                 modifier = Modifier.size(200.dp)

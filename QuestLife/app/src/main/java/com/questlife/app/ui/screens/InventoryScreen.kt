@@ -23,9 +23,13 @@ import com.questlife.app.ui.utils.getRarityText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun InventoryScreen() {
+fun InventoryScreen(
+    character: Character?,
+    onUpdateCharacter: (Character) -> Unit = {}
+) {
     var selectedFilter by remember { mutableStateOf<ItemType?>(null) }
     var selectedItem by remember { mutableStateOf<Item?>(null) }
+    var showEquipConfirm by remember { mutableStateOf<Item?>(null) }
 
     val items = remember { getSampleItems() }
 
@@ -60,9 +64,36 @@ fun InventoryScreen() {
         ItemDetailsDialog(
             item = item,
             onDismiss = { selectedItem = null },
-            onEquip = { selectedItem = null },
+            onEquip = { 
+                if (character != null && item.type != ItemType.CONSUMABLE) {
+                    showEquipConfirm = item
+                }
+                selectedItem = null
+            },
             onSell = { selectedItem = null }
         )
+    }
+    
+    // Диалог подтверждения экипировки
+    showEquipConfirm?.let { item ->
+        if (character != null) {
+            EquipConfirmationDialog(
+                item = item,
+                character = character,
+                onDismiss = { showEquipConfirm = null },
+                onConfirm = {
+                    val updatedEquipped = when (item.type) {
+                        ItemType.WEAPON -> character.equippedItems.copy(weapon = item)
+                        ItemType.ARMOR -> character.equippedItems.copy(armor = item)
+                        ItemType.ACCESSORY -> character.equippedItems.copy(accessory = item)
+                        ItemType.CONSUMABLE -> character.equippedItems
+                    }
+                    val updatedCharacter = character.copy(equippedItems = updatedEquipped)
+                    onUpdateCharacter(updatedCharacter)
+                    showEquipConfirm = null
+                }
+            )
+        }
     }
 }
 
@@ -234,3 +265,64 @@ fun getSampleItems(): List<Item> = listOf(
     Item(name = "Рыцарские доспехи", description = "Тяжелые доспехи", type = ItemType.ARMOR, rarity = ItemRarity.EPIC, price = 500, statsBonus = CharacterStats(vitality = 10, strength = 5), iconEmoji = "🛡️"),
     Item(name = "Легендарный клинок", description = "Легендарное оружие", type = ItemType.WEAPON, rarity = ItemRarity.LEGENDARY, price = 1000, statsBonus = CharacterStats(strength = 15, agility = 10), iconEmoji = "🗡️")
 )
+// ==================== ДИАЛОГ ПОДТВЕРЖДЕНИЯ ЭКИПИРОВКИ ====================
+@Composable
+fun EquipConfirmationDialog(
+    item: Item,
+    character: Character,
+    onDismiss: () -> Unit,
+    onConfirm: () -> Unit
+) {
+    val slotName = when (item.type) {
+        ItemType.WEAPON -> "Оружие"
+        ItemType.ARMOR -> "Броня"
+        ItemType.ACCESSORY -> "Аксессуар"
+        ItemType.CONSUMABLE -> return // Не должно произойти
+    }
+    
+    val currentEquipped = when (item.type) {
+        ItemType.WEAPON -> character.equippedItems.weapon
+        ItemType.ARMOR -> character.equippedItems.armor
+        ItemType.ACCESSORY -> character.equippedItems.accessory
+        ItemType.CONSUMABLE -> null
+    }
+    
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Экипировать предмет") },
+        text = {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("Вы хотите экипировать:")
+                Text("⚔️ ${item.name}", fontWeight = FontWeight.Bold)
+                
+                if (currentEquipped != null) {
+                    Divider(modifier = Modifier.padding(vertical = 8.dp))
+                    Text("Текущий предмет в слоте \"$slotName\":")
+                    Text("📦 ${currentEquipped.name}", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text("Новый предмет заменит текущий.", style = MaterialTheme.typography.bodySmall)
+                } else {
+                    Text("Слот \"$slotName\" сейчас пуст.", style = MaterialTheme.typography.bodySmall)
+                }
+                
+                if (hasStatBonus(item.statsBonus)) {
+                    Divider(modifier = Modifier.padding(vertical = 8.dp))
+                    Text("Бонусы предмета:", fontWeight = FontWeight.Bold)
+                    if (item.statsBonus.strength > 0) Text("💪 Сила: +${item.statsBonus.strength}")
+                    if (item.statsBonus.agility > 0) Text("⚡ Ловкость: +${item.statsBonus.agility}")
+                    if (item.statsBonus.intelligence > 0) Text("🧠 Интеллект: +${item.statsBonus.intelligence}")
+                    if (item.statsBonus.vitality > 0) Text("❤️ Живучесть: +${item.statsBonus.vitality}")
+                }
+            }
+        },
+        confirmButton = {
+            Button(onClick = onConfirm) {
+                Text("Экипировать")
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text("Отмена")
+            }
+        }
+    )
+}

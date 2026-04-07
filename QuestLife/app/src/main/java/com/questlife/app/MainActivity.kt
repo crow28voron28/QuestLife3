@@ -435,8 +435,8 @@ fun QuestLifeApp() {
                 )
             }
             composable(Screen.Health.route)     { HealthScreen(navController) }
-            composable(Screen.Character.route)  { CharacterScreen(character = character) }
-            composable(Screen.Inventory.route)  { InventoryScreen() }
+            composable(Screen.Character.route)  { CharacterScreen(character = character, onUpdateCharacter = { updated -> character = updated }) }
+            composable(Screen.Inventory.route)  { InventoryScreen(character = character, onUpdateCharacter = { updated -> character = updated }) }
             composable(Screen.Shop.route)       { ShopScreen() }
             composable(Screen.Calendar.route) {
                 CalendarScreen(
