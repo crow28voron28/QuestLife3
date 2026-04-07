@@ -18,7 +18,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.questlife.app.models.*
-import com.questlife.app.ui.screens.CharacterScreen.getRarityColor
+import com.questlife.app.ui.utils.getRarityColor
+import com.questlife.app.ui.utils.getRarityText
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -221,15 +222,6 @@ fun StatBonus(emoji: String, name: String, value: String) {
 
 fun hasStatBonus(stats: CharacterStats): Boolean =
     stats.strength > 0 || stats.agility > 0 || stats.intelligence > 0 || stats.vitality > 0
-
-// ==================== ЦВЕТ И ТЕКСТ РЕДКОСТИ ====================
-fun getRarityText(rarity: ItemRarity): String = when (rarity) {
-    ItemRarity.COMMON -> "Обычный"
-    ItemRarity.UNCOMMON -> "Необычный"
-    ItemRarity.RARE -> "Редкий"
-    ItemRarity.EPIC -> "Эпический"
-    ItemRarity.LEGENDARY -> "Легендарный"
-}
 
 // ==================== ПРИМЕР ПРЕДМЕТОВ ====================
 fun getSampleItems(): List<Item> = listOf(
