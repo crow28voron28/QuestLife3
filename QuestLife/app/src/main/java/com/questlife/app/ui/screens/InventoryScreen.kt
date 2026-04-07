@@ -18,7 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.questlife.app.models.*
-import com.questlife.app.ui.screens.CharacterScreenKt.getRarityColor
+import com.questlife.app.ui.screens.CharacterScreen.getRarityColor
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
