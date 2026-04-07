@@ -33,6 +33,7 @@ import com.questlife.app.models.ProgramStats
 import com.questlife.app.repository.Repositories
 import com.questlife.app.ui.screens.*
 import com.questlife.app.ui.theme.QuestLifeTheme
+import com.questlife.app.utils.NotificationHelper
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -392,6 +393,9 @@ fun QuestLifeApp() {
     // Состояние персонажа - сохраняется в памяти
     var character by remember { mutableStateOf<Character?>(null) }
     var showGenderSelection by remember { mutableStateOf(false) }
+    
+    // Хранилище задач календаря
+    var calendarTasks by remember { mutableStateOf<List<CalendarTask>>(emptyList()) }
 
     Scaffold(
         bottomBar = { BottomNavigationBar(navController) }
@@ -418,6 +422,28 @@ fun QuestLifeApp() {
             composable(Screen.Character.route)  { CharacterScreen(character = character) }
             composable(Screen.Inventory.route)  { InventoryScreen() }
             composable(Screen.Shop.route)       { ShopScreen() }
+            composable(Screen.Calendar.route) {
+                CalendarScreen(
+                    onBackClick = { navController.popBackStack() },
+                    tasks = calendarTasks,
+                    onTaskAdded = { newTask ->
+                        calendarTasks = calendarTasks + newTask
+                        // Планируем напоминание
+                        val context = android.content.Context::class.java.cast(null)
+                        if (context != null) {
+                            NotificationHelper.scheduleTaskReminder(context, newTask)
+                        }
+                    },
+                    onTaskCompleted = { taskId ->
+                        calendarTasks = calendarTasks.map { task ->
+                            if (task.id == taskId) task.copy(isCompleted = !task.isCompleted) else task
+                        }
+                    },
+                    onTaskDeleted = { taskId ->
+                        calendarTasks = calendarTasks.filter { it.id != taskId }
+                    }
+                )
+            }
 
             // Экран рецептов
             composable("recipes") {
@@ -482,6 +508,7 @@ fun BottomNavigationBar(navController: NavHostController) {
         val screens = listOf(
             Screen.Quests,
             Screen.Health,
+            Screen.Calendar,
             Screen.Character,
             Screen.Inventory,
             Screen.Shop
@@ -516,6 +543,7 @@ sealed class Screen(
     object Character : Screen("character", "Герой",      Icons.Default.Person)
     object Inventory : Screen("inventory", "Инвентарь",  Icons.Default.ShoppingBag)
     object Shop      : Screen("shop",      "Магазин",    Icons.Default.ShoppingCart)
+    object Calendar  : Screen("calendar",  "Календарь",  Icons.Default.CalendarToday)
 }
 
 // ==================== ЭКРАН ЗДОРОВЬЕ ====================

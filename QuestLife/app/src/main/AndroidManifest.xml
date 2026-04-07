@@ -71,6 +71,12 @@
                 android:value="androidx.startup" />
         </provider>
         
+        <!-- BroadcastReceiver для напоминаний о квестах -->
+        <receiver
+            android:name=".utils.ReminderBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        
         <!-- ========== FILE PROVIDER ========== -->
         
         <!-- FileProvider для шаринга изображений -->
