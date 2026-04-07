@@ -1,0 +1,6359 @@
+[
+  {
+    "id": 1,
+    "name": "Базовый Фулбоди (3 дня)",
+    "description": "Классическая программа для новичков. Проработка всего тела 3 раза в неделю.",
+    "difficulty": "BEGINNER",
+    "goal": "STRENGTH",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_fb_1",
+        "name": "Старт Фулбоди",
+        "icon": "🌱",
+        "description": "Завершить первую тренировку"
+      },
+      {
+        "id": "ach_fb_2",
+        "name": "Мастер базы",
+        "icon": "🏋️",
+        "description": "Пройти программу 10 раз"
+      },
+      {
+        "id": "ach_fb_3",
+        "name": "Железный старт",
+        "icon": "🏆",
+        "description": "Увеличить веса во всех упражнениях"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "День А: Грудь + Спина + Ноги",
+        "warmup": [
+          "Вращение руками",
+          "Наклоны корпуса",
+          "Бег на месте",
+          "Приседания без веса"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Squat",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Close-Grip_Front_Lat_Pulldown",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Leg_Press",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Plank",
+            "sets": 3,
+            "duration": 45
+          }
+        ],
+        "cooldown": [
+          "Растяжка квадрицепсов",
+          "Растяжка грудных мышц",
+          "Глубокое дыхание"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "День Б: Отдых или Кардио",
+        "warmup": [
+          "Легкая ходьба"
+        ],
+        "exercises": [],
+        "cooldown": [
+          "Растяжка всего тела"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "День В: Плечи + Руки + Пресс",
+        "warmup": [
+          "Вращение плечами",
+          "Махи руками"
+        ],
+        "exercises": [
+          {
+            "id": "Seated_Barbell_Military_Press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Barbell_Curl",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Band_Skull_Crusher",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Cable_Seated_Lateral_Raise",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 3,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка трицепсов",
+          "Растяжка бицепсов"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Сплит Верх/Низ (4 дня)",
+    "description": "Эффективный сплит для набора массы. Чередование верха и низа.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "MUSCLE_GAIN",
+    "daysPerWeek": 4,
+    "achievements": [
+      {
+        "id": "ach_ul_1",
+        "name": "Верх силы",
+        "icon": "💪",
+        "description": "Завершить день Верха"
+      },
+      {
+        "id": "ach_ul_2",
+        "name": "Низ мощности",
+        "icon": "🦵",
+        "description": "Завершить день Низа"
+      },
+      {
+        "id": "ach_ul_3",
+        "name": "Баланс тела",
+        "icon": "⚖️",
+        "description": "Пройти полный цикл 4 недели"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Верх А (Силовой)",
+        "warmup": [
+          "Вращение в локтях",
+          "Отжимания от стены"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 4,
+            "reps": 6
+          },
+          {
+            "id": "Bent_Over_Barbell_Row",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Seated_Barbell_Military_Press",
+            "sets": 3,
+            "reps": 8
+          },
+          {
+            "id": "Pullups",
+            "sets": 3,
+            "reps": "max"
+          }
+        ],
+        "cooldown": [
+          "Вис на турнике",
+          "Растяжка широчайших"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Низ А (Акцент на квадрицепс)",
+        "warmup": [
+          "Выпады без веса",
+          "Приседания с весом тела"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Squat",
+            "sets": 4,
+            "reps": 6
+          },
+          {
+            "id": "Leg_Press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Single-Leg_Leg_Extension",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Calf_Raise_On_A_Dumbbell",
+            "sets": 4,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка икр",
+          "Растяжка передней поверхности бедра"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Верх Б (Гипертрофия)",
+        "warmup": [
+          "Махи гантелями"
+        ],
+        "exercises": [
+          {
+            "id": "Incline_Dumbbell_Press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Close-Grip_Front_Lat_Pulldown",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Dumbbell_Flyes",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Seated_Cable_Row",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": [
+          "Растяжка груди"
+        ]
+      },
+      {
+        "dayNumber": 5,
+        "name": "Низ Б (Акцент на бицепс бедра)",
+        "warmup": [
+          "Наклоны к ногам"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Deadlift",
+            "sets": 3,
+            "reps": 6
+          },
+          {
+            "id": "Romanian_Deadlift",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Ball_Leg_Curl",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Dumbbell_Lunge",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": [
+          "Растяжка задней поверхности бедра"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Классический Бодибилдинг (5 дней)",
+    "description": "Программа для продвинутых. Изолированная проработка каждой группы мышц.",
+    "difficulty": "ADVANCED",
+    "goal": "HYPERTROPHY",
+    "daysPerWeek": 5,
+    "achievements": [
+      {
+        "id": "ach_bb_1",
+        "name": "Грудной монстр",
+        "icon": "🐂",
+        "description": "Интенсивная тренировка груди"
+      },
+      {
+        "id": "ach_bb_2",
+        "name": "Широкая спина",
+        "icon": "🦅",
+        "description": "Интенсивная тренировка спины"
+      },
+      {
+        "id": "ach_bb_3",
+        "name": "Атлет",
+        "icon": "👑",
+        "description": "Пройти полный 5-дневный цикл"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Грудь + Трицепс",
+        "warmup": [
+          "Отжимания",
+          "Вращения руками"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Incline_Dumbbell_Press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Cable_Fly",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Dip",
+            "sets": 3,
+            "reps": "max"
+          },
+          {
+            "id": "Tricep_Pushdown",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка трицепса за головой"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Спина + Бицепс",
+        "warmup": [
+          "Гиперэкстензия",
+          "Тяга легкого веса"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Deadlift",
+            "sets": 3,
+            "reps": 6
+          },
+          {
+            "id": "Pullups",
+            "sets": 3,
+            "reps": "max"
+          },
+          {
+            "id": "Bent_Over_Barbell_Row",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Barbell_Curl",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Hammer_Curls",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": [
+          "Вис на турнике"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Ноги",
+        "warmup": [
+          "Приседания без веса",
+          "Выпады"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Squat",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Leg_Press",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Romanian_Deadlift",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Single-Leg_Leg_Extension",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Ball_Leg_Curl",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка ног"
+        ]
+      },
+      {
+        "dayNumber": 4,
+        "name": "Плечи",
+        "warmup": [
+          "Вращения плечами с палкой"
+        ],
+        "exercises": [
+          {
+            "id": "Seated_Barbell_Military_Press",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Upright_Barbell_Row",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Cable_Seated_Lateral_Raise",
+            "sets": 4,
+            "reps": 15
+          },
+          {
+            "id": "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Shrug",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка дельт"
+        ]
+      },
+      {
+        "dayNumber": 5,
+        "name": "Руки + Пресс",
+        "warmup": [
+          "Легкие сгибания рук"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Curl",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Band_Skull_Crusher",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Concentration_Curl",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Close-Grip_Barbell_Bench_Press",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 4,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка рук"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "HIIT Похудение (4 дня)",
+    "description": "Высокоинтенсивные интервальные тренировки для сжигания жира.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "WEIGHT_LOSS",
+    "daysPerWeek": 4,
+    "achievements": [
+      {
+        "id": "ach_hiit_1",
+        "name": "Потоотделение",
+        "icon": "💧",
+        "description": "Завершить HIIT сессию"
+      },
+      {
+        "id": "ach_hiit_2",
+        "name": "Жиросжигатель",
+        "icon": "🔥",
+        "description": "10 HIIT тренировок"
+      },
+      {
+        "id": "ach_hiit_3",
+        "name": "Кардио-король",
+        "icon": "👟",
+        "description": "Пройти месяц HIIT"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "HIIT Full Body",
+        "warmup": [
+          "Бег на месте 2 мин",
+          "Джампинг Джек"
+        ],
+        "exercises": [
+          {
+            "id": "Rope_Jumping",
+            "sets": 4,
+            "reps": 15
+          },
+          {
+            "id": "Box_Jump_Multiple_Response",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Rope_Climb",
+            "sets": 4,
+            "reps": 30
+          },
+          {
+            "id": "Freehand_Jump_Squat",
+            "sets": 4,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Ходьба",
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Кардио LISS",
+        "warmup": [
+          "Легкая ходьба"
+        ],
+        "exercises": [
+          {
+            "id": "Jogging",
+            "sets": 1,
+            "duration": 45
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "HIIT Табата",
+        "warmup": [
+          "Скакалка 3 мин"
+        ],
+        "exercises": [
+          {
+            "id": "Kneeling_High_Pulley_Row",
+            "sets": 8,
+            "duration": 20
+          },
+          {
+            "id": "Pushups",
+            "sets": 8,
+            "reps": 10
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 8,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Глубокое дыхание"
+        ]
+      },
+      {
+        "dayNumber": 5,
+        "name": "Активное восстановление",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Plank",
+            "sets": 1,
+            "duration": 30
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Силач (5 дней)",
+    "description": "Программа на развитие максимальной силы в базовых движениях.",
+    "difficulty": "ADVANCED",
+    "goal": "STRENGTH",
+    "daysPerWeek": 5,
+    "achievements": [
+      {
+        "id": "ach_str_1",
+        "name": "Тоннажник",
+        "icon": "🏗️",
+        "description": "Поднять 10 тонн за тренировку"
+      },
+      {
+        "id": "ach_str_2",
+        "name": "Стальной хребет",
+        "icon": "🦴",
+        "description": "Выполнить становую с большим весом"
+      },
+      {
+        "id": "ach_str_3",
+        "name": "Геркулес",
+        "icon": "🦁",
+        "description": "Увеличить сумму троеборья"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Приседания (Тяжелые)",
+        "warmup": [
+          "Разминка тазобедренных суставов"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Squat",
+            "sets": 5,
+            "reps": 5
+          },
+          {
+            "id": "Leg_Press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Barbell_Lunges",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 3,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка ног"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Жим лежа (Тяжелый)",
+        "warmup": [
+          "Разминка плеч и локтей"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 5,
+            "reps": 5
+          },
+          {
+            "id": "Incline_Dumbbell_Press",
+            "sets": 3,
+            "reps": 8
+          },
+          {
+            "id": "Weighted_Bench_Dip",
+            "sets": 3,
+            "reps": 8
+          },
+          {
+            "id": "Tricep_Cable_Pushdown",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": [
+          "Растяжка груди"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Становая тяга (Тяжелая)",
+        "warmup": [
+          "Гиперэкстензия",
+          "Тяга легкого веса"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Deadlift",
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "id": "Bent_Over_Barbell_Row",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Seated_Cable_Rows",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Shrug",
+            "sets": 4,
+            "reps": 12
+          }
+        ],
+        "cooldown": [
+          "Растяжка спины"
+        ]
+      },
+      {
+        "dayNumber": 5,
+        "name": "Вспомогательные (Руки/Плечи)",
+        "warmup": [
+          "Вращения"
+        ],
+        "exercises": [
+          {
+            "id": "Seated_Barbell_Military_Press",
+            "sets": 4,
+            "reps": 6
+          },
+          {
+            "id": "Barbell_Curl",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Band_Skull_Crusher",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Side_Lateral_Raise",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Домашняя тренировка (3 дня)",
+    "description": "Эффективная тренировка без оборудования дома.",
+    "difficulty": "BEGINNER",
+    "goal": "FITNESS",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_home_1",
+        "name": "Домашний воин",
+        "icon": "🏠",
+        "description": "Первая домашняя тренировка"
+      },
+      {
+        "id": "ach_home_2",
+        "name": "Мастер веса тела",
+        "icon": "🤸",
+        "description": "50 домашних тренировок"
+      },
+      {
+        "id": "ach_home_3",
+        "name": "Спартанец",
+        "icon": "⚔️",
+        "description": "Максимальное количество повторений"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Все тело А",
+        "warmup": [
+          "Бег на месте",
+          "Вращения"
+        ],
+        "exercises": [
+          {
+            "id": "Bodyweight_Squat",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Pushups",
+            "sets": 3,
+            "reps": "max"
+          },
+          {
+            "id": "Barbell_Lunges",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Bench_Dip",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Plank",
+            "sets": 3,
+            "duration": 60
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 3,
+        "name": "Все тело Б",
+        "warmup": [
+          "Джампинг Джек"
+        ],
+        "exercises": [
+          {
+            "id": "Rope_Jumping",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Sumo_Squat",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Rope_Climb",
+            "sets": 3,
+            "reps": 30
+          },
+          {
+            "id": "Barbell_Glute_Bridge",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 3,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 4,
+        "name": "Активное восстановление",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Barbell_Walking_Lunge",
+            "sets": 1,
+            "duration": 30
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Рельеф и Тонус (4 дня)",
+    "description": "Высокообъемная тренировка для создания рельефа.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "CUTTING",
+    "daysPerWeek": 4,
+    "achievements": [
+      {
+        "id": "ach_cut_1",
+        "name": "Рельеф",
+        "icon": "🗿",
+        "description": "Завершить цикл"
+      },
+      {
+        "id": "ach_cut_2",
+        "name": "Сушка",
+        "icon": "🍗",
+        "description": "Снизить процент жира"
+      },
+      {
+        "id": "ach_cut_3",
+        "name": "Фитнес-модель",
+        "icon": "📸",
+        "description": "Идеальная форма"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Грудь + Спина (Суперсеты)",
+        "warmup": [
+          "Легкий бег"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Barbell_Incline_Bench_Press_-_Medium_Grip",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Dumbbell_Flyes",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Ноги + Плечи",
+        "warmup": [
+          "Приседания"
+        ],
+        "exercises": [
+          {
+            "id": "Bodyweight_Squat",
+            "sets": 4,
+            "reps": 15
+          },
+          {
+            "id": "Leg_Press",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Seated_Barbell_Military_Press",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Lateral_Raise_-_With_Bands",
+            "sets": 4,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Руки + Пресс",
+        "warmup": [
+          "Вращения"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Curl",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Tricep_Cable_Pushdown",
+            "sets": 4,
+            "reps": 15
+          },
+          {
+            "id": "Dumbbell_Alternate_Bicep_Curl",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Hanging_Leg_Raise",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 5,
+        "name": "Кардио + Пресс",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Running",
+            "sets": 1,
+            "duration": 30
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 4,
+            "reps": 25
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Женский Фитнес (3 дня)",
+    "description": "Акцент на ягодицы, ноги и общий тонус.",
+    "difficulty": "BEGINNER",
+    "goal": "TONING",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_fit_1",
+        "name": "Старт",
+        "icon": "🎀",
+        "description": "Первая тренировка"
+      },
+      {
+        "id": "ach_fit_2",
+        "name": "Тонус",
+        "icon": "✨",
+        "description": "Регулярные занятия"
+      },
+      {
+        "id": "ach_fit_3",
+        "name": "Форма",
+        "icon": "💃",
+        "description": "Отличный результат"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Ноги + Ягодицы",
+        "warmup": [
+          "Разминка суставов"
+        ],
+        "exercises": [
+          {
+            "id": "Bodyweight_Squat",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Dumbbell_Lunge",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Romanian_Deadlift",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Barbell_Glute_Bridge",
+            "sets": 4,
+            "reps": 20
+          },
+          {
+            "id": "Band_Hip_Adductions",
+            "sets": 3,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка ног"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Верх + Пресс",
+        "warmup": [
+          "Вращения руками"
+        ],
+        "exercises": [
+          {
+            "id": "Push_Up_to_Side_Plank",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Bent_Over_Two-Dumbbell_Row",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Dumbbell_Shoulder_Press",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Plank",
+            "sets": 3,
+            "duration": 45
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 3,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка верха"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Кардио + Круговая",
+        "warmup": [
+          "Бег на месте"
+        ],
+        "exercises": [
+          {
+            "id": "Rope_Jumping",
+            "sets": 3,
+            "reps": 30
+          },
+          {
+            "id": "Bodyweight_Squat",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Rope_Jumping",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 3,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Кроссфит Базовый (4 дня)",
+    "description": "Функциональная подготовка, выносливость и сила.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "CROSSFIT",
+    "daysPerWeek": 4,
+    "achievements": [
+      {
+        "id": "ach_cf_1",
+        "name": "WOD выполнен",
+        "icon": "⏱️",
+        "description": "Завершить комплекс"
+      },
+      {
+        "id": "ach_cf_2",
+        "name": "Выносливость",
+        "icon": "🔋",
+        "description": "Улучшить время"
+      },
+      {
+        "id": "ach_cf_3",
+        "name": "Атлет Кроссфита",
+        "icon": "🏅",
+        "description": "Месяц тренировок"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "WOD 1",
+        "warmup": [
+          "Скакалка 5 мин"
+        ],
+        "exercises": [
+          {
+            "id": "Thruster",
+            "sets": 5,
+            "reps": 15
+          },
+          {
+            "id": "Pullups",
+            "sets": 5,
+            "reps": 10
+          },
+          {
+            "id": "Rope_Jumping",
+            "sets": 5,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Сила + Техника",
+        "warmup": [
+          "Разминка"
+        ],
+        "exercises": [
+          {
+            "id": "Dumbbell_Snatch",
+            "sets": 5,
+            "reps": 5
+          },
+          {
+            "id": "Clean",
+            "sets": 5,
+            "reps": 5
+          },
+          {
+            "id": "Farmers_Walk",
+            "sets": 3,
+            "duration": 60
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "WOD 2",
+        "warmup": [
+          "Бег 400м"
+        ],
+        "exercises": [
+          {
+            "id": "Backward_Medicine_Ball_Throw",
+            "sets": 4,
+            "reps": 20
+          },
+          {
+            "id": "Front_Box_Jump",
+            "sets": 4,
+            "reps": 20
+          },
+          {
+            "id": "Rowing",
+            "sets": 4,
+            "duration": 500
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 5,
+        "name": "Длинное кардио",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Running",
+            "sets": 1,
+            "duration": 45
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Плечи 3D (Спецпрограмма)",
+    "description": "Интенсивная проработка дельт для объема.",
+    "difficulty": "ADVANCED",
+    "goal": "HYPERTROPHY",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_sh_1",
+        "name": "Шары",
+        "icon": "🎱",
+        "description": "Памп дельт"
+      },
+      {
+        "id": "ach_sh_2",
+        "name": "Квадрат",
+        "icon": "📐",
+        "description": "Ширина плеч"
+      },
+      {
+        "id": "ach_sh_3",
+        "name": "3D Плечи",
+        "icon": "🔺",
+        "description": "Идеальная форма"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Передняя + Средняя дельта",
+        "warmup": [
+          "Вращения"
+        ],
+        "exercises": [
+          {
+            "id": "Seated_Barbell_Military_Press",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Dumbbell_One-Arm_Upright_Row",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Front_Two-Dumbbell_Raise",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Lateral_Raise_-_With_Bands",
+            "sets": 4,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Задняя дельта + Трапеция",
+        "warmup": [
+          "Вращения"
+        ],
+        "exercises": [
+          {
+            "id": "Seated_Bent-Over_Rear_Delt_Raise",
+            "sets": 4,
+            "reps": 15
+          },
+          {
+            "id": "Face_Pull",
+            "sets": 4,
+            "reps": 15
+          },
+          {
+            "id": "Shrug",
+            "sets": 4,
+            "reps": 20
+          },
+          {
+            "id": "Reverse_Fly_Machine",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Суперсеты на дельты",
+        "warmup": [
+          "Легкие махи"
+        ],
+        "exercises": [
+          {
+            "id": "Alternating_Cable_Shoulder_Press",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "id": "Alternating_Kettlebell_Row",
+            "sets": 4,
+            "reps": 12
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Мощные Ноги (Спецпрограмма)",
+    "description": "Тренировка для развития силы и массы ног.",
+    "difficulty": "ADVANCED",
+    "goal": "STRENGTH",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_leg_1",
+        "name": "Ходьба",
+        "icon": "🚶",
+        "description": "Тяжелая тренировка"
+      },
+      {
+        "id": "ach_leg_2",
+        "name": "Колонны",
+        "icon": "🏛️",
+        "description": "Объем ног"
+      },
+      {
+        "id": "ach_leg_3",
+        "name": "Присед 200",
+        "icon": "🏋️‍♂️",
+        "description": "Рекорд в приседе"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Квадрицепс Фокус",
+        "warmup": [
+          "Разминка коленей"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Squat",
+            "sets": 5,
+            "reps": 5
+          },
+          {
+            "id": "Front_Squat_Clean_Grip",
+            "sets": 3,
+            "reps": 8
+          },
+          {
+            "id": "Leg_Press",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Single-Leg_Leg_Extension",
+            "sets": 4,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Бицепс бедра + Ягодицы",
+        "warmup": [
+          "Наклоны"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Deadlift",
+            "sets": 4,
+            "reps": 6
+          },
+          {
+            "id": "Romanian_Deadlift",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Ball_Leg_Curl",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Hyperextensions_Back_Extensions",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Объемная тренировка",
+        "warmup": [
+          "Велосипед"
+        ],
+        "exercises": [
+          {
+            "id": "Bodyweight_Squat",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "id": "Barbell_Lunges",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Hack_Squat",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Calf_Raise_On_A_Dumbbell",
+            "sets": 5,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Широкая Спина (Спецпрограмма)",
+    "description": "Упражнения для V-образного силуэта.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "HYPERTROPHY",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_back_1",
+        "name": "Кобра",
+        "icon": "🐍",
+        "description": "Ширина спины"
+      },
+      {
+        "id": "ach_back_2",
+        "name": "Тягач",
+        "icon": "🚜",
+        "description": "Сила спины"
+      },
+      {
+        "id": "ach_back_3",
+        "name": "V-Shape",
+        "icon": "🔻",
+        "description": "Идеальный силуэт"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Ширина (Вертикальные тяги)",
+        "warmup": [
+          "Вис на турнике"
+        ],
+        "exercises": [
+          {
+            "id": "Wide_Grip_Pull_Up",
+            "sets": 4,
+            "reps": "max"
+          },
+          {
+            "id": "Close-Grip_Front_Lat_Pulldown",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Pullover",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Straight-Arm_Pulldown",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Толщина (Горизонтальные тяги)",
+        "warmup": [
+          "Разминка поясницы"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Deadlift",
+            "sets": 3,
+            "reps": 6
+          },
+          {
+            "id": "Bent_Over_Barbell_Row",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "T_Bar_Row",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Seated_Cable_Row",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Детализация",
+        "warmup": [
+          "Легкие тяги"
+        ],
+        "exercises": [
+          {
+            "id": "One-Arm_Dumbbell_Row",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "id": "Hyperextensions_Back_Extensions",
+            "sets": 4,
+            "reps": 15
+          },
+          {
+            "id": "Face_Pull_Cable",
+            "sets": 3,
+            "reps": 20
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Стальной Пресс (6 дней)",
+    "description": "Ежедневная проработка мышц кора.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "ABS",
+    "daysPerWeek": 6,
+    "achievements": [
+      {
+        "id": "ach_abs_1",
+        "name": "Кубики",
+        "icon": "🍫",
+        "description": "Первый результат"
+      },
+      {
+        "id": "ach_abs_2",
+        "name": "Кор",
+        "icon": "🛡️",
+        "description": "Сильный пресс"
+      },
+      {
+        "id": "ach_abs_3",
+        "name": "Вакуум",
+        "icon": "🌪️",
+        "description": "Плоский живот"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Верх пресса",
+        "warmup": [
+          "Разминка"
+        ],
+        "exercises": [
+          {
+            "id": "Cable_Crunch",
+            "sets": 4,
+            "reps": 20
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Frog_Sit-Ups",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Низ пресса",
+        "warmup": [
+          "Разминка"
+        ],
+        "exercises": [
+          {
+            "id": "Hanging_Leg_Raise",
+            "sets": 4,
+            "reps": 15
+          },
+          {
+            "id": "Reverse_Crunch",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Scissor_Kick",
+            "sets": 3,
+            "reps": 30
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Косые мышцы",
+        "warmup": [
+          "Наклоны"
+        ],
+        "exercises": [
+          {
+            "id": "Russian_Twist",
+            "sets": 4,
+            "reps": 20
+          },
+          {
+            "id": "Push_Up_to_Side_Plank",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 3,
+            "reps": 30
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 4,
+        "name": "Статика",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Plank",
+            "sets": 4,
+            "duration": 60
+          },
+          {
+            "id": "Push_Up_to_Side_Plank",
+            "sets": 3,
+            "duration": 45
+          },
+          {
+            "id": "Stomach_Vacuum",
+            "sets": 3,
+            "duration": 30
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 5,
+        "name": "Комплекс",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Rope_Jumping",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Rope_Climb",
+            "sets": 3,
+            "reps": 30
+          },
+          {
+            "id": "Frog_Sit-Ups",
+            "sets": 3,
+            "reps": 20
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 6,
+        "name": "Активное восстановление",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Plank",
+            "sets": 1,
+            "duration": 20
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Руки как у Арни (Спецпрограмма)",
+    "description": "Максимальный объем для бицепса и трицепса.",
+    "difficulty": "ADVANCED",
+    "goal": "HYPERTROPHY",
+    "daysPerWeek": 4,
+    "achievements": [
+      {
+        "id": "ach_arm_1",
+        "name": "Бицепс",
+        "icon": "💪",
+        "description": "Пик бицепса"
+      },
+      {
+        "id": "ach_arm_2",
+        "name": "Трицепс",
+        "icon": "🔨",
+        "description": "Подкова трицепса"
+      },
+      {
+        "id": "ach_arm_3",
+        "name": "45 см",
+        "icon": "📏",
+        "description": "Объем руки"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Бицепс (База)",
+        "warmup": [
+          "Легкий подъем"
+        ],
+        "exercises": [
+          {
+            "id": "Barbell_Curl",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Dumbbell_Curl_Supination",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Preacher_Curl",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Трицепс (База)",
+        "warmup": [
+          "Разгибания"
+        ],
+        "exercises": [
+          {
+            "id": "Close-Grip_Barbell_Bench_Press",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "id": "Band_Skull_Crusher",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Dip",
+            "sets": 3,
+            "reps": "max"
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Суперсеты",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Body_Tricep_Press",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Alternate_Hammer_Curl",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 5,
+        "name": "Памп",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Concentration_Curl",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Overhead_Tricep_Extension",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Йога и Мобильность (3 дня)",
+    "description": "Гибкость, баланс и восстановление.",
+    "difficulty": "BEGINNER",
+    "goal": "FLEXIBILITY",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_yoga_1",
+        "name": "Гибкость",
+        "icon": "🧘",
+        "description": "Первое занятие"
+      },
+      {
+        "id": "ach_yoga_2",
+        "name": "Баланс",
+        "icon": "☯️",
+        "description": "Устойчивость"
+      },
+      {
+        "id": "ach_yoga_3",
+        "name": "Дзен",
+        "icon": "🌸",
+        "description": "Гармония"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Приветствие Солнцу",
+        "warmup": [
+          "Дыхание"
+        ],
+        "exercises": [
+          {
+            "id": "All_Fours_Quad_Stretch",
+            "sets": 5,
+            "reps": 1
+          },
+          {
+            "id": "All_Fours_Quad_Stretch",
+            "sets": 3,
+            "duration": 30
+          },
+          {
+            "id": "Standing_Lateral_Stretch",
+            "sets": 3,
+            "duration": 30
+          }
+        ],
+        "cooldown": [
+          "Шавасана"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Растяжка ног",
+        "warmup": [
+          "Разминка"
+        ],
+        "exercises": [
+          {
+            "id": "Hamstring_Stretch",
+            "sets": 3,
+            "duration": 60
+          },
+          {
+            "id": "Butterfly",
+            "sets": 3,
+            "duration": 60
+          },
+          {
+            "id": "Intermediate_Hip_Flexor_and_Quad_Stretch",
+            "sets": 3,
+            "duration": 60
+          }
+        ],
+        "cooldown": [
+          "Релаксация"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Баланс и Кор",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Balance_Board",
+            "sets": 3,
+            "duration": 45
+          },
+          {
+            "id": "3_4_Sit-Up",
+            "sets": 3,
+            "duration": 45
+          },
+          {
+            "id": "Plank",
+            "sets": 3,
+            "duration": 60
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Табата Интенсив (4 дня)",
+    "description": "Короткие интенсивные интервалы 20/10.",
+    "difficulty": "ADVANCED",
+    "goal": "CARDIO",
+    "daysPerWeek": 4,
+    "achievements": [
+      {
+        "id": "ach_tab_1",
+        "name": "20 секунд",
+        "icon": "⏲️",
+        "description": "Первый раунд"
+      },
+      {
+        "id": "ach_tab_2",
+        "name": "Интервал",
+        "icon": "⚡",
+        "description": "Выдержка"
+      },
+      {
+        "id": "ach_tab_3",
+        "name": "Табата Мастер",
+        "icon": "🔥",
+        "description": "Полный курс"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Табата Все тело",
+        "warmup": [
+          "Бег 3 мин"
+        ],
+        "exercises": [
+          {
+            "id": "Rope_Jumping",
+            "sets": 1,
+            "duration": 240
+          },
+          {
+            "id": "Barbell_Full_Squat",
+            "sets": 1,
+            "duration": 240
+          }
+        ],
+        "cooldown": [
+          "Ходьба"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Табата Пресс",
+        "warmup": [
+          "Разминка"
+        ],
+        "exercises": [
+          {
+            "id": "Cable_Crunch",
+            "sets": 1,
+            "duration": 240
+          },
+          {
+            "id": "Rope_Climb",
+            "sets": 1,
+            "duration": 240
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Табата Кардио",
+        "warmup": [
+          "Скакалка"
+        ],
+        "exercises": [
+          {
+            "id": "Kneeling_High_Pulley_Row",
+            "sets": 1,
+            "duration": 240
+          },
+          {
+            "id": "Rope_Jumping",
+            "sets": 1,
+            "duration": 240
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 5,
+        "name": "Легкое кардио",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Walking",
+            "sets": 1,
+            "duration": 30
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Для бегунов (3 дня)",
+    "description": "ОФП для улучшения результатов в беге.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "RUNNING",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_run_1",
+        "name": "Старт",
+        "icon": "🏁",
+        "description": "Первая ОФП"
+      },
+      {
+        "id": "ach_run_2",
+        "name": "Дистанция",
+        "icon": "🛣️",
+        "description": "Подготовка к забегу"
+      },
+      {
+        "id": "ach_run_3",
+        "name": "Марафонец",
+        "icon": "🏅",
+        "description": "Готов к марафону"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Сила ног",
+        "warmup": [
+          "Бег 10 мин"
+        ],
+        "exercises": [
+          {
+            "id": "Bodyweight_Squat",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Barbell_Lunges",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Calf_Raise_On_A_Dumbbell",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Plank",
+            "sets": 3,
+            "duration": 60
+          }
+        ],
+        "cooldown": [
+          "Растяжка ног"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Кор и Стабилизация",
+        "warmup": [
+          "Разминка"
+        ],
+        "exercises": [
+          {
+            "id": "Push_Up_to_Side_Plank",
+            "sets": 3,
+            "duration": 45
+          },
+          {
+            "id": "Barbell_Glute_Bridge",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Downward_Dog",
+            "sets": 3,
+            "reps": 10
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Верх тела",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Pushups",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "One_Arm_Dumbbell_Row",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Dumbbell_Bench_Press",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Реабилитация спины (3 дня)",
+    "description": "Щадящие упражнения для здоровья позвоночника.",
+    "difficulty": "BEGINNER",
+    "goal": "REHAB",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_reh_1",
+        "name": "Здоровье",
+        "icon": "🌿",
+        "description": "Начало пути"
+      },
+      {
+        "id": "ach_reh_2",
+        "name": "Стабильность",
+        "icon": "🧱",
+        "description": "Укрепление кора"
+      },
+      {
+        "id": "ach_reh_3",
+        "name": "Без боли",
+        "icon": "😊",
+        "description": "Результат"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Мобилизация",
+        "warmup": [
+          "Ходьба"
+        ],
+        "exercises": [
+          {
+            "id": "Chair_Lower_Back_Stretch",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Downward_Dog",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Barbell_Glute_Bridge",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Стабилизация",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Plank",
+            "sets": 3,
+            "duration": 30
+          },
+          {
+            "id": "Push_Up_to_Side_Plank",
+            "sets": 3,
+            "duration": 20
+          },
+          {
+            "id": "Dead_Bug",
+            "sets": 3,
+            "reps": 10
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 3,
+        "name": "Растяжка",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Chair_Lower_Back_Stretch",
+            "sets": 3,
+            "duration": 60
+          },
+          {
+            "id": "Cable_Russian_Twists",
+            "sets": 3,
+            "duration": 45
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Пляжная форма (6 дней)",
+    "description": "Интенсивный курс перед летом.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "CUTTING",
+    "daysPerWeek": 6,
+    "achievements": [
+      {
+        "id": "ach_beach_1",
+        "name": "Старт лета",
+        "icon": "☀️",
+        "description": "Начало"
+      },
+      {
+        "id": "ach_beach_2",
+        "name": "Рельеф",
+        "icon": "🏖️",
+        "description": "Прогресс"
+      },
+      {
+        "id": "ach_beach_3",
+        "name": "Пляжный зверь",
+        "icon": "🦍",
+        "description": "Готов"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Грудь + Трицепс + Кардио",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Pushups",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Running",
+            "sets": 1,
+            "duration": 20
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 2,
+        "name": "Спина + Бицепс + Кардио",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Pullups",
+            "sets": 3,
+            "reps": "max"
+          },
+          {
+            "id": "Close-Grip_Front_Lat_Pulldown",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Elliptical",
+            "sets": 1,
+            "duration": 20
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 3,
+        "name": "Ноги + Пресс",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Bodyweight_Squat",
+            "sets": 4,
+            "reps": 15
+          },
+          {
+            "id": "Barbell_Lunges",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Cable_Crunch",
+            "sets": 4,
+            "reps": 20
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Плечи + Кардио",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Dumbbell_Bench_Press",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Alternating_Kettlebell_Row",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Running",
+            "sets": 1,
+            "duration": 20
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 5,
+        "name": "Фулбоди Круговая",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Barbell_Full_Squat",
+            "sets": 4,
+            "reps": 1
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 6,
+        "name": "Активное восстановление",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Barbell_Walking_Lunge",
+            "sets": 1,
+            "duration": 45
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Турник и Брусья (3 дня)",
+    "description": "Уличная калистеника.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "STRENGTH",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_str_1",
+        "name": "Турникмен",
+        "icon": "🤸",
+        "description": "Первые подтягивания"
+      },
+      {
+        "id": "ach_str_2",
+        "name": "Брусья",
+        "icon": "🏗️",
+        "description": "Сила отжиманий"
+      },
+      {
+        "id": "ach_str_3",
+        "name": "Уличный боец",
+        "icon": "🥋",
+        "description": "Мастер воркаута"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Тяни (Турник)",
+        "warmup": [
+          "Вис"
+        ],
+        "exercises": [
+          {
+            "id": "Chin-Up",
+            "sets": 4,
+            "reps": "max"
+          },
+          {
+            "id": "Chin-Up",
+            "sets": 3,
+            "reps": "max"
+          },
+          {
+            "id": "Inverted_Row",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Вис"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Толкай (Брусья)",
+        "warmup": [
+          "Отжимания"
+        ],
+        "exercises": [
+          {
+            "id": "Dip",
+            "sets": 4,
+            "reps": "max"
+          },
+          {
+            "id": "Pushups",
+            "sets": 3,
+            "reps": 20
+          },
+          {
+            "id": "Close-Grip_Barbell_Bench_Press",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "name": "Ноги + Пресс",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Pistol_Squat_Assisted",
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "id": "Barbell_Lunges",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Hanging_Leg_Raise",
+            "sets": 3,
+            "reps": 10
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Гантельная программа (4 дня)",
+    "description": "Тренировки только с парой гантелей дома.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "MUSCLE_GAIN",
+    "daysPerWeek": 4,
+    "achievements": [
+      {
+        "id": "ach_db_1",
+        "name": "Гантель",
+        "icon": "🏋️‍♀️",
+        "description": "Старт"
+      },
+      {
+        "id": "ach_db_2",
+        "name": "Сила",
+        "icon": "💪",
+        "description": "Прогресс"
+      },
+      {
+        "id": "ach_db_3",
+        "name": "Домашний атлет",
+        "icon": "🏠",
+        "description": "Финиш"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Грудь + Спина",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Dumbbell_Bench_Press",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "id": "Dumbbell_Flyes",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "One_Arm_Dumbbell_Row",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "id": "Pullover",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 2,
+        "name": "Ноги",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Dumbbell_Squat",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "id": "Romanian_Deadlift",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "id": "Dumbbell_Lunge",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Плечи + Руки",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Dumbbell_Shoulder_Press",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "id": "Lateral_Raise_-_With_Bands",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Barbell_Curl",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "id": "Dumbbell_One-Arm_Triceps_Extension",
+            "sets": 3,
+            "reps": 12
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 5,
+        "name": "Фулбоди",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Thruster",
+            "sets": 3,
+            "reps": 15
+          },
+          {
+            "id": "Dumbbell_Snatch",
+            "sets": 3,
+            "reps": 10
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Штанга Solo (3 дня)",
+    "description": "База только со штангой.",
+    "difficulty": "ADVANCED",
+    "goal": "STRENGTH",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "ach_bb_solo_1",
+        "name": "Штанга",
+        "icon": "🏋️",
+        "description": "База"
+      },
+      {
+        "id": "ach_bb_solo_2",
+        "name": "Тоннаж",
+        "icon": "⚖️",
+        "description": "Вес"
+      },
+      {
+        "id": "ach_bb_solo_3",
+        "name": "Силач",
+        "icon": "🦍",
+        "description": "Мощь"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Присед + Жим",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Barbell_Squat",
+            "sets": 5,
+            "reps": 5
+          },
+          {
+            "id": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 5,
+            "reps": 5
+          },
+          {
+            "id": "Bent_Over_Barbell_Row",
+            "sets": 3,
+            "reps": 8
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 2,
+        "name": "Становая",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Barbell_Deadlift",
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "id": "Seated_Barbell_Military_Press",
+            "sets": 5,
+            "reps": 5
+          },
+          {
+            "id": "Dumbbell_One-Arm_Upright_Row",
+            "sets": 3,
+            "reps": 10
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 3,
+        "name": "Объем",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Bodyweight_Squat",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Barbell_Bench_Press_-_Medium_Grip",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Romanian_Deadlift",
+            "sets": 3,
+            "reps": 10
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Функциональный тренинг (4 дня)",
+    "description": "Развитие координации и взрывной силы.",
+    "difficulty": "INTERMEDIATE",
+    "goal": "FUNCTIONAL",
+    "daysPerWeek": 4,
+    "achievements": [
+      {
+        "id": "ach_func_1",
+        "name": "Координация",
+        "icon": "🤹",
+        "description": "Баланс"
+      },
+      {
+        "id": "ach_func_2",
+        "name": "Взрыв",
+        "icon": "💥",
+        "description": "Сила"
+      },
+      {
+        "id": "ach_func_3",
+        "name": "Функционал",
+        "icon": "⚙️",
+        "description": "Навык"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Взрывная сила",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Front_Box_Jump",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "id": "Backward_Medicine_Ball_Throw",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "id": "One-Arm_Kettlebell_Split_Snatch",
+            "sets": 3,
+            "reps": 8
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 2,
+        "name": "Баланс",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Pistol_Squat",
+            "sets": 3,
+            "reps": 8
+          },
+          {
+            "id": "Balance_Board",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Plank",
+            "sets": 3,
+            "duration": 45
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Комплекс",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Rope_Jumping",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Farmers_Walk",
+            "sets": 3,
+            "duration": 60
+          },
+          {
+            "id": "Kettlebell_Turkish_Get-Up_Lunge_style",
+            "sets": 3,
+            "reps": 5
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 5,
+        "name": "Мобильность",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Plank",
+            "sets": 1,
+            "duration": 30
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Для пожилых (3 дня)",
+    "description": "Безопасная поддержка активности.",
+    "difficulty": "BEGINNER",
+    "goal": "HEALTH",
+    "daysPerWeek": 3,
+    "achievements": [
+      {
+        "id": "health_1",
+        "name": "Активность",
+        "icon": "🚶",
+        "description": "Движение"
+      },
+      {
+        "id": "health_2",
+        "name": "Тонус",
+        "icon": "🌟",
+        "description": "Бодрость"
+      },
+      {
+        "id": "health_3",
+        "name": "Долголетие",
+        "icon": "🌳",
+        "description": "Здоровье"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Общая разминка",
+        "warmup": [
+          "Ходьба"
+        ],
+        "exercises": [
+          {
+            "id": "Chair_Squat",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Barbell_Incline_Shoulder_Raise",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Barbell_Step_Ups",
+            "sets": 3,
+            "duration": 60
+          }
+        ],
+        "cooldown": [
+          "Растяжка"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "name": "Равновесие",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Single-Leg_High_Box_Squat",
+            "sets": 3,
+            "duration": 20
+          },
+          {
+            "id": "Barbell_Walking_Lunge",
+            "sets": 3,
+            "distance": 10
+          },
+          {
+            "id": "Cable_Internal_Rotation",
+            "sets": 3,
+            "reps": 10
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 3,
+        "name": "Легкая сила",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Pushups",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Dumbbell_Alternate_Bicep_Curl",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "id": "Calf_Raise_On_A_Dumbbell",
+            "sets": 3,
+            "reps": 15
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Экстремальное похудение (6 дней)",
+    "description": "Максимальный расход калорий.",
+    "difficulty": "ADVANCED",
+    "goal": "WEIGHT_LOSS",
+    "daysPerWeek": 6,
+    "achievements": [
+      {
+        "id": "ext_1",
+        "name": "Пот",
+        "icon": "💦",
+        "description": "Начало"
+      },
+      {
+        "id": "ext_2",
+        "name": "Жир",
+        "icon": "🔥",
+        "description": "Горение"
+      },
+      {
+        "id": "ext_3",
+        "name": "Новый Я",
+        "icon": "🦋",
+        "description": "Трансформация"
+      }
+    ],
+    "workoutDays": [
+      {
+        "dayNumber": 1,
+        "name": "Кардио + Силовая",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Running",
+            "sets": 1,
+            "duration": 30
+          },
+          {
+            "id": "Barbell_Full_Squat",
+            "sets": 3,
+            "reps": 1
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 2,
+        "name": "HIIT",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Tabata",
+            "sets": 4,
+            "duration": 240
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 3,
+        "name": "Сила",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Barbell_Full_Squat",
+            "sets": 4,
+            "reps": 12
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 4,
+        "name": "Длительное кардио",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Rope_Jumping",
+            "sets": 1,
+            "duration": 60
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 5,
+        "name": "Фулбоди",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Band_Assisted_Pull-Up",
+            "sets": 5,
+            "reps": 1
+          }
+        ],
+        "cooldown": []
+      },
+      {
+        "dayNumber": 6,
+        "name": "Активное восстановление",
+        "warmup": [],
+        "exercises": [
+          {
+            "id": "Barbell_Walking_Lunge",
+            "sets": 1,
+            "duration": 45
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Сплит 'Арнольд' (Классика)",
+    "description": "Легендарная система Арнольда Шварценеггера: двойной сплит с высокой интенсивностью и объемом.",
+    "difficulty": "Advanced",
+    "goal": "Hypertrophy",
+    "days_per_week": 6,
+    "achievement_id": "ach_arnold_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Грудь и Спина",
+        "warmup": [
+          "Jumping Jacks",
+          "Arm Circles",
+          "Push-ups"
+        ],
+        "exercises": [
+          {
+            "name": "Bench Press",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Pull-ups",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Bent Over Barbell Row",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Dumbbell Flyes",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Lat Pulldown",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ],
+        "cooldown": [
+          "Child's Pose",
+          "Chest Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Плечи и Руки",
+        "warmup": [
+          "Arm Circles",
+          "Wrist Rotations"
+        ],
+        "exercises": [
+          {
+            "name": "Overhead Press",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Barbell Curl",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Lateral Raises",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Tricep Dips",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Face Pulls",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ],
+        "cooldown": [
+          "Shoulder Stretch",
+          "Tricep Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Ноги",
+        "warmup": [
+          "High Knees",
+          "Leg Swings"
+        ],
+        "exercises": [
+          {
+            "name": "Squats",
+            "sets": 5,
+            "reps": "5-8"
+          },
+          {
+            "name": "Romanian Deadlift",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Leg Extensions",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Calf Raises",
+            "sets": 4,
+            "reps": "15-20"
+          }
+        ],
+        "cooldown": [
+          "Quad Stretch",
+          "Hamstring Stretch"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Грудь и Спина (Повтор)",
+        "warmup": [
+          "Jumping Jacks",
+          "Push-ups"
+        ],
+        "exercises": [
+          {
+            "name": "Incline Bench Press",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "T-Bar Row",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Cable Crossover",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Single Arm Dumbbell Row",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ],
+        "cooldown": [
+          "Cat-Cow",
+          "Doorway Stretch"
+        ]
+      },
+      {
+        "day_number": 5,
+        "name": "Плечи и Руки (Повтор)",
+        "warmup": [
+          "Arm Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Arnold Press",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Skullcrushers",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Front Raises",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Preacher Curls",
+            "sets": 3,
+            "reps": "10-12"
+          }
+        ],
+        "cooldown": [
+          "Neck Stretch",
+          "Wrist Stretch"
+        ]
+      },
+      {
+        "day_number": 6,
+        "name": "Ноги (Повтор + Пресс)",
+        "warmup": [
+          "Leg Swings",
+          "Bodyweight Squats"
+        ],
+        "exercises": [
+          {
+            "name": "Front Squats",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Leg Curls",
+            "sets": 4,
+            "reps": "10-12"
+          },
+          {
+            "name": "Walking Lunges",
+            "sets": 3,
+            "reps": "12 steps"
+          },
+          {
+            "name": "Hanging Leg Raises",
+            "sets": 3,
+            "reps": "15-20"
+          }
+        ],
+        "cooldown": [
+          "Pigeon Pose",
+          "Seated Forward Bend"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Функциональный Атлет",
+    "description": "Развитие силы, ловкости и выносливости для реальной жизни и спорта.",
+    "difficulty": "Intermediate",
+    "goal": "Functional",
+    "days_per_week": 4,
+    "achievement_id": "ach_functional_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Толкай и Тяни",
+        "warmup": [
+          "Jump Rope",
+          "Inchworms"
+        ],
+        "exercises": [
+          {
+            "name": "Push Press",
+            "sets": 4,
+            "reps": "6-8"
+          },
+          {
+            "name": "Power Cleans",
+            "sets": 4,
+            "reps": "5-6"
+          },
+          {
+            "name": "Box Jumps",
+            "sets": 3,
+            "reps": "8"
+          },
+          {
+            "name": "Battle Ropes",
+            "sets": 3,
+            "reps": "30 sec"
+          }
+        ],
+        "cooldown": [
+          "Deep Squat Hold",
+          "Shoulder Dislocates"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Ноги и Кор",
+        "warmup": [
+          "High Knees",
+          "Hip Openers"
+        ],
+        "exercises": [
+          {
+            "name": "Thrusters",
+            "sets": 4,
+            "reps": "10-12"
+          },
+          {
+            "name": "Kettlebell Swings",
+            "sets": 4,
+            "reps": "15-20"
+          },
+          {
+            "name": "Burpees",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Plank to Push-up",
+            "sets": 3,
+            "reps": "12"
+          }
+        ],
+        "cooldown": [
+          "World's Greatest Stretch",
+          "Cobra Pose"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Отдых или Активное восстановление",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 4,
+        "name": "Метаболический Кондиционер",
+        "warmup": [
+          "Jumping Jacks",
+          "Arm Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Man Makers",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Wall Balls",
+            "sets": 4,
+            "reps": "15"
+          },
+          {
+            "name": "Mountain Climbers",
+            "sets": 3,
+            "reps": "40 sec"
+          },
+          {
+            "name": "Medicine Ball Slams",
+            "sets": 3,
+            "reps": "15"
+          }
+        ],
+        "cooldown": [
+          "Child's Pose",
+          "Deep Breathing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Силач (Strongman Basics)",
+    "description": "База упражнений стронгменов для развития абсолютной силы и мощи.",
+    "difficulty": "Advanced",
+    "goal": "Strength",
+    "days_per_week": 4,
+    "achievement_id": "ach_strongman_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Становая и Жим",
+        "warmup": [
+          "Cat-Cow",
+          "Glute Bridges"
+        ],
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 5,
+            "reps": "3-5"
+          },
+          {
+            "name": "Log Press",
+            "sets": 4,
+            "reps": "5-6"
+          },
+          {
+            "name": "Farmer's Walk",
+            "sets": 3,
+            "reps": "40 meters"
+          },
+          {
+            "name": "Pull-ups",
+            "sets": 3,
+            "reps": "Max"
+          }
+        ],
+        "cooldown": [
+          "Hamstring Stretch",
+          "Chest Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Присед и Переноска",
+        "warmup": [
+          "Leg Swings",
+          "Bodyweight Squats"
+        ],
+        "exercises": [
+          {
+            "name": "Front Squats",
+            "sets": 5,
+            "reps": "5-6"
+          },
+          {
+            "name": "Yoke Walk",
+            "sets": 3,
+            "reps": "30 meters"
+          },
+          {
+            "name": "Zercher Squats",
+            "sets": 3,
+            "reps": "8-10"
+          },
+          {
+            "name": "Atlas Stone Lifts",
+            "sets": 3,
+            "reps": "5"
+          }
+        ],
+        "cooldown": [
+          "Quad Stretch",
+          "Lower Back Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 4,
+        "name": "Динамическая Сила",
+        "warmup": [
+          "Jump Rope"
+        ],
+        "exercises": [
+          {
+            "name": "Clean and Press",
+            "sets": 4,
+            "reps": "5-6"
+          },
+          {
+            "name": "Tire Flips",
+            "sets": 4,
+            "reps": "10 flips"
+          },
+          {
+            "name": "Sledgehammer Tire Strikes",
+            "sets": 3,
+            "reps": "20 strikes"
+          },
+          {
+            "name": "Sandbag Carry",
+            "sets": 3,
+            "reps": "50 meters"
+          }
+        ],
+        "cooldown": [
+          "Full Body Stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Пляжное Тело (Лето)",
+    "description": "Акцент на верх тела, пресс и рельеф. Идеально для подготовки к лету.",
+    "difficulty": "Beginner",
+    "goal": "Aesthetics",
+    "days_per_week": 4,
+    "achievement_id": "ach_beach_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Грудь и Трицепс",
+        "warmup": [
+          "Push-ups",
+          "Arm Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Incline Push-ups",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Dumbbell Flyes",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Tricep Dips",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Cable Tricep Pushdown",
+            "sets": 3,
+            "reps": "15-20"
+          }
+        ],
+        "cooldown": [
+          "Chest Stretch",
+          "Tricep Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Спина и Бицепс",
+        "warmup": [
+          "Jumping Jacks"
+        ],
+        "exercises": [
+          {
+            "name": "Lat Pulldown",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Seated Cable Row",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Dumbbell Curls",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ],
+        "cooldown": [
+          "Back Stretch",
+          "Bicep Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Плечи и Пресс",
+        "warmup": [
+          "Arm Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Lateral Raises",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Front Raises",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Crunches",
+            "sets": 3,
+            "reps": "20-25"
+          },
+          {
+            "name": "Russian Twists",
+            "sets": 3,
+            "reps": "20-25"
+          }
+        ],
+        "cooldown": [
+          "Shoulder Stretch",
+          "Seated Forward Bend"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Кардио и Пресс",
+        "warmup": [
+          "High Knees"
+        ],
+        "exercises": [
+          {
+            "name": "Running",
+            "sets": 1,
+            "reps": "20 min"
+          },
+          {
+            "name": "Leg Raises",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": "60 sec"
+          },
+          {
+            "name": "Mountain Climbers",
+            "sets": 3,
+            "reps": "40 sec"
+          }
+        ],
+        "cooldown": [
+          "Full Body Stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Марафонская Подготовка",
+    "description": "Программа для бегунов, сочетающая беговые объемы и ОФП для профилактики травм.",
+    "difficulty": "Intermediate",
+    "goal": "Endurance",
+    "days_per_week": 5,
+    "achievement_id": "ach_marathon_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Легкий бег + Кор",
+        "warmup": [
+          "Dynamic Leg Swings"
+        ],
+        "exercises": [
+          {
+            "name": "Running",
+            "sets": 1,
+            "reps": "40 min easy"
+          },
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": "60 sec"
+          },
+          {
+            "name": "Side Plank",
+            "sets": 3,
+            "reps": "45 sec each"
+          }
+        ],
+        "cooldown": [
+          "Calf Stretch",
+          "Hamstring Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Интервалы",
+        "warmup": [
+          "Jogging 10 min"
+        ],
+        "exercises": [
+          {
+            "name": "Sprints",
+            "sets": 6,
+            "reps": "400m fast"
+          },
+          {
+            "name": "Rest",
+            "sets": 6,
+            "reps": "2 min walk"
+          }
+        ],
+        "cooldown": [
+          "Quad Stretch",
+          "Deep Breathing"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Силовая для бегунов",
+        "warmup": [
+          "Jump Rope"
+        ],
+        "exercises": [
+          {
+            "name": "Single Leg Squats",
+            "sets": 3,
+            "reps": "10 each"
+          },
+          {
+            "name": "Lunges",
+            "sets": 3,
+            "reps": "12 each"
+          },
+          {
+            "name": "Calf Raises",
+            "sets": 3,
+            "reps": "20"
+          },
+          {
+            "name": "Glute Bridges",
+            "sets": 3,
+            "reps": "15"
+          }
+        ],
+        "cooldown": [
+          "Pigeon Pose",
+          "Foam Rolling"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 5,
+        "name": "Длительная пробежка",
+        "warmup": [
+          "Walking"
+        ],
+        "exercises": [
+          {
+            "name": "Running",
+            "sets": 1,
+            "reps": "60-90 min steady"
+          }
+        ],
+        "cooldown": [
+          "Full Body Stretch",
+          "Ice Bath optional"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Железный Самсон (Old School)",
+    "description": "Тренировки в стиле начала 20 века: базовые движения, тяжелые веса, мало изоляции.",
+    "difficulty": "Advanced",
+    "goal": "Strength",
+    "days_per_week": 3,
+    "achievement_id": "ach_samson_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Тяжелый день",
+        "warmup": [
+          "Light Cardio"
+        ],
+        "exercises": [
+          {
+            "name": "Squats",
+            "sets": 5,
+            "reps": "5"
+          },
+          {
+            "name": "Bench Press",
+            "sets": 5,
+            "reps": "5"
+          },
+          {
+            "name": "Barbell Row",
+            "sets": 5,
+            "reps": "5"
+          }
+        ],
+        "cooldown": [
+          "Static Stretches"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 3,
+        "name": "День становой",
+        "warmup": [
+          "Light Cardio"
+        ],
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 5,
+            "reps": "5"
+          },
+          {
+            "name": "Overhead Press",
+            "sets": 5,
+            "reps": "5"
+          },
+          {
+            "name": "Pull-ups",
+            "sets": 5,
+            "reps": "Max"
+          }
+        ],
+        "cooldown": [
+          "Static Stretches"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 5,
+        "name": "Объемный день",
+        "warmup": [
+          "Light Cardio"
+        ],
+        "exercises": [
+          {
+            "name": "Front Squats",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Incline Press",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Dips",
+            "sets": 3,
+            "reps": "Max"
+          },
+          {
+            "name": "Chin-ups",
+            "sets": 3,
+            "reps": "Max"
+          }
+        ],
+        "cooldown": [
+          "Static Stretches"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Кроссфит 'Базовый'",
+    "description": "Введение в CrossFit. Постоянно варьируемые функциональные движения высокой интенсивности.",
+    "difficulty": "Intermediate",
+    "goal": "CrossFit",
+    "days_per_week": 5,
+    "achievement_id": "ach_crossfit_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "WOD 1",
+        "warmup": [
+          "Row 500m",
+          "Air Squats"
+        ],
+        "exercises": [
+          {
+            "name": "AMRAP 20 min",
+            "sets": 1,
+            "reps": "5 Pull-ups, 10 Push-ups, 15 Squats"
+          }
+        ],
+        "cooldown": [
+          "Stretching"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "WOD 2",
+        "warmup": [
+          "Jump Rope 3 min"
+        ],
+        "exercises": [
+          {
+            "name": "For Time",
+            "sets": 1,
+            "reps": "21-15-9 Thrusters, Pull-ups"
+          }
+        ],
+        "cooldown": [
+          "Stretching"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Силовой день",
+        "warmup": [
+          "Mobility Drills"
+        ],
+        "exercises": [
+          {
+            "name": "Back Squat",
+            "sets": 5,
+            "reps": "5"
+          },
+          {
+            "name": "Strict Press",
+            "sets": 5,
+            "reps": "5"
+          }
+        ],
+        "cooldown": [
+          "Stretching"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "WOD 3",
+        "warmup": [
+          "Run 400m"
+        ],
+        "exercises": [
+          {
+            "name": "EMOM 12 min",
+            "sets": 1,
+            "reps": "Min 1: 12 Wall Balls, Min 2: 12 Cal Row, Min 3: 12 Box Jumps"
+          }
+        ],
+        "cooldown": [
+          "Stretching"
+        ]
+      },
+      {
+        "day_number": 5,
+        "name": "Long WOD",
+        "warmup": [
+          "Dynamic Stretch"
+        ],
+        "exercises": [
+          {
+            "name": "Chipper",
+            "sets": 1,
+            "reps": "50 Box Jumps, 40 Wall Balls, 30 KB Swings, 20 Burpees, 10 Rope Climbs"
+          }
+        ],
+        "cooldown": [
+          "Full Recovery Stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Йога Сила (Power Yoga)",
+    "description": "Сочетание асан йоги и силовых элементов для гибкости и тонуса.",
+    "difficulty": "Intermediate",
+    "goal": "Flexibility",
+    "days_per_week": 4,
+    "achievement_id": "ach_yoga_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Приветствие Солнцу + Сила",
+        "warmup": [
+          "Breathing Exercises"
+        ],
+        "exercises": [
+          {
+            "name": "Sun Salutation A",
+            "sets": 5,
+            "reps": "Flow"
+          },
+          {
+            "name": "Sun Salutation B",
+            "sets": 5,
+            "reps": "Flow"
+          },
+          {
+            "name": "Chaturanga Push-ups",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Warrior I & II",
+            "sets": 3,
+            "reps": "Hold 1 min"
+          }
+        ],
+        "cooldown": [
+          "Savasana"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Баланс и Кор",
+        "warmup": [
+          "Cat-Cow"
+        ],
+        "exercises": [
+          {
+            "name": "Tree Pose",
+            "sets": 3,
+            "reps": "1 min each"
+          },
+          {
+            "name": "Boat Pose",
+            "sets": 3,
+            "reps": "45 sec"
+          },
+          {
+            "name": "Crow Pose Practice",
+            "sets": 5,
+            "reps": "Attempts"
+          },
+          {
+            "name": "Plank Variations",
+            "sets": 3,
+            "reps": "1 min"
+          }
+        ],
+        "cooldown": [
+          "Seated Forward Bend"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Отдых / Медитация",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 4,
+        "name": "Гибкость и Восстановление",
+        "warmup": [
+          "Gentle Movement"
+        ],
+        "exercises": [
+          {
+            "name": "Pigeon Pose",
+            "sets": 2,
+            "reps": "3 min each"
+          },
+          {
+            "name": "Cow Face Pose",
+            "sets": 2,
+            "reps": "2 min each"
+          },
+          {
+            "name": "Bridge Pose",
+            "sets": 3,
+            "reps": "1 min"
+          },
+          {
+            "name": "Spinal Twist",
+            "sets": 2,
+            "reps": "2 min each"
+          }
+        ],
+        "cooldown": [
+          "Long Savasana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Табата Интенсив",
+    "description": "Короткие, но крайне интенсивные тренировки по протоколу Табата (20 сек работа / 10 сек отдых).",
+    "difficulty": "Advanced",
+    "goal": "Fat Loss",
+    "days_per_week": 4,
+    "achievement_id": "ach_tabata_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Табата Все тело",
+        "warmup": [
+          "Jumping Jacks 2 min"
+        ],
+        "exercises": [
+          {
+            "name": "Tabata Protocol",
+            "sets": 8,
+            "reps": "20s Burpees / 10s Rest"
+          },
+          {
+            "name": "Tabata Protocol",
+            "sets": 8,
+            "reps": "20s Mountain Climbers / 10s Rest"
+          },
+          {
+            "name": "Tabata Protocol",
+            "sets": 8,
+            "reps": "20s Squat Jumps / 10s Rest"
+          },
+          {
+            "name": "Tabata Protocol",
+            "sets": 8,
+            "reps": "20s High Knees / 10s Rest"
+          }
+        ],
+        "cooldown": [
+          "Walking",
+          "Stretching"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Табата Кардио",
+        "warmup": [
+          "Jogging in place"
+        ],
+        "exercises": [
+          {
+            "name": "Tabata Sprint",
+            "sets": 8,
+            "reps": "20s Max Speed Run / 10s Walk"
+          },
+          {
+            "name": "Tabata Jump Rope",
+            "sets": 8,
+            "reps": "20s Fast / 10s Slow"
+          },
+          {
+            "name": "Tabata Skaters",
+            "sets": 8,
+            "reps": "20s Max / 10s Rest"
+          }
+        ],
+        "cooldown": [
+          "Deep Breathing"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 4,
+        "name": "Табата Сила",
+        "warmup": [
+          "Arm Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Tabata Push-ups",
+            "sets": 8,
+            "reps": "20s Max / 10s Rest"
+          },
+          {
+            "name": "Tabata Squats",
+            "sets": 8,
+            "reps": "20s Max / 10s Rest"
+          },
+          {
+            "name": "Tabata Plank Jacks",
+            "sets": 8,
+            "reps": "20s Max / 10s Rest"
+          },
+          {
+            "name": "Tabata Lunges",
+            "sets": 8,
+            "reps": "20s Max / 10s Rest"
+          }
+        ],
+        "cooldown": [
+          "Static Stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Геркулес (Грудь и Руки)",
+    "description": "Специализированный цикл для максимального объема верхней части тела.",
+    "difficulty": "Intermediate",
+    "goal": "Hypertrophy",
+    "days_per_week": 4,
+    "achievement_id": "ach_hercules_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Мощная Грудь",
+        "warmup": [
+          "Push-ups"
+        ],
+        "exercises": [
+          {
+            "name": "Bench Press",
+            "sets": 5,
+            "reps": "5-8"
+          },
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dips",
+            "sets": 4,
+            "reps": "Max"
+          },
+          {
+            "name": "Cable Flyes",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ],
+        "cooldown": [
+          "Chest Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Объемные Руки",
+        "warmup": [
+          "Wrist Rotations"
+        ],
+        "exercises": [
+          {
+            "name": "Barbell Curl",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Close Grip Bench Press",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Alternating Dumbbell Curl",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Skullcrushers",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Concentration Curls",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Rope Pushdowns",
+            "sets": 3,
+            "reps": "15-20"
+          }
+        ],
+        "cooldown": [
+          "Arm Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 4,
+        "name": "Памп Грудь и Руки",
+        "warmup": [
+          "Light Band Work"
+        ],
+        "exercises": [
+          {
+            "name": "Machine Press",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Pec Deck",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Cable Curls",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Overhead Tricep Ext",
+            "sets": 3,
+            "reps": "15-20"
+          }
+        ],
+        "cooldown": [
+          "Light Stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Спасатель (Functional Rescue)",
+    "description": "Тренировка для сотрудников экстренных служб: переноска грузов, лазание, рывки.",
+    "difficulty": "Advanced",
+    "goal": "Functional",
+    "days_per_week": 5,
+    "achievement_id": "ach_rescuer_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Переноска и Бег",
+        "warmup": [
+          "Jogging"
+        ],
+        "exercises": [
+          {
+            "name": "Farmer's Walk",
+            "sets": 5,
+            "reps": "50m heavy"
+          },
+          {
+            "name": "Sandbag Carry",
+            "sets": 4,
+            "reps": "40m"
+          },
+          {
+            "name": "Sled Push",
+            "sets": 4,
+            "reps": "30m"
+          },
+          {
+            "name": "Sprint 100m",
+            "sets": 5,
+            "reps": "Max speed"
+          }
+        ],
+        "cooldown": [
+          "Leg Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Преодоление препятствий",
+        "warmup": [
+          "Jump Rope"
+        ],
+        "exercises": [
+          {
+            "name": "Box Jumps",
+            "sets": 4,
+            "reps": "10"
+          },
+          {
+            "name": "Rope Climbs",
+            "sets": 4,
+            "reps": "3 climbs"
+          },
+          {
+            "name": "Vaults (Box)",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Burpees over bar",
+            "sets": 3,
+            "reps": "15"
+          }
+        ],
+        "cooldown": [
+          "Shoulder Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Силовая база",
+        "warmup": [
+          "Dynamic Stretch"
+        ],
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 5,
+            "reps": "5"
+          },
+          {
+            "name": "Overhead Press",
+            "sets": 5,
+            "reps": "5"
+          },
+          {
+            "name": "Pull-ups",
+            "sets": 4,
+            "reps": "Max"
+          }
+        ],
+        "cooldown": [
+          "Back Stretch"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Интервалы",
+        "warmup": [
+          "Jogging"
+        ],
+        "exercises": [
+          {
+            "name": "Stair Sprints",
+            "sets": 10,
+            "reps": "1 flight up/down"
+          },
+          {
+            "name": "Kettlebell Swings",
+            "sets": 5,
+            "reps": "20"
+          }
+        ],
+        "cooldown": [
+          "Calves Stretch"
+        ]
+      },
+      {
+        "day_number": 5,
+        "name": "Комплексный челлендж",
+        "warmup": [
+          "General Warmup"
+        ],
+        "exercises": [
+          {
+            "name": "The Rescuer",
+            "sets": 1,
+            "reps": "400m Run, 20 Wall Balls, 30m Drag, 20 Push-ups, 400m Run"
+          }
+        ],
+        "cooldown": [
+          "Full Recovery"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Женское Здоровье (Тонус)",
+    "description": "Акцент на ягодицы, ноги и кор. Укрепление тазового дна и осанки.",
+    "difficulty": "Beginner",
+    "goal": "Toning",
+    "days_per_week": 4,
+    "achievement_id": "ach_health_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Ягодицы и Ноги",
+        "warmup": [
+          "Glute Activation"
+        ],
+        "exercises": [
+          {
+            "name": "Squats",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Hip Thrusts",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Lunges",
+            "sets": 3,
+            "reps": "12 each"
+          },
+          {
+            "name": "Clamshells",
+            "sets": 3,
+            "reps": "15 each"
+          }
+        ],
+        "cooldown": [
+          "Pigeon Pose"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Верх тела и Осанка",
+        "warmup": [
+          "Arm Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Push-ups (Knees)",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Dumbbell Row",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Face Pulls",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Lateral Raises",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ],
+        "cooldown": [
+          "Chest Opener"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Кардио и Пресс",
+        "warmup": [
+          "Marching in place"
+        ],
+        "exercises": [
+          {
+            "name": "Brisk Walking",
+            "sets": 1,
+            "reps": "30 min"
+          },
+          {
+            "name": "Pelvic Tilts",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Bird-Dog",
+            "sets": 3,
+            "reps": "10 each"
+          },
+          {
+            "name": "Dead Bug",
+            "sets": 3,
+            "reps": "10 each"
+          }
+        ],
+        "cooldown": [
+          "Child's Pose"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Пилатес Элементы",
+        "warmup": [
+          "Breathing"
+        ],
+        "exercises": [
+          {
+            "name": "The Hundred",
+            "sets": 1,
+            "reps": "100 pumps"
+          },
+          {
+            "name": "Roll Up",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Single Leg Circle",
+            "sets": 3,
+            "reps": "5 each"
+          },
+          {
+            "name": "Swan Dive",
+            "sets": 3,
+            "reps": "10"
+          }
+        ],
+        "cooldown": [
+          "Relaxation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Боксерский Раунд",
+    "description": "Тренировка боксера: ударная техника, работа на лапах, взрывная сила.",
+    "difficulty": "Intermediate",
+    "goal": "Cardio",
+    "days_per_week": 5,
+    "achievement_id": "ach_boxer_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Техника и Тень",
+        "warmup": [
+          "Jump Rope 5 min"
+        ],
+        "exercises": [
+          {
+            "name": "Shadow Boxing",
+            "sets": 6,
+            "reps": "3 min rounds"
+          },
+          {
+            "name": "Footwork Drills",
+            "sets": 5,
+            "reps": "2 min"
+          },
+          {
+            "name": "Speed Bag (imaginary)",
+            "sets": 3,
+            "reps": "2 min"
+          }
+        ],
+        "cooldown": [
+          "Shoulder Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Силовой бой",
+        "warmup": [
+          "Dynamic Stretch"
+        ],
+        "exercises": [
+          {
+            "name": "Medicine Ball Punches",
+            "sets": 4,
+            "reps": "30 sec"
+          },
+          {
+            "name": "Burpees",
+            "sets": 4,
+            "reps": "15"
+          },
+          {
+            "name": "Push-ups",
+            "sets": 4,
+            "reps": "20"
+          },
+          {
+            "name": "Neck Bridges (light)",
+            "sets": 3,
+            "reps": "30 sec"
+          }
+        ],
+        "cooldown": [
+          "Neck Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Спринты и Кор",
+        "warmup": [
+          "Jogging"
+        ],
+        "exercises": [
+          {
+            "name": "Sprints",
+            "sets": 10,
+            "reps": "30 sec ON / 30 sec OFF"
+          },
+          {
+            "name": "Russian Twists",
+            "sets": 3,
+            "reps": "30"
+          },
+          {
+            "name": "Leg Raises",
+            "sets": 3,
+            "reps": "20"
+          }
+        ],
+        "cooldown": [
+          "Hamstring Stretch"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 5,
+        "name": "Имитация боя",
+        "warmup": [
+          "Jump Rope"
+        ],
+        "exercises": [
+          {
+            "name": "Heavy Round Simulation",
+            "sets": 12,
+            "reps": "3 min work / 1 min rest (Mix of punches, squats, jumps)"
+          }
+        ],
+        "cooldown": [
+          "Full Body Stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Скелетон (Взрывная сила)",
+    "description": "Развитие стартовой скорости и мощности толчка. Для спринтеров и легкоатлетов.",
+    "difficulty": "Advanced",
+    "goal": "Power",
+    "days_per_week": 4,
+    "achievement_id": "ach_skeleton_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Плиометрика",
+        "warmup": [
+          "Skipping"
+        ],
+        "exercises": [
+          {
+            "name": "Depth Jumps",
+            "sets": 4,
+            "reps": "6"
+          },
+          {
+            "name": "Broad Jumps",
+            "sets": 4,
+            "reps": "6"
+          },
+          {
+            "name": "Hurdle Hops",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Bounding",
+            "sets": 3,
+            "reps": "20m"
+          }
+        ],
+        "cooldown": [
+          "Calf Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Олимпийская тяжелая",
+        "warmup": [
+          "Empty Bar Drills"
+        ],
+        "exercises": [
+          {
+            "name": "Hang Clean",
+            "sets": 5,
+            "reps": "3-5"
+          },
+          {
+            "name": "Push Jerk",
+            "sets": 5,
+            "reps": "3-5"
+          },
+          {
+            "name": "Front Squats",
+            "sets": 4,
+            "reps": "5"
+          }
+        ],
+        "cooldown": [
+          "Thoracic Mobility"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 4,
+        "name": "Спринты в гору",
+        "warmup": [
+          "Jogging"
+        ],
+        "exercises": [
+          {
+            "name": "Hill Sprints",
+            "sets": 8,
+            "reps": "10 sec max effort"
+          },
+          {
+            "name": "Sled Sprints",
+            "sets": 5,
+            "reps": "20m heavy"
+          },
+          {
+            "name": "Kettlebell Swings",
+            "sets": 4,
+            "reps": "15 explosive"
+          }
+        ],
+        "cooldown": [
+          "Quad Stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Офисный Воин (Anti-Sitting)",
+    "description": "Компенсация сидячего образа жизни. Исправление осанки, снятие боли в спине.",
+    "difficulty": "Beginner",
+    "goal": "Health",
+    "days_per_week": 5,
+    "achievement_id": "ach_office_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Мобильность грудного отдела",
+        "warmup": [
+          "Neck Rolls"
+        ],
+        "exercises": [
+          {
+            "name": "Cat-Cow",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Thoracic Extension on Foam Roller",
+            "sets": 3,
+            "reps": "1 min"
+          },
+          {
+            "name": "Doorway Chest Stretch",
+            "sets": 3,
+            "reps": "30 sec"
+          },
+          {
+            "name": "Band Pull-Aparts",
+            "sets": 3,
+            "reps": "15"
+          }
+        ],
+        "cooldown": [
+          "Deep Breathing"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Активация ягодичных",
+        "warmup": [
+          "Marching"
+        ],
+        "exercises": [
+          {
+            "name": "Glute Bridges",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Clamshells",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Bird-Dog",
+            "sets": 3,
+            "reps": "10 each"
+          },
+          {
+            "name": "Wall Sit",
+            "sets": 3,
+            "reps": "45 sec"
+          }
+        ],
+        "cooldown": [
+          "Hip Flexor Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Разгрузка шеи и плеч",
+        "warmup": [
+          "Shoulder Shrugs"
+        ],
+        "exercises": [
+          {
+            "name": "Chin Tucks",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Upper Trapezius Stretch",
+            "sets": 2,
+            "reps": "30 sec each"
+          },
+          {
+            "name": "Levator Scapulae Stretch",
+            "sets": 2,
+            "reps": "30 sec each"
+          },
+          {
+            "name": "Prone Y-T-W",
+            "sets": 2,
+            "reps": "10 each"
+          }
+        ],
+        "cooldown": [
+          "Relaxation"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Легкое кардио",
+        "warmup": [
+          "Walking"
+        ],
+        "exercises": [
+          {
+            "name": "Brisk Walk",
+            "sets": 1,
+            "reps": "30 min"
+          },
+          {
+            "name": "Stair Climbing",
+            "sets": 1,
+            "reps": "10 min"
+          }
+        ],
+        "cooldown": [
+          "Calf Stretch"
+        ]
+      },
+      {
+        "day_number": 5,
+        "name": "Комплексная растяжка",
+        "warmup": [
+          "Gentle Movement"
+        ],
+        "exercises": [
+          {
+            "name": "Downward Dog",
+            "sets": 3,
+            "reps": "1 min"
+          },
+          {
+            "name": "Child's Pose",
+            "sets": 3,
+            "reps": "1 min"
+          },
+          {
+            "name": "Seated Spinal Twist",
+            "sets": 2,
+            "reps": "1 min each"
+          },
+          {
+            "name": "Happy Baby",
+            "sets": 2,
+            "reps": "1 min"
+          }
+        ],
+        "cooldown": [
+          "Savasana"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Спартанец (Выживание)",
+    "description": "Экстремальная выносливость и ментальная стойкость. Минимум оборудования, максимум усилий.",
+    "difficulty": "Expert",
+    "goal": "Endurance",
+    "days_per_week": 6,
+    "achievement_id": "ach_spartan_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Бег и Отжимания",
+        "warmup": [
+          "None"
+        ],
+        "exercises": [
+          {
+            "name": "Run 5km",
+            "sets": 1,
+            "reps": "As fast as possible"
+          },
+          {
+            "name": "Push-ups",
+            "sets": 1,
+            "reps": "100 total (break as needed)"
+          }
+        ],
+        "cooldown": [
+          "Walk"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Приседания и Подтягивания",
+        "warmup": [
+          "None"
+        ],
+        "exercises": [
+          {
+            "name": "Air Squats",
+            "sets": 1,
+            "reps": "200 total"
+          },
+          {
+            "name": "Pull-ups",
+            "sets": 1,
+            "reps": "50 total"
+          }
+        ],
+        "cooldown": [
+          "Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Берпи Челлендж",
+        "warmup": [
+          "None"
+        ],
+        "exercises": [
+          {
+            "name": "Burpees",
+            "sets": 1,
+            "reps": "100 for time"
+          }
+        ],
+        "cooldown": [
+          "Deep Breath"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Длительный марш",
+        "warmup": [
+          "None"
+        ],
+        "exercises": [
+          {
+            "name": "Ruck March (Walk with weight)",
+            "sets": 1,
+            "reps": "10 km"
+          }
+        ],
+        "cooldown": [
+          "Legs up the wall"
+        ]
+      },
+      {
+        "day_number": 5,
+        "name": "Комплекс '300'",
+        "warmup": [
+          "Light Jog"
+        ],
+        "exercises": [
+          {
+            "name": "The 300 Workout",
+            "sets": 1,
+            "reps": "25 Pull-ups, 50 Deadlifts, 50 Push-ups, 50 Box Jumps, 50 Floor Wipers, 50 Clean & Press, 25 Pull-ups"
+          }
+        ],
+        "cooldown": [
+          "Full Stretch"
+        ]
+      },
+      {
+        "day_number": 6,
+        "name": "Активное восстановление",
+        "warmup": [],
+        "exercises": [
+          {
+            "name": "Swimming or Yoga",
+            "sets": 1,
+            "reps": "45 min"
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Гиревой Спорт (Girevoy)",
+    "description": "Классическая программа гиревого двоеборья: рывок и толчок.",
+    "difficulty": "Advanced",
+    "goal": "Endurance",
+    "days_per_week": 4,
+    "achievement_id": "ach_girevoy_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Толчок длинный цикл",
+        "warmup": [
+          "Joint Rotation"
+        ],
+        "exercises": [
+          {
+            "name": "Long Cycle (Clean & Jerk)",
+            "sets": 5,
+            "reps": "5 reps each arm"
+          },
+          {
+            "name": "Front Squats",
+            "sets": 4,
+            "reps": "8"
+          },
+          {
+            "name": "Push-ups",
+            "sets": 3,
+            "reps": "Max"
+          }
+        ],
+        "cooldown": [
+          "Wrist Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Рывок",
+        "warmup": [
+          "Swings"
+        ],
+        "exercises": [
+          {
+            "name": "Kettlebell Snatch",
+            "sets": 6,
+            "reps": "10 reps each arm"
+          },
+          {
+            "name": "One Arm Swing",
+            "sets": 4,
+            "reps": "15 each"
+          },
+          {
+            "name": "Core hold",
+            "sets": 3,
+            "reps": "1 min"
+          }
+        ],
+        "cooldown": [
+          "Shoulder Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 4,
+        "name": "Длинный подход",
+        "warmup": [
+          "Light Swings"
+        ],
+        "exercises": [
+          {
+            "name": "Snatch Set",
+            "sets": 1,
+            "reps": "10 min continuous (switch hands)"
+          },
+          {
+            "name": "Clean Set",
+            "sets": 1,
+            "reps": "5 min continuous"
+          }
+        ],
+        "cooldown": [
+          "Full Body Stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Подросток (Start Strong)",
+    "description": "Безопасная программа для подростков. Обучение технике, развитие координации.",
+    "difficulty": "Beginner",
+    "goal": "General",
+    "days_per_week": 3,
+    "achievement_id": "ach_teen_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Все тело А",
+        "warmup": [
+          "Tag game / Light Run"
+        ],
+        "exercises": [
+          {
+            "name": "Bodyweight Squats",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Push-ups (from knees)",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Jumping Jacks",
+            "sets": 3,
+            "reps": "30 sec"
+          },
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": "30 sec"
+          }
+        ],
+        "cooldown": [
+          "Stretching"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 3,
+        "name": "Все тело Б",
+        "warmup": [
+          "Jump Rope"
+        ],
+        "exercises": [
+          {
+            "name": "Lunges",
+            "sets": 3,
+            "reps": "10 each"
+          },
+          {
+            "name": "Superman",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Mountain Climbers",
+            "sets": 3,
+            "reps": "30 sec"
+          },
+          {
+            "name": "Glute Bridge",
+            "sets": 3,
+            "reps": "15"
+          }
+        ],
+        "cooldown": [
+          "Stretching"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 5,
+        "name": "Игровой день",
+        "warmup": [],
+        "exercises": [
+          {
+            "name": "Sports / Bike / Swim",
+            "sets": 1,
+            "reps": "45-60 min fun activity"
+          }
+        ],
+        "cooldown": []
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Ветеран (50+ Active)",
+    "description": "Поддержание активности, здоровья суставов и мышечного тонуса для старшего возраста.",
+    "difficulty": "Beginner",
+    "goal": "Health",
+    "days_per_week": 4,
+    "achievement_id": "ach_veteran_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Суставная гимнастика",
+        "warmup": [
+          "Marching"
+        ],
+        "exercises": [
+          {
+            "name": "Neck Rotations",
+            "sets": 2,
+            "reps": "10"
+          },
+          {
+            "name": "Shoulder Rolls",
+            "sets": 2,
+            "reps": "10"
+          },
+          {
+            "name": "Ankle Circles",
+            "sets": 2,
+            "reps": "10"
+          },
+          {
+            "name": "Sit-to-Stand",
+            "sets": 3,
+            "reps": "10"
+          }
+        ],
+        "cooldown": [
+          "Deep Breathing"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Прогулка и Баланс",
+        "warmup": [],
+        "exercises": [
+          {
+            "name": "Brisk Walk",
+            "sets": 1,
+            "reps": "30 min"
+          },
+          {
+            "name": "Single Leg Stand",
+            "sets": 3,
+            "reps": "20 sec each"
+          },
+          {
+            "name": "Heel-to-Toe Walk",
+            "sets": 2,
+            "reps": "10 steps"
+          }
+        ],
+        "cooldown": [
+          "Calf Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Легкая сила",
+        "warmup": [
+          "Arm Swings"
+        ],
+        "exercises": [
+          {
+            "name": "Wall Push-ups",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Bicep Curls (light weights)",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Seated Row (band)",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Mini Squats",
+            "sets": 3,
+            "reps": "10"
+          }
+        ],
+        "cooldown": [
+          "Chest Stretch"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Растяжка и Релакс",
+        "warmup": [],
+        "exercises": [
+          {
+            "name": "Chair Yoga Sequence",
+            "sets": 1,
+            "reps": "20 min"
+          },
+          {
+            "name": "Tai Chi movements",
+            "sets": 1,
+            "reps": "15 min"
+          }
+        ],
+        "cooldown": [
+          "Meditation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Пловцу (Dryland)",
+    "description": "Сухая тренировка для пловцов: развитие гребка, дыхания и вращения корпуса.",
+    "difficulty": "Intermediate",
+    "goal": "Sport Specific",
+    "days_per_week": 3,
+    "achievement_id": "ach_swimmer_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Сила гребка",
+        "warmup": [
+          "Arm Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Lat Pulldown",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Cable Internal Rotation",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Tricep Pushdown",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Medicine Ball Slams",
+            "sets": 3,
+            "reps": "12"
+          }
+        ],
+        "cooldown": [
+          "Shoulder Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Кор и Вращение",
+        "warmup": [
+          "Torso Twists"
+        ],
+        "exercises": [
+          {
+            "name": "Russian Twists",
+            "sets": 3,
+            "reps": "20"
+          },
+          {
+            "name": "Woodchoppers (Cable/Band)",
+            "sets": 3,
+            "reps": "12 each"
+          },
+          {
+            "name": "Superman",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Leg Raises",
+            "sets": 3,
+            "reps": "15"
+          }
+        ],
+        "cooldown": [
+          "Spinal Twist"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Взрывная сила",
+        "warmup": [
+          "Jumping Jacks"
+        ],
+        "exercises": [
+          {
+            "name": "Clapping Push-ups",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Box Jumps",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Burpees",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Band Pull-Aparts",
+            "sets": 3,
+            "reps": "20"
+          }
+        ],
+        "cooldown": [
+          "Chest Opener"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Велогонщика (Off-bike)",
+    "description": "Укрепление ног, кора и спины для велосипедистов. Профилактика болей в пояснице.",
+    "difficulty": "Intermediate",
+    "goal": "Sport Specific",
+    "days_per_week": 3,
+    "achievement_id": "ach_cyclist_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Ноги и Ягодицы",
+        "warmup": [
+          "Leg Swings"
+        ],
+        "exercises": [
+          {
+            "name": "Squats",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Lunges",
+            "sets": 3,
+            "reps": "12 each"
+          },
+          {
+            "name": "Calf Raises",
+            "sets": 3,
+            "reps": "20"
+          },
+          {
+            "name": "Glute Bridges",
+            "sets": 3,
+            "reps": "15"
+          }
+        ],
+        "cooldown": [
+          "Quad Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Кор и Стабилизация",
+        "warmup": [
+          "Cat-Cow"
+        ],
+        "exercises": [
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": "60 sec"
+          },
+          {
+            "name": "Side Plank",
+            "sets": 3,
+            "reps": "45 sec"
+          },
+          {
+            "name": "Dead Bug",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Bird-Dog",
+            "sets": 3,
+            "reps": "12"
+          }
+        ],
+        "cooldown": [
+          "Child's Pose"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Верх тела и Мобильность",
+        "warmup": [
+          "Arm Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Push-ups",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Rows",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Thoracic Rotations",
+            "sets": 2,
+            "reps": "10 each"
+          },
+          {
+            "name": "Hip Flexor Stretch",
+            "sets": 2,
+            "reps": "45 sec"
+          }
+        ],
+        "cooldown": [
+          "Hamstring Stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Гольфиста (Rotation Power)",
+    "description": "Развитие ротационной мощности и стабильности для дальнего удара в гольфе.",
+    "difficulty": "Intermediate",
+    "goal": "Sport Specific",
+    "days_per_week": 3,
+    "achievement_id": "ach_golfer_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Мощность вращения",
+        "warmup": [
+          "Torso Twists"
+        ],
+        "exercises": [
+          {
+            "name": "Medicine Ball Rotational Throws",
+            "sets": 3,
+            "reps": "10 each"
+          },
+          {
+            "name": "Cable Woodchops",
+            "sets": 3,
+            "reps": "12 each"
+          },
+          {
+            "name": "Kettlebell Swings",
+            "sets": 3,
+            "reps": "15"
+          }
+        ],
+        "cooldown": [
+          "Seated Twist"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Стабильность и Баланс",
+        "warmup": [
+          "Single Leg Stand"
+        ],
+        "exercises": [
+          {
+            "name": "Single Leg Deadlift",
+            "sets": 3,
+            "reps": "10 each"
+          },
+          {
+            "name": "Pallof Press",
+            "sets": 3,
+            "reps": "12 each"
+          },
+          {
+            "name": "Bosu Ball Squats",
+            "sets": 3,
+            "reps": "12"
+          }
+        ],
+        "cooldown": [
+          "Hip Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Мобильность грудного отдела",
+        "warmup": [
+          "Cat-Cow"
+        ],
+        "exercises": [
+          {
+            "name": "Open Books",
+            "sets": 2,
+            "reps": "10 each"
+          },
+          {
+            "name": "Thread the Needle",
+            "sets": 2,
+            "reps": "10 each"
+          },
+          {
+            "name": "Band Pull-Aparts",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "World's Greatest Stretch",
+            "sets": 2,
+            "reps": "5 each"
+          }
+        ],
+        "cooldown": [
+          "Deep Breathing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Альпиниста (Climber Prep)",
+    "description": "Укрепление пальцев, предплечий, спины и кора для скалолазания.",
+    "difficulty": "Advanced",
+    "goal": "Sport Specific",
+    "days_per_week": 4,
+    "achievement_id": "ach_climber_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Тяговая сила",
+        "warmup": [
+          "Finger Flicks"
+        ],
+        "exercises": [
+          {
+            "name": "Pull-ups (various grips)",
+            "sets": 4,
+            "reps": "Max-2"
+          },
+          {
+            "name": "Arch Hangs",
+            "sets": 3,
+            "reps": "30 sec"
+          },
+          {
+            "name": "Inverted Rows",
+            "sets": 3,
+            "reps": "12"
+          },
+          {
+            "name": "Bicep Curls",
+            "sets": 3,
+            "reps": "12"
+          }
+        ],
+        "cooldown": [
+          "Forearm Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Кор и Напряжение",
+        "warmup": [
+          "Dead Bugs"
+        ],
+        "exercises": [
+          {
+            "name": "Hanging Leg Raises",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Toes to Bar",
+            "sets": 3,
+            "reps": "8"
+          },
+          {
+            "name": "Front Lever Progression",
+            "sets": 3,
+            "reps": "10 sec"
+          },
+          {
+            "name": "Plank",
+            "sets": 3,
+            "reps": "60 sec"
+          }
+        ],
+        "cooldown": [
+          "Back Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Ноги и Баланс",
+        "warmup": [
+          "Ankle Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Pistol Squat Progression",
+            "sets": 3,
+            "reps": "5 each"
+          },
+          {
+            "name": "Calf Raises (single leg)",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Silent Feet Drill (imaginary)",
+            "sets": 3,
+            "reps": "2 min"
+          }
+        ],
+        "cooldown": [
+          "Calf Stretch"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Антагонисты",
+        "warmup": [
+          "Wrist Circles"
+        ],
+        "exercises": [
+          {
+            "name": "Push-ups",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Overhead Press",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Wrist Extensor Curls",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Rice Bucket Digs",
+            "sets": 2,
+            "reps": "2 min"
+          }
+        ],
+        "cooldown": [
+          "Hand Massage"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Танцора (Rhythm & Flow)",
+    "description": "Развитие координации, ритма, выносливости и гибкости для танцоров.",
+    "difficulty": "Intermediate",
+    "goal": "Coordination",
+    "days_per_week": 4,
+    "achievement_id": "ach_dancer_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Кардио и Ритм",
+        "warmup": [
+          "Groove to music"
+        ],
+        "exercises": [
+          {
+            "name": "Step Aerobics",
+            "sets": 3,
+            "reps": "10 min"
+          },
+          {
+            "name": "Jump Rope variations",
+            "sets": 3,
+            "reps": "3 min"
+          },
+          {
+            "name": "Shuffle runs",
+            "sets": 3,
+            "reps": "2 min"
+          }
+        ],
+        "cooldown": [
+          "Slow Stretch"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Сила и Контроль",
+        "warmup": [
+          "Isolations"
+        ],
+        "exercises": [
+          {
+            "name": "Plié Squats",
+            "sets": 3,
+            "reps": "15"
+          },
+          {
+            "name": "Relevés",
+            "sets": 3,
+            "reps": "20"
+          },
+          {
+            "name": "Grand Battements",
+            "sets": 3,
+            "reps": "10 each"
+          },
+          {
+            "name": "Core holds",
+            "sets": 3,
+            "reps": "45 sec"
+          }
+        ],
+        "cooldown": [
+          "Hamstring Stretch"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Гибкость",
+        "warmup": [
+          "Warm bath / Heat"
+        ],
+        "exercises": [
+          {
+            "name": "Splits Progression",
+            "sets": 3,
+            "reps": "Hold 2 min"
+          },
+          {
+            "name": "Backbends",
+            "sets": 3,
+            "reps": "Hold 30 sec"
+          },
+          {
+            "name": "Straddle Stretch",
+            "sets": 3,
+            "reps": "Hold 2 min"
+          }
+        ],
+        "cooldown": [
+          "Relaxation"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Фриestyle",
+        "warmup": [],
+        "exercises": [
+          {
+            "name": "Improv Dance Session",
+            "sets": 1,
+            "reps": "45 min"
+          }
+        ],
+        "cooldown": [
+          "Foam Rolling"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Дзен Мастер (Mind & Muscle)",
+    "description": "Соединение медитации, дыхания и силовых практик. Осознанность в движении.",
+    "difficulty": "All Levels",
+    "goal": "Wellness",
+    "days_per_week": 5,
+    "achievement_id": "ach_zen_debut",
+    "days": [
+      {
+        "day_number": 1,
+        "name": "Осознанная сила",
+        "warmup": [
+          "5 min Meditation"
+        ],
+        "exercises": [
+          {
+            "name": "Slow Squats (5 sec down, 5 sec up)",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Slow Push-ups",
+            "sets": 3,
+            "reps": "10"
+          },
+          {
+            "name": "Single Leg Deadlift (Slow)",
+            "sets": 3,
+            "reps": "8 each"
+          }
+        ],
+        "cooldown": [
+          "Walking Meditation"
+        ]
+      },
+      {
+        "day_number": 2,
+        "name": "Дыхание и Движение",
+        "warmup": [
+          "Pranayama"
+        ],
+        "exercises": [
+          {
+            "name": "Sun Salutations",
+            "sets": 5,
+            "reps": "Synced with breath"
+          },
+          {
+            "name": "Warrior Poses",
+            "sets": 3,
+            "reps": "Hold 1 min"
+          },
+          {
+            "name": "Tree Pose",
+            "sets": 3,
+            "reps": "Hold 1 min"
+          }
+        ],
+        "cooldown": [
+          "Savasana 10 min"
+        ]
+      },
+      {
+        "day_number": 3,
+        "name": "Баланс",
+        "warmup": [
+          "Grounding"
+        ],
+        "exercises": [
+          {
+            "name": "Eagle Pose",
+            "sets": 3,
+            "reps": "1 min each"
+          },
+          {
+            "name": "Half Moon Pose",
+            "sets": 3,
+            "reps": "1 min each"
+          },
+          {
+            "name": "Dancer Pose",
+            "sets": 3,
+            "reps": "1 min each"
+          }
+        ],
+        "cooldown": [
+          "Seated Meditation"
+        ]
+      },
+      {
+        "day_number": 4,
+        "name": "Отдых",
+        "warmup": [],
+        "exercises": [],
+        "cooldown": []
+      },
+      {
+        "day_number": 5,
+        "name": "Интеграция",
+        "warmup": [
+          "Gratitude Practice"
+        ],
+        "exercises": [
+          {
+            "name": "Flow Sequence (Self-created)",
+            "sets": 1,
+            "reps": "30 min continuous movement"
+          },
+          {
+            "name": "Final Meditation",
+            "sets": 1,
+            "reps": "15 min"
+          }
+        ],
+        "cooldown": [
+          "Silence"
+        ]
+      }
+    ]
+  }
+]

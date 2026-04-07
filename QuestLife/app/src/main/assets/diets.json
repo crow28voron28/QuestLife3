@@ -1,0 +1,277 @@
+[
+  {
+    "id": "1",
+    "name": "Сбалансированное питание",
+    "description": "Оптимальное соотношение БЖУ для поддержания здоровья",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 150,
+      "fats": 67,
+      "carbohydrates": 250
+    }
+  },
+  {
+    "id": "2",
+    "name": "Похудение",
+    "description": "Дефицит калорий для снижения веса",
+    "targetCalories": 1500,
+    "targetMacros": {
+      "proteins": 120,
+      "fats": 50,
+      "carbohydrates": 150
+    }
+  },
+  {
+    "id": "3",
+    "name": "Набор массы",
+    "description": "Профицит калорий для роста мышц",
+    "targetCalories": 2800,
+    "targetMacros": {
+      "proteins": 200,
+      "fats": 90,
+      "carbohydrates": 350
+    }
+  },
+  {
+    "id": "4",
+    "name": "Кетогенная диета",
+    "description": "Низкоуглеводная диета с высоким содержанием жиров",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 100,
+      "fats": 160,
+      "carbohydrates": 30
+    }
+  },
+  {
+    "id": "5",
+    "name": "Вегетарианская",
+    "description": "Питание без мяса и рыбы",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 100,
+      "fats": 70,
+      "carbohydrates": 280
+    }
+  },
+  {
+    "id": "6",
+    "name": "Веганская",
+    "description": "Питание без продуктов животного происхождения",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 90,
+      "fats": 65,
+      "carbohydrates": 300
+    }
+  },
+  {
+    "id": "7",
+    "name": "Средиземноморская",
+    "description": "Диета на основе оливкового масла, рыбы и овощей",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 100,
+      "fats": 80,
+      "carbohydrates": 250
+    }
+  },
+  {
+    "id": "8",
+    "name": "Палео",
+    "description": "Питание как у древних людей - мясо, овощи, фрукты",
+    "targetCalories": 2200,
+    "targetMacros": {
+      "proteins": 150,
+      "fats": 100,
+      "carbohydrates": 150
+    }
+  },
+  {
+    "id": "9",
+    "name": "Интервальное голодание 16/8",
+    "description": "Питание в 8-часовом окне, 16 часов голода",
+    "targetCalories": 1800,
+    "targetMacros": {
+      "proteins": 140,
+      "fats": 60,
+      "carbohydrates": 200
+    }
+  },
+  {
+    "id": "10",
+    "name": "Безглютеновая",
+    "description": "Исключение продуктов с глютеном",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 120,
+      "fats": 70,
+      "carbohydrates": 250
+    }
+  },
+  {
+    "id": "11",
+    "name": "Низкоуглеводная",
+    "description": "Снижение углеводов для контроля сахара",
+    "targetCalories": 1800,
+    "targetMacros": {
+      "proteins": 140,
+      "fats": 80,
+      "carbohydrates": 100
+    }
+  },
+  {
+    "id": "12",
+    "name": "Высокобелковая",
+    "description": "Увеличенное потребление белка для мышц",
+    "targetCalories": 2200,
+    "targetMacros": {
+      "proteins": 220,
+      "fats": 60,
+      "carbohydrates": 200
+    }
+  },
+  {
+    "id": "13",
+    "name": "DASH диета",
+    "description": "Для снижения давления",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 100,
+      "fats": 60,
+      "carbohydrates": 280
+    }
+  },
+  {
+    "id": "14",
+    "name": "Атkins диета",
+    "description": "Низкоуглеводная диета для похудения",
+    "targetCalories": 1800,
+    "targetMacros": {
+      "proteins": 130,
+      "fats": 100,
+      "carbohydrates": 80
+    }
+  },
+  {
+    "id": "15",
+    "name": "Зональная диета",
+    "description": "Баланс 40% углеводы, 30% белки, 30% жиры",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 150,
+      "fats": 67,
+      "carbohydrates": 200
+    }
+  },
+  {
+    "id": "16",
+    "name": "Сыроедение",
+    "description": "Питание необработанной пищей",
+    "targetCalories": 1800,
+    "targetMacros": {
+      "proteins": 70,
+      "fats": 60,
+      "carbohydrates": 280
+    }
+  },
+  {
+    "id": "17",
+    "name": "Фрукторианство",
+    "description": "Питание преимущественно фруктами",
+    "targetCalories": 1600,
+    "targetMacros": {
+      "proteins": 50,
+      "fats": 40,
+      "carbohydrates": 320
+    }
+  },
+  {
+    "id": "18",
+    "name": "Пескетарианство",
+    "description": "Растительное питание с рыбой",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 120,
+      "fats": 70,
+      "carbohydrates": 250
+    }
+  },
+  {
+    "id": "19",
+    "name": "Flexitarian",
+    "description": "Гибкое вегетарианство",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 110,
+      "fats": 70,
+      "carbohydrates": 260
+    }
+  },
+  {
+    "id": "20",
+    "name": "Whole30",
+    "description": "30 дней чистого питания без обработанных продуктов",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 140,
+      "fats": 80,
+      "carbohydrates": 180
+    }
+  },
+  {
+    "id": "21",
+    "name": "Low FODMAP",
+    "description": "Для чувствительного пищеварения",
+    "targetCalories": 1900,
+    "targetMacros": {
+      "proteins": 120,
+      "fats": 65,
+      "carbohydrates": 230
+    }
+  },
+  {
+    "id": "22",
+    "name": "Anti-inflammatory",
+    "description": "Противовоспалительная диета",
+    "targetCalories": 2000,
+    "targetMacros": {
+      "proteins": 130,
+      "fats": 75,
+      "carbohydrates": 220
+    }
+  },
+  {
+    "id": "23",
+    "name": "Спортсмен",
+    "description": "Для активных тренировок",
+    "targetCalories": 3000,
+    "targetMacros": {
+      "proteins": 200,
+      "fats": 100,
+      "carbohydrates": 400
+    }
+  },
+  {
+    "id": "24",
+    "name": "Поддержание",
+    "description": "Для поддержания текущего веса",
+    "targetCalories": 2200,
+    "targetMacros": {
+      "proteins": 140,
+      "fats": 73,
+      "carbohydrates": 275
+    }
+  },
+  {
+    "id": "25",
+    "name": "Легкое питание",
+    "description": "Щадящий режим для разгрузки",
+    "targetCalories": 1400,
+    "targetMacros": {
+      "proteins": 100,
+      "fats": 47,
+      "carbohydrates": 175
+    }
+  }
+]

@@ -1,0 +1,6983 @@
+[
+  {
+    "name": "Куриная грудка",
+    "macros": {
+      "proteins": 23.0,
+      "fats": 1.9,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "1"
+  },
+  {
+    "name": "Куриное бедро",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 8.5,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "2"
+  },
+  {
+    "name": "Куриное крыло",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 11.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "3"
+  },
+  {
+    "name": "Куриная печень",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 6.0,
+      "carbohydrates": 1.5
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "4"
+  },
+  {
+    "name": "Куриное сердце",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 10.0,
+      "carbohydrates": 0.8
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "5"
+  },
+  {
+    "name": "Куриный желудок",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 4.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "6"
+  },
+  {
+    "name": "Индейка филе",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 1.5,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "7"
+  },
+  {
+    "name": "Индейка грудка",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "8"
+  },
+  {
+    "name": "Индейка бедро",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 7.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "9"
+  },
+  {
+    "name": "Индейка голень",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 8.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "10"
+  },
+  {
+    "name": "Индейка крыло",
+    "macros": {
+      "proteins": 19.0,
+      "fats": 10.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "11"
+  },
+  {
+    "name": "Индейка печень",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 6.5,
+      "carbohydrates": 1.5
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "12"
+  },
+  {
+    "name": "Утка",
+    "macros": {
+      "proteins": 19.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "13"
+  },
+  {
+    "name": "Утиная грудка",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 12.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "14"
+  },
+  {
+    "name": "Гусь",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 20.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "15"
+  },
+  {
+    "name": "Перепел",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "16"
+  },
+  {
+    "name": "Фазан",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 5.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "17"
+  },
+  {
+    "name": "Куропатка",
+    "macros": {
+      "proteins": 23.0,
+      "fats": 6.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "18"
+  },
+  {
+    "name": "Цесарка",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 3.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "19"
+  },
+  {
+    "name": "Страус",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 2.5,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "20"
+  },
+  {
+    "name": "Говядина постная",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 7.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "21"
+  },
+  {
+    "name": "Говядина жирная",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 18.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "22"
+  },
+  {
+    "name": "Говяжья вырезка",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 5.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "23"
+  },
+  {
+    "name": "Говяжья печень",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 4.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "24"
+  },
+  {
+    "name": "Говяжье сердце",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 5.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "25"
+  },
+  {
+    "name": "Говяжий язык",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 12.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "26"
+  },
+  {
+    "name": "Говяжьи почки",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 4.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "27"
+  },
+  {
+    "name": "Телятина",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 2.5,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "28"
+  },
+  {
+    "name": "Свинина постная",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 8.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "29"
+  },
+  {
+    "name": "Свинина жирная",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 28.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "30"
+  },
+  {
+    "name": "Свиная вырезка",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 4.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "31"
+  },
+  {
+    "name": "Свиная печень",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 4.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "32"
+  },
+  {
+    "name": "Свиное сердце",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 5.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "33"
+  },
+  {
+    "name": "Свиной язык",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 14.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "34"
+  },
+  {
+    "name": "Бекон",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 50.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "35"
+  },
+  {
+    "name": "Сало",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 90.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "36"
+  },
+  {
+    "name": "Баранина",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 20.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "37"
+  },
+  {
+    "name": "Баранья корейка",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 25.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "38"
+  },
+  {
+    "name": "Баранья нога",
+    "macros": {
+      "proteins": 19.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "39"
+  },
+  {
+    "name": "Ягненок",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 14.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "40"
+  },
+  {
+    "name": "Козлятина",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 3.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "41"
+  },
+  {
+    "name": "Кролик",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 8.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "42"
+  },
+  {
+    "name": "Оленина",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 3.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "43"
+  },
+  {
+    "name": "Лось",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 2.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "44"
+  },
+  {
+    "name": "Кабан",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 4.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "45"
+  },
+  {
+    "name": "Конина",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 4.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "46"
+  },
+  {
+    "name": "Колбаса вареная Докторская",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 22.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "47"
+  },
+  {
+    "name": "Колбаса вареная Молочная",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 22.0,
+      "carbohydrates": 1.5
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "48"
+  },
+  {
+    "name": "Колбаса копченая Сервелат",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 40.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "49"
+  },
+  {
+    "name": "Салями",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 38.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "50"
+  },
+  {
+    "name": "Ветчина",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 10.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "51"
+  },
+  {
+    "name": "Грудинка",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 45.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "52"
+  },
+  {
+    "name": "Корейка",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 35.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "53"
+  },
+  {
+    "name": "Окорок",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "54"
+  },
+  {
+    "name": "Ростбиф",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 8.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "55"
+  },
+  {
+    "name": "Стейк Рибай",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "56"
+  },
+  {
+    "name": "Стейк Филе-миньон",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 6.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "57"
+  },
+  {
+    "name": "Гуляш",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 10.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "58"
+  },
+  {
+    "name": "Бефстроганов",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 12.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "59"
+  },
+  {
+    "name": "Паштет печеночный",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 15.0,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "60"
+  },
+  {
+    "name": "Лосось",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 13.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "61"
+  },
+  {
+    "name": "Семга",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 13.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "62"
+  },
+  {
+    "name": "Форель",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 8.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "63"
+  },
+  {
+    "name": "Горбуша",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 7.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "64"
+  },
+  {
+    "name": "Кета",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 6.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "65"
+  },
+  {
+    "name": "Икра красная",
+    "macros": {
+      "proteins": 32.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "66"
+  },
+  {
+    "name": "Икра черная",
+    "macros": {
+      "proteins": 28.0,
+      "fats": 10.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "67"
+  },
+  {
+    "name": "Тунец свежий",
+    "macros": {
+      "proteins": 23.0,
+      "fats": 5.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "68"
+  },
+  {
+    "name": "Тунец консервированный",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "69"
+  },
+  {
+    "name": "Скумбрия",
+    "macros": {
+      "proteins": 19.0,
+      "fats": 14.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "70"
+  },
+  {
+    "name": "Сельдь",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 12.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "71"
+  },
+  {
+    "name": "Сардина",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 11.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "72"
+  },
+  {
+    "name": "Камбала",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 3.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "73"
+  },
+  {
+    "name": "Палтус",
+    "macros": {
+      "proteins": 19.0,
+      "fats": 6.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "74"
+  },
+  {
+    "name": "Морской окунь",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 4.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "75"
+  },
+  {
+    "name": "Зубатка",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 5.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "76"
+  },
+  {
+    "name": "Треска",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "77"
+  },
+  {
+    "name": "Минтай",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "78"
+  },
+  {
+    "name": "Хек",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 2.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "79"
+  },
+  {
+    "name": "Судак",
+    "macros": {
+      "proteins": 19.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "80"
+  },
+  {
+    "name": "Щука",
+    "macros": {
+      "proteins": 19.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "81"
+  },
+  {
+    "name": "Карп",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 5.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "82"
+  },
+  {
+    "name": "Лещ",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 3.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "83"
+  },
+  {
+    "name": "Сом",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 5.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "84"
+  },
+  {
+    "name": "Осетр",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 10.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "85"
+  },
+  {
+    "name": "Стерлядь",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 6.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "86"
+  },
+  {
+    "name": "Кальмар",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 2.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "87"
+  },
+  {
+    "name": "Осьминог",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "88"
+  },
+  {
+    "name": "Креветки",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 2.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "89"
+  },
+  {
+    "name": "Крабы",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "90"
+  },
+  {
+    "name": "Раки",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 2.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "91"
+  },
+  {
+    "name": "Мидии",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 2.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "92"
+  },
+  {
+    "name": "Устрицы",
+    "macros": {
+      "proteins": 9.0,
+      "fats": 2.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "93"
+  },
+  {
+    "name": "Гребешки",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "94"
+  },
+  {
+    "name": "Морская капуста",
+    "macros": {
+      "proteins": 1.7,
+      "fats": 0.2,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "95"
+  },
+  {
+    "name": "Молоко 0.5%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 0.5,
+      "carbohydrates": 4.7
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "96"
+  },
+  {
+    "name": "Молоко 1.5%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 1.5,
+      "carbohydrates": 4.7
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "97"
+  },
+  {
+    "name": "Молоко 3.2%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 3.2,
+      "carbohydrates": 4.7
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "98"
+  },
+  {
+    "name": "Кефир 1%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 1.0,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "99"
+  },
+  {
+    "name": "Кефир 2.5%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 2.5,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "100"
+  },
+  {
+    "name": "Ряженка 2.5%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 2.5,
+      "carbohydrates": 4.2
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "101"
+  },
+  {
+    "name": "Йогурт натуральный",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 2.5,
+      "carbohydrates": 4.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "102"
+  },
+  {
+    "name": "Йогурт греческий 0%",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 0.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "103"
+  },
+  {
+    "name": "Творог 0%",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 0.0,
+      "carbohydrates": 1.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "104"
+  },
+  {
+    "name": "Творог 5%",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 5.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "105"
+  },
+  {
+    "name": "Творог 9%",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 9.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "106"
+  },
+  {
+    "name": "Сыр Российский",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 26.5,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "107"
+  },
+  {
+    "name": "Сыр Голландский",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 26.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "108"
+  },
+  {
+    "name": "Сыр Гауда",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 27.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "109"
+  },
+  {
+    "name": "Сыр Чеддер",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 30.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "110"
+  },
+  {
+    "name": "Сыр Пармезан",
+    "macros": {
+      "proteins": 33.0,
+      "fats": 28.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "111"
+  },
+  {
+    "name": "Сыр Моцарелла",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 24.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "112"
+  },
+  {
+    "name": "Сыр Фета",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 24.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "113"
+  },
+  {
+    "name": "Сыр Брынза",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 20.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "114"
+  },
+  {
+    "name": "Сыр Адыгейский",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 18.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "115"
+  },
+  {
+    "name": "Сметана 10%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 10.0,
+      "carbohydrates": 3.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "116"
+  },
+  {
+    "name": "Сметана 20%",
+    "macros": {
+      "proteins": 2.5,
+      "fats": 20.0,
+      "carbohydrates": 3.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "117"
+  },
+  {
+    "name": "Сливки 10%",
+    "macros": {
+      "proteins": 2.5,
+      "fats": 10.0,
+      "carbohydrates": 4.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "118"
+  },
+  {
+    "name": "Сливки 33%",
+    "macros": {
+      "proteins": 2.5,
+      "fats": 33.0,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "119"
+  },
+  {
+    "name": "Масло сливочное 82%",
+    "macros": {
+      "proteins": 0.5,
+      "fats": 82.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "120"
+  },
+  {
+    "name": "Брокколи",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 0.4,
+      "carbohydrates": 5.2
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "121"
+  },
+  {
+    "name": "Цветная капуста",
+    "macros": {
+      "proteins": 2.5,
+      "fats": 0.3,
+      "carbohydrates": 5.0
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "122"
+  },
+  {
+    "name": "Капуста белокочанная",
+    "macros": {
+      "proteins": 1.8,
+      "fats": 0.1,
+      "carbohydrates": 4.7
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "123"
+  },
+  {
+    "name": "Помидор",
+    "macros": {
+      "proteins": 0.9,
+      "fats": 0.2,
+      "carbohydrates": 3.9
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "124"
+  },
+  {
+    "name": "Огурец",
+    "macros": {
+      "proteins": 0.8,
+      "fats": 0.1,
+      "carbohydrates": 2.8
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "125"
+  },
+  {
+    "name": "Кабачок",
+    "macros": {
+      "proteins": 0.6,
+      "fats": 0.3,
+      "carbohydrates": 4.6
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "126"
+  },
+  {
+    "name": "Баклажан",
+    "macros": {
+      "proteins": 1.2,
+      "fats": 0.1,
+      "carbohydrates": 6.0
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "127"
+  },
+  {
+    "name": "Тыква",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.1,
+      "carbohydrates": 6.5
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "128"
+  },
+  {
+    "name": "Морковь",
+    "macros": {
+      "proteins": 1.3,
+      "fats": 0.1,
+      "carbohydrates": 7.2
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "129"
+  },
+  {
+    "name": "Свекла",
+    "macros": {
+      "proteins": 1.5,
+      "fats": 0.1,
+      "carbohydrates": 8.8
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "130"
+  },
+  {
+    "name": "Редис",
+    "macros": {
+      "proteins": 1.2,
+      "fats": 0.1,
+      "carbohydrates": 3.4
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "131"
+  },
+  {
+    "name": "Картофель",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 0.4,
+      "carbohydrates": 16.0
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "132"
+  },
+  {
+    "name": "Батат",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 0.1,
+      "carbohydrates": 20.0
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "133"
+  },
+  {
+    "name": "Перец болгарский",
+    "macros": {
+      "proteins": 1.3,
+      "fats": 0.0,
+      "carbohydrates": 7.2
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "134"
+  },
+  {
+    "name": "Лук репчатый",
+    "macros": {
+      "proteins": 1.4,
+      "fats": 0.2,
+      "carbohydrates": 8.2
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "135"
+  },
+  {
+    "name": "Чеснок",
+    "macros": {
+      "proteins": 6.5,
+      "fats": 0.5,
+      "carbohydrates": 33.0
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "136"
+  },
+  {
+    "name": "Шпинат",
+    "macros": {
+      "proteins": 2.9,
+      "fats": 0.4,
+      "carbohydrates": 3.6
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "137"
+  },
+  {
+    "name": "Салат Айсберг",
+    "macros": {
+      "proteins": 0.9,
+      "fats": 0.1,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "138"
+  },
+  {
+    "name": "Руккола",
+    "macros": {
+      "proteins": 2.6,
+      "fats": 0.7,
+      "carbohydrates": 2.1
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "139"
+  },
+  {
+    "name": "Спаржа",
+    "macros": {
+      "proteins": 2.2,
+      "fats": 0.1,
+      "carbohydrates": 3.9
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "140"
+  },
+  {
+    "name": "Сельдерей",
+    "macros": {
+      "proteins": 0.7,
+      "fats": 0.1,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "141"
+  },
+  {
+    "name": "Грибы белые",
+    "macros": {
+      "proteins": 3.7,
+      "fats": 1.7,
+      "carbohydrates": 1.1
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "142"
+  },
+  {
+    "name": "Грибы шампиньоны",
+    "macros": {
+      "proteins": 4.3,
+      "fats": 1.0,
+      "carbohydrates": 0.1
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "143"
+  },
+  {
+    "name": "Грибы вешенки",
+    "macros": {
+      "proteins": 3.3,
+      "fats": 0.4,
+      "carbohydrates": 6.1
+    },
+    "servingSize": 100.0,
+    "category": "VEGETABLES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "144"
+  },
+  {
+    "name": "Яблоко",
+    "macros": {
+      "proteins": 0.4,
+      "fats": 0.4,
+      "carbohydrates": 11.4
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "145"
+  },
+  {
+    "name": "Груша",
+    "macros": {
+      "proteins": 0.4,
+      "fats": 0.1,
+      "carbohydrates": 15.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "146"
+  },
+  {
+    "name": "Банан",
+    "macros": {
+      "proteins": 1.5,
+      "fats": 0.2,
+      "carbohydrates": 21.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "147"
+  },
+  {
+    "name": "Апельсин",
+    "macros": {
+      "proteins": 0.9,
+      "fats": 0.2,
+      "carbohydrates": 8.1
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "148"
+  },
+  {
+    "name": "Мандарин",
+    "macros": {
+      "proteins": 0.8,
+      "fats": 0.2,
+      "carbohydrates": 7.5
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "149"
+  },
+  {
+    "name": "Грейпфрут",
+    "macros": {
+      "proteins": 0.7,
+      "fats": 0.2,
+      "carbohydrates": 7.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "150"
+  },
+  {
+    "name": "Лимон",
+    "macros": {
+      "proteins": 1.1,
+      "fats": 0.3,
+      "carbohydrates": 9.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "151"
+  },
+  {
+    "name": "Виноград",
+    "macros": {
+      "proteins": 0.6,
+      "fats": 0.2,
+      "carbohydrates": 17.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "152"
+  },
+  {
+    "name": "Клубника",
+    "macros": {
+      "proteins": 0.8,
+      "fats": 0.4,
+      "carbohydrates": 7.7
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "153"
+  },
+  {
+    "name": "Малина",
+    "macros": {
+      "proteins": 1.2,
+      "fats": 0.5,
+      "carbohydrates": 8.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "154"
+  },
+  {
+    "name": "Черника",
+    "macros": {
+      "proteins": 1.1,
+      "fats": 0.4,
+      "carbohydrates": 12.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "155"
+  },
+  {
+    "name": "Смородина черная",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.4,
+      "carbohydrates": 7.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "156"
+  },
+  {
+    "name": "Крыжовник",
+    "macros": {
+      "proteins": 0.7,
+      "fats": 0.2,
+      "carbohydrates": 9.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "157"
+  },
+  {
+    "name": "Персик",
+    "macros": {
+      "proteins": 0.9,
+      "fats": 0.1,
+      "carbohydrates": 11.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "158"
+  },
+  {
+    "name": "Абрикос",
+    "macros": {
+      "proteins": 0.9,
+      "fats": 0.1,
+      "carbohydrates": 9.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "159"
+  },
+  {
+    "name": "Слива",
+    "macros": {
+      "proteins": 0.8,
+      "fats": 0.3,
+      "carbohydrates": 10.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "160"
+  },
+  {
+    "name": "Вишня",
+    "macros": {
+      "proteins": 0.8,
+      "fats": 0.5,
+      "carbohydrates": 11.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "161"
+  },
+  {
+    "name": "Черешня",
+    "macros": {
+      "proteins": 1.1,
+      "fats": 0.4,
+      "carbohydrates": 11.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "162"
+  },
+  {
+    "name": "Гранат",
+    "macros": {
+      "proteins": 0.9,
+      "fats": 0.1,
+      "carbohydrates": 19.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "163"
+  },
+  {
+    "name": "Хурма",
+    "macros": {
+      "proteins": 0.5,
+      "fats": 0.0,
+      "carbohydrates": 18.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "164"
+  },
+  {
+    "name": "Ананас",
+    "macros": {
+      "proteins": 0.4,
+      "fats": 0.2,
+      "carbohydrates": 13.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "165"
+  },
+  {
+    "name": "Манго",
+    "macros": {
+      "proteins": 0.8,
+      "fats": 0.4,
+      "carbohydrates": 15.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "166"
+  },
+  {
+    "name": "Киви",
+    "macros": {
+      "proteins": 1.1,
+      "fats": 0.5,
+      "carbohydrates": 15.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "167"
+  },
+  {
+    "name": "Авокадо",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 14.7,
+      "carbohydrates": 8.5
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "168"
+  },
+  {
+    "name": "Арбуз",
+    "macros": {
+      "proteins": 0.6,
+      "fats": 0.1,
+      "carbohydrates": 7.6
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "169"
+  },
+  {
+    "name": "Дыня",
+    "macros": {
+      "proteins": 0.6,
+      "fats": 0.3,
+      "carbohydrates": 7.4
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "170"
+  },
+  {
+    "name": "Финики",
+    "macros": {
+      "proteins": 2.5,
+      "fats": 0.2,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "171"
+  },
+  {
+    "name": "Изюм",
+    "macros": {
+      "proteins": 2.9,
+      "fats": 0.6,
+      "carbohydrates": 79.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "172"
+  },
+  {
+    "name": "Курага",
+    "macros": {
+      "proteins": 5.2,
+      "fats": 0.3,
+      "carbohydrates": 51.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "173"
+  },
+  {
+    "name": "Чернослив",
+    "macros": {
+      "proteins": 2.3,
+      "fats": 0.7,
+      "carbohydrates": 57.0
+    },
+    "servingSize": 100.0,
+    "category": "FRUITS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "174"
+  },
+  {
+    "name": "Овсянка",
+    "macros": {
+      "proteins": 12.3,
+      "fats": 6.1,
+      "carbohydrates": 59.5
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "175"
+  },
+  {
+    "name": "Гречка",
+    "macros": {
+      "proteins": 12.6,
+      "fats": 3.3,
+      "carbohydrates": 62.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "176"
+  },
+  {
+    "name": "Рис белый",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 1.0,
+      "carbohydrates": 78.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "177"
+  },
+  {
+    "name": "Рис бурый",
+    "macros": {
+      "proteins": 7.5,
+      "fats": 2.5,
+      "carbohydrates": 73.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "178"
+  },
+  {
+    "name": "Пшено",
+    "macros": {
+      "proteins": 11.5,
+      "fats": 3.3,
+      "carbohydrates": 67.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "179"
+  },
+  {
+    "name": "Перловка",
+    "macros": {
+      "proteins": 9.3,
+      "fats": 1.1,
+      "carbohydrates": 73.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "180"
+  },
+  {
+    "name": "Ячневая крупа",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 1.3,
+      "carbohydrates": 66.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "181"
+  },
+  {
+    "name": "Манка",
+    "macros": {
+      "proteins": 10.3,
+      "fats": 1.0,
+      "carbohydrates": 73.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "182"
+  },
+  {
+    "name": "Кукурузная крупа",
+    "macros": {
+      "proteins": 8.3,
+      "fats": 1.2,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "183"
+  },
+  {
+    "name": "Киноа",
+    "macros": {
+      "proteins": 14.1,
+      "fats": 6.1,
+      "carbohydrates": 57.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "184"
+  },
+  {
+    "name": "Булгур",
+    "macros": {
+      "proteins": 12.3,
+      "fats": 1.3,
+      "carbohydrates": 57.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "185"
+  },
+  {
+    "name": "Кускус",
+    "macros": {
+      "proteins": 12.8,
+      "fats": 0.6,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "186"
+  },
+  {
+    "name": "Хлеб белый",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 3.0,
+      "carbohydrates": 50.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "187"
+  },
+  {
+    "name": "Хлеб черный",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 2.0,
+      "carbohydrates": 45.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "188"
+  },
+  {
+    "name": "Хлеб цельнозерновой",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 3.0,
+      "carbohydrates": 42.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "189"
+  },
+  {
+    "name": "Макароны",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 2.0,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "190"
+  },
+  {
+    "name": "Лапша",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 3.5,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "191"
+  },
+  {
+    "name": "Сухари",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 2.0,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "192"
+  },
+  {
+    "name": "Миндаль",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 49.4,
+      "carbohydrates": 21.6
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "193"
+  },
+  {
+    "name": "Арахис",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 45.0,
+      "carbohydrates": 10.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "194"
+  },
+  {
+    "name": "Грецкий орех",
+    "macros": {
+      "proteins": 15.2,
+      "fats": 65.2,
+      "carbohydrates": 13.7
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "195"
+  },
+  {
+    "name": "Фундук",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 61.0,
+      "carbohydrates": 17.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "196"
+  },
+  {
+    "name": "Кешью",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 44.0,
+      "carbohydrates": 30.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "197"
+  },
+  {
+    "name": "Фисташки",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 45.0,
+      "carbohydrates": 27.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "198"
+  },
+  {
+    "name": "Бразильский орех",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 66.0,
+      "carbohydrates": 12.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "199"
+  },
+  {
+    "name": "Пекан",
+    "macros": {
+      "proteins": 9.0,
+      "fats": 72.0,
+      "carbohydrates": 14.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "200"
+  },
+  {
+    "name": "Макадамия",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 76.0,
+      "carbohydrates": 14.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "201"
+  },
+  {
+    "name": "Кедровый орех",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 68.0,
+      "carbohydrates": 13.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "202"
+  },
+  {
+    "name": "Семена подсолнечника",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 51.0,
+      "carbohydrates": 20.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "203"
+  },
+  {
+    "name": "Семена тыквы",
+    "macros": {
+      "proteins": 30.0,
+      "fats": 49.0,
+      "carbohydrates": 10.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "204"
+  },
+  {
+    "name": "Семена льна",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 42.0,
+      "carbohydrates": 29.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "205"
+  },
+  {
+    "name": "Семена чиа",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 31.0,
+      "carbohydrates": 42.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "206"
+  },
+  {
+    "name": "Кунжут",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 48.0,
+      "carbohydrates": 23.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "207"
+  },
+  {
+    "name": "Мак",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 47.0,
+      "carbohydrates": 28.0
+    },
+    "servingSize": 30.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "208"
+  },
+  {
+    "name": "Фасоль белая",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 1.2,
+      "carbohydrates": 60.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "209"
+  },
+  {
+    "name": "Фасоль красная",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 1.5,
+      "carbohydrates": 60.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "210"
+  },
+  {
+    "name": "Фасоль черная",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 1.2,
+      "carbohydrates": 62.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "211"
+  },
+  {
+    "name": "Нут",
+    "macros": {
+      "proteins": 19.0,
+      "fats": 6.0,
+      "carbohydrates": 61.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "212"
+  },
+  {
+    "name": "Чечевица красная",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 1.5,
+      "carbohydrates": 60.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "213"
+  },
+  {
+    "name": "Чечевица зеленая",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 1.0,
+      "carbohydrates": 60.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "214"
+  },
+  {
+    "name": "Горох",
+    "macros": {
+      "proteins": 23.0,
+      "fats": 1.5,
+      "carbohydrates": 60.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "215"
+  },
+  {
+    "name": "Соя",
+    "macros": {
+      "proteins": 36.0,
+      "fats": 20.0,
+      "carbohydrates": 30.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "216"
+  },
+  {
+    "name": "Тофу",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 4.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "217"
+  },
+  {
+    "name": "Темпе",
+    "macros": {
+      "proteins": 19.0,
+      "fats": 11.0,
+      "carbohydrates": 9.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "218"
+  },
+  {
+    "name": "Эдамаме",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 5.0,
+      "carbohydrates": 10.0
+    },
+    "servingSize": 100.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "219"
+  },
+  {
+    "name": "Кетчуп",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.5,
+      "carbohydrates": 25.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "220"
+  },
+  {
+    "name": "Майонез",
+    "macros": {
+      "proteins": 0.5,
+      "fats": 67.0,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "221"
+  },
+  {
+    "name": "Горчица",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 5.0,
+      "carbohydrates": 6.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "222"
+  },
+  {
+    "name": "Соевый соус",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 0.0,
+      "carbohydrates": 5.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "223"
+  },
+  {
+    "name": "Уксус яблочный",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 0.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "224"
+  },
+  {
+    "name": "Мед",
+    "macros": {
+      "proteins": 0.3,
+      "fats": 0.0,
+      "carbohydrates": 82.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "225"
+  },
+  {
+    "name": "Сахар",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 0.0,
+      "carbohydrates": 100.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "226"
+  },
+  {
+    "name": "Соль",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 0.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "227"
+  },
+  {
+    "name": "Перец черный",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 3.0,
+      "carbohydrates": 64.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "228"
+  },
+  {
+    "name": "Паприка",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 13.0,
+      "carbohydrates": 54.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "229"
+  },
+  {
+    "name": "Кориандр",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 15.0,
+      "carbohydrates": 50.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "230"
+  },
+  {
+    "name": "Корица",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 0.1,
+      "carbohydrates": 81.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "231"
+  },
+  {
+    "name": "Имбирь молотый",
+    "macros": {
+      "proteins": 9.0,
+      "fats": 4.0,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "232"
+  },
+  {
+    "name": "Чеснок сушеный",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 0.5,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "233"
+  },
+  {
+    "name": "Базилик сушеный",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 4.0,
+      "carbohydrates": 61.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "234"
+  },
+  {
+    "name": "Орегано",
+    "macros": {
+      "proteins": 9.0,
+      "fats": 4.0,
+      "carbohydrates": 69.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "235"
+  },
+  {
+    "name": "Тимьян",
+    "macros": {
+      "proteins": 6.0,
+      "fats": 2.0,
+      "carbohydrates": 24.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "236"
+  },
+  {
+    "name": "Розмарин",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 6.0,
+      "carbohydrates": 21.0
+    },
+    "servingSize": 10.0,
+    "category": "OTHER",
+    "servingUnit": "г",
+    "description": "",
+    "id": "237"
+  },
+  {
+    "name": "Молоко 1.5%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 1.5,
+      "carbohydrates": 4.8
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "238"
+  },
+  {
+    "name": "Молоко 2.5%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 2.5,
+      "carbohydrates": 4.8
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "239"
+  },
+  {
+    "name": "Молоко 3.2%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 3.2,
+      "carbohydrates": 4.8
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "240"
+  },
+  {
+    "name": "Молоко козье",
+    "macros": {
+      "proteins": 3.6,
+      "fats": 4.2,
+      "carbohydrates": 4.4
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "241"
+  },
+  {
+    "name": "Молоко овечье",
+    "macros": {
+      "proteins": 5.4,
+      "fats": 7.0,
+      "carbohydrates": 4.8
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "242"
+  },
+  {
+    "name": "Кефир 1%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 1.0,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "243"
+  },
+  {
+    "name": "Кефир 2.5%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 2.5,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "244"
+  },
+  {
+    "name": "Ряженка 2.5%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 2.5,
+      "carbohydrates": 4.2
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "245"
+  },
+  {
+    "name": "Ряженка 4%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 4.0,
+      "carbohydrates": 4.2
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "246"
+  },
+  {
+    "name": "Простокваша",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 3.5,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "247"
+  },
+  {
+    "name": "Ацидофилин",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 3.2,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "248"
+  },
+  {
+    "name": "Йогурт натуральный",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 2.5,
+      "carbohydrates": 4.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "249"
+  },
+  {
+    "name": "Йогурт греческий",
+    "macros": {
+      "proteins": 9.0,
+      "fats": 2.0,
+      "carbohydrates": 3.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "250"
+  },
+  {
+    "name": "Сметана 10%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 10.0,
+      "carbohydrates": 3.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "251"
+  },
+  {
+    "name": "Сметана 15%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 15.0,
+      "carbohydrates": 3.2
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "252"
+  },
+  {
+    "name": "Сметана 20%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 20.0,
+      "carbohydrates": 3.2
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "253"
+  },
+  {
+    "name": "Сметана 25%",
+    "macros": {
+      "proteins": 2.6,
+      "fats": 25.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "254"
+  },
+  {
+    "name": "Творог обезжиренный",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 0.5,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "255"
+  },
+  {
+    "name": "Творог 1.8%",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 1.8,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "256"
+  },
+  {
+    "name": "Творог 5%",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 5.0,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "257"
+  },
+  {
+    "name": "Творог 9%",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 9.0,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "258"
+  },
+  {
+    "name": "Творог 18%",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 18.0,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "259"
+  },
+  {
+    "name": "Творожная масса сладкая",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 12.0,
+      "carbohydrates": 25.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "260"
+  },
+  {
+    "name": "Сыр Адыгейский",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 14.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "261"
+  },
+  {
+    "name": "Сыр Сулугуни",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 18.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "262"
+  },
+  {
+    "name": "Сыр Брынза",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 19.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "263"
+  },
+  {
+    "name": "Сыр Моцарелла",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 17.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "264"
+  },
+  {
+    "name": "Сыр Фета",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 20.0,
+      "carbohydrates": 1.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "265"
+  },
+  {
+    "name": "Сыр Рикотта",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 13.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "266"
+  },
+  {
+    "name": "Сыр Маскарпоне",
+    "macros": {
+      "proteins": 5.0,
+      "fats": 45.0,
+      "carbohydrates": 3.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "267"
+  },
+  {
+    "name": "Сыр Камамбер",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 24.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "268"
+  },
+  {
+    "name": "Сыр Бри",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 23.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "269"
+  },
+  {
+    "name": "Сыр Дор Блю",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 28.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "270"
+  },
+  {
+    "name": "Сыр Горгонзола",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 26.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "271"
+  },
+  {
+    "name": "Сыр Пармезан",
+    "macros": {
+      "proteins": 33.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "272"
+  },
+  {
+    "name": "Сыр Пекорино",
+    "macros": {
+      "proteins": 28.0,
+      "fats": 27.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "273"
+  },
+  {
+    "name": "Сыр Чеддер",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 30.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "274"
+  },
+  {
+    "name": "Сыр Гауда",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 27.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "275"
+  },
+  {
+    "name": "Сыр Эдам",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 25.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "276"
+  },
+  {
+    "name": "Сыр Маасдам",
+    "macros": {
+      "proteins": 23.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "277"
+  },
+  {
+    "name": "Сыр Российский",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "278"
+  },
+  {
+    "name": "Сыр Голландский",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "279"
+  },
+  {
+    "name": "Сыр Костромской",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "280"
+  },
+  {
+    "name": "Сыр Пошехонский",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "281"
+  },
+  {
+    "name": "Сыр Тильзитер",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 27.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "282"
+  },
+  {
+    "name": "Сыр Ламбер",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "283"
+  },
+  {
+    "name": "Сыр Мраморный",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "284"
+  },
+  {
+    "name": "Сыр Свайцарский",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "285"
+  },
+  {
+    "name": "Сыр Эмменталь",
+    "macros": {
+      "proteins": 29.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "286"
+  },
+  {
+    "name": "Сыр Конте",
+    "macros": {
+      "proteins": 28.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "287"
+  },
+  {
+    "name": "Овсянка Геркулес",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 6.0,
+      "carbohydrates": 65.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "288"
+  },
+  {
+    "name": "Овсяные хлопья быстрые",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 5.5,
+      "carbohydrates": 68.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "289"
+  },
+  {
+    "name": "Овсяная мука",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 7.0,
+      "carbohydrates": 65.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "290"
+  },
+  {
+    "name": "Овсяные отруби",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 7.0,
+      "carbohydrates": 66.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "291"
+  },
+  {
+    "name": "Пшеничные отруби",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 4.0,
+      "carbohydrates": 64.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "292"
+  },
+  {
+    "name": "Ржаные отруби",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 3.5,
+      "carbohydrates": 62.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "293"
+  },
+  {
+    "name": "Манная крупа",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 1.0,
+      "carbohydrates": 73.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "294"
+  },
+  {
+    "name": "Пшеничная крупа Артек",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.5,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "295"
+  },
+  {
+    "name": "Пшеничная крупа Полтавская",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 1.5,
+      "carbohydrates": 71.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "296"
+  },
+  {
+    "name": "Булгур мелкий",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.5,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "297"
+  },
+  {
+    "name": "Булгур средний",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.5,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "298"
+  },
+  {
+    "name": "Булгур крупный",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.5,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "299"
+  },
+  {
+    "name": "Кускус",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.0,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "300"
+  },
+  {
+    "name": "Перловка",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 1.2,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "301"
+  },
+  {
+    "name": "Ячневая крупа",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 1.5,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "302"
+  },
+  {
+    "name": "Пшено шлифованное",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 3.5,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "303"
+  },
+  {
+    "name": "Пшено дранец",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 4.0,
+      "carbohydrates": 69.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "304"
+  },
+  {
+    "name": "Кукурузная крупа",
+    "macros": {
+      "proteins": 9.0,
+      "fats": 2.0,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "305"
+  },
+  {
+    "name": "Кукурузные хлопья",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 1.5,
+      "carbohydrates": 85.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "306"
+  },
+  {
+    "name": "Кукурузная мука",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 1.5,
+      "carbohydrates": 78.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "307"
+  },
+  {
+    "name": "Попкорн без добавок",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 4.5,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "308"
+  },
+  {
+    "name": "Амарант",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 7.0,
+      "carbohydrates": 69.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "309"
+  },
+  {
+    "name": "Киноа белая",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 6.0,
+      "carbohydrates": 64.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "310"
+  },
+  {
+    "name": "Киноа красная",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 6.0,
+      "carbohydrates": 64.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "311"
+  },
+  {
+    "name": "Киноа черная",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 6.0,
+      "carbohydrates": 64.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "312"
+  },
+  {
+    "name": "Гречка зеленая",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 3.5,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "313"
+  },
+  {
+    "name": "Гречневая мука",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 2.0,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "314"
+  },
+  {
+    "name": "Рис белый длиннозерный",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 0.5,
+      "carbohydrates": 80.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "315"
+  },
+  {
+    "name": "Рис белый круглозерный",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 0.5,
+      "carbohydrates": 79.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "316"
+  },
+  {
+    "name": "Рис бурый",
+    "macros": {
+      "proteins": 7.5,
+      "fats": 2.5,
+      "carbohydrates": 77.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "317"
+  },
+  {
+    "name": "Рис дикий",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 1.0,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "318"
+  },
+  {
+    "name": "Рис басмати",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 0.5,
+      "carbohydrates": 78.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "319"
+  },
+  {
+    "name": "Рис жасмин",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 0.5,
+      "carbohydrates": 79.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "320"
+  },
+  {
+    "name": "Рис арборио",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 0.5,
+      "carbohydrates": 78.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "321"
+  },
+  {
+    "name": "Рисовая лапша",
+    "macros": {
+      "proteins": 6.0,
+      "fats": 0.5,
+      "carbohydrates": 83.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "322"
+  },
+  {
+    "name": "Рисовая бумага",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 0.5,
+      "carbohydrates": 85.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "323"
+  },
+  {
+    "name": "Мука пшеничная в/с",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 1.0,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "324"
+  },
+  {
+    "name": "Мука пшеничная 1 сорт",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 1.5,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "325"
+  },
+  {
+    "name": "Мука пшеничная 2 сорт",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 2.0,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "326"
+  },
+  {
+    "name": "Мука ржаная",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 1.5,
+      "carbohydrates": 76.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "327"
+  },
+  {
+    "name": "Мука цельнозерновая",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 2.5,
+      "carbohydrates": 68.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "328"
+  },
+  {
+    "name": "Мука льняная",
+    "macros": {
+      "proteins": 32.0,
+      "fats": 10.0,
+      "carbohydrates": 28.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "329"
+  },
+  {
+    "name": "Мука кокосовая",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 15.0,
+      "carbohydrates": 25.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "330"
+  },
+  {
+    "name": "Мука миндальная",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 50.0,
+      "carbohydrates": 20.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "331"
+  },
+  {
+    "name": "Мука нутовая",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 6.0,
+      "carbohydrates": 58.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "332"
+  },
+  {
+    "name": "Макароны твердых сортов",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 1.5,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "333"
+  },
+  {
+    "name": "Макароны яичные",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 2.5,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "334"
+  },
+  {
+    "name": "Макароны цельнозерновые",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 2.5,
+      "carbohydrates": 68.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "335"
+  },
+  {
+    "name": "Лапша удон",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 0.5,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "336"
+  },
+  {
+    "name": "Лапша соба",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 1.0,
+      "carbohydrates": 73.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "337"
+  },
+  {
+    "name": "Молоко 1.5%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 1.5,
+      "carbohydrates": 4.8
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "338"
+  },
+  {
+    "name": "Молоко 2.5%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 2.5,
+      "carbohydrates": 4.8
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "339"
+  },
+  {
+    "name": "Молоко 3.2%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 3.2,
+      "carbohydrates": 4.8
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "340"
+  },
+  {
+    "name": "Молоко козье",
+    "macros": {
+      "proteins": 3.6,
+      "fats": 4.2,
+      "carbohydrates": 4.4
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "341"
+  },
+  {
+    "name": "Молоко овечье",
+    "macros": {
+      "proteins": 5.4,
+      "fats": 7.0,
+      "carbohydrates": 4.8
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "342"
+  },
+  {
+    "name": "Кефир 1%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 1.0,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "343"
+  },
+  {
+    "name": "Кефир 2.5%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 2.5,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "344"
+  },
+  {
+    "name": "Ряженка 2.5%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 2.5,
+      "carbohydrates": 4.2
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "345"
+  },
+  {
+    "name": "Ряженка 4%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 4.0,
+      "carbohydrates": 4.2
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "346"
+  },
+  {
+    "name": "Простокваша",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 3.5,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "347"
+  },
+  {
+    "name": "Ацидофилин",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 3.2,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "348"
+  },
+  {
+    "name": "Йогурт натуральный",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 2.5,
+      "carbohydrates": 4.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "349"
+  },
+  {
+    "name": "Йогурт греческий",
+    "macros": {
+      "proteins": 9.0,
+      "fats": 2.0,
+      "carbohydrates": 3.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "350"
+  },
+  {
+    "name": "Сметана 10%",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 10.0,
+      "carbohydrates": 3.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "351"
+  },
+  {
+    "name": "Сметана 15%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 15.0,
+      "carbohydrates": 3.2
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "352"
+  },
+  {
+    "name": "Сметана 20%",
+    "macros": {
+      "proteins": 2.8,
+      "fats": 20.0,
+      "carbohydrates": 3.2
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "353"
+  },
+  {
+    "name": "Сметана 25%",
+    "macros": {
+      "proteins": 2.6,
+      "fats": 25.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "354"
+  },
+  {
+    "name": "Творог обезжиренный",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 0.5,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "355"
+  },
+  {
+    "name": "Творог 1.8%",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 1.8,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "356"
+  },
+  {
+    "name": "Творог 5%",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 5.0,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "357"
+  },
+  {
+    "name": "Творог 9%",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 9.0,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "358"
+  },
+  {
+    "name": "Творог 18%",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 18.0,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "359"
+  },
+  {
+    "name": "Творожная масса сладкая",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 12.0,
+      "carbohydrates": 25.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "360"
+  },
+  {
+    "name": "Сыр Адыгейский",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 14.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "361"
+  },
+  {
+    "name": "Сыр Сулугуни",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 18.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "362"
+  },
+  {
+    "name": "Сыр Брынза",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 19.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "363"
+  },
+  {
+    "name": "Сыр Моцарелла",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 17.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "364"
+  },
+  {
+    "name": "Сыр Фета",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 20.0,
+      "carbohydrates": 1.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "365"
+  },
+  {
+    "name": "Сыр Рикотта",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 13.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "366"
+  },
+  {
+    "name": "Сыр Маскарпоне",
+    "macros": {
+      "proteins": 5.0,
+      "fats": 45.0,
+      "carbohydrates": 3.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "367"
+  },
+  {
+    "name": "Сыр Камамбер",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 24.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "368"
+  },
+  {
+    "name": "Сыр Бри",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 23.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "369"
+  },
+  {
+    "name": "Сыр Дор Блю",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 28.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "370"
+  },
+  {
+    "name": "Сыр Горгонзола",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 26.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "371"
+  },
+  {
+    "name": "Сыр Пармезан",
+    "macros": {
+      "proteins": 33.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "372"
+  },
+  {
+    "name": "Сыр Пекорино",
+    "macros": {
+      "proteins": 28.0,
+      "fats": 27.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "373"
+  },
+  {
+    "name": "Сыр Чеддер",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 30.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "374"
+  },
+  {
+    "name": "Сыр Гауда",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 27.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "375"
+  },
+  {
+    "name": "Сыр Эдам",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 25.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "376"
+  },
+  {
+    "name": "Сыр Маасдам",
+    "macros": {
+      "proteins": 23.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "377"
+  },
+  {
+    "name": "Сыр Российский",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "378"
+  },
+  {
+    "name": "Сыр Голландский",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "379"
+  },
+  {
+    "name": "Сыр Костромской",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "380"
+  },
+  {
+    "name": "Сыр Пошехонский",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 26.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "381"
+  },
+  {
+    "name": "Сыр Тильзитер",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 27.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "382"
+  },
+  {
+    "name": "Сыр Ламбер",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "383"
+  },
+  {
+    "name": "Сыр Мраморный",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "384"
+  },
+  {
+    "name": "Сыр Свайцарский",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "385"
+  },
+  {
+    "name": "Сыр Эмменталь",
+    "macros": {
+      "proteins": 29.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "386"
+  },
+  {
+    "name": "Сыр Конте",
+    "macros": {
+      "proteins": 28.0,
+      "fats": 28.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "DAIRY",
+    "servingUnit": "г",
+    "description": "",
+    "id": "387"
+  },
+  {
+    "name": "Овсянка Геркулес",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 6.0,
+      "carbohydrates": 65.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "388"
+  },
+  {
+    "name": "Овсяные хлопья быстрые",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 5.5,
+      "carbohydrates": 68.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "389"
+  },
+  {
+    "name": "Овсяная мука",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 7.0,
+      "carbohydrates": 65.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "390"
+  },
+  {
+    "name": "Овсяные отруби",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 7.0,
+      "carbohydrates": 66.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "391"
+  },
+  {
+    "name": "Пшеничные отруби",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 4.0,
+      "carbohydrates": 64.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "392"
+  },
+  {
+    "name": "Ржаные отруби",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 3.5,
+      "carbohydrates": 62.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "393"
+  },
+  {
+    "name": "Манная крупа",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 1.0,
+      "carbohydrates": 73.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "394"
+  },
+  {
+    "name": "Пшеничная крупа Артек",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.5,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "395"
+  },
+  {
+    "name": "Пшеничная крупа Полтавская",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 1.5,
+      "carbohydrates": 71.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "396"
+  },
+  {
+    "name": "Булгур мелкий",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.5,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "397"
+  },
+  {
+    "name": "Булгур средний",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.5,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "398"
+  },
+  {
+    "name": "Булгур крупный",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.5,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "399"
+  },
+  {
+    "name": "Кускус",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 1.0,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "400"
+  },
+  {
+    "name": "Перловка",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 1.2,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "401"
+  },
+  {
+    "name": "Ячневая крупа",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 1.5,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "402"
+  },
+  {
+    "name": "Пшено шлифованное",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 3.5,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "403"
+  },
+  {
+    "name": "Пшено дранец",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 4.0,
+      "carbohydrates": 69.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "404"
+  },
+  {
+    "name": "Кукурузная крупа",
+    "macros": {
+      "proteins": 9.0,
+      "fats": 2.0,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "405"
+  },
+  {
+    "name": "Кукурузные хлопья",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 1.5,
+      "carbohydrates": 85.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "406"
+  },
+  {
+    "name": "Кукурузная мука",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 1.5,
+      "carbohydrates": 78.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "407"
+  },
+  {
+    "name": "Попкорн без добавок",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 4.5,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "408"
+  },
+  {
+    "name": "Амарант",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 7.0,
+      "carbohydrates": 69.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "409"
+  },
+  {
+    "name": "Киноа белая",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 6.0,
+      "carbohydrates": 64.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "410"
+  },
+  {
+    "name": "Киноа красная",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 6.0,
+      "carbohydrates": 64.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "411"
+  },
+  {
+    "name": "Киноа черная",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 6.0,
+      "carbohydrates": 64.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "412"
+  },
+  {
+    "name": "Гречка зеленая",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 3.5,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "413"
+  },
+  {
+    "name": "Гречневая мука",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 2.0,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "414"
+  },
+  {
+    "name": "Рис белый длиннозерный",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 0.5,
+      "carbohydrates": 80.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "415"
+  },
+  {
+    "name": "Рис белый круглозерный",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 0.5,
+      "carbohydrates": 79.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "416"
+  },
+  {
+    "name": "Рис бурый",
+    "macros": {
+      "proteins": 7.5,
+      "fats": 2.5,
+      "carbohydrates": 77.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "417"
+  },
+  {
+    "name": "Рис дикий",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 1.0,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "418"
+  },
+  {
+    "name": "Рис басмати",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 0.5,
+      "carbohydrates": 78.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "419"
+  },
+  {
+    "name": "Рис жасмин",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 0.5,
+      "carbohydrates": 79.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "420"
+  },
+  {
+    "name": "Рис арборио",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 0.5,
+      "carbohydrates": 78.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "421"
+  },
+  {
+    "name": "Рисовая лапша",
+    "macros": {
+      "proteins": 6.0,
+      "fats": 0.5,
+      "carbohydrates": 83.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "422"
+  },
+  {
+    "name": "Рисовая бумага",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 0.5,
+      "carbohydrates": 85.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "423"
+  },
+  {
+    "name": "Мука пшеничная в/с",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 1.0,
+      "carbohydrates": 74.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "424"
+  },
+  {
+    "name": "Мука пшеничная 1 сорт",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 1.5,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "425"
+  },
+  {
+    "name": "Мука пшеничная 2 сорт",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 2.0,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "426"
+  },
+  {
+    "name": "Мука ржаная",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 1.5,
+      "carbohydrates": 76.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "427"
+  },
+  {
+    "name": "Мука цельнозерновая",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 2.5,
+      "carbohydrates": 68.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "428"
+  },
+  {
+    "name": "Мука льняная",
+    "macros": {
+      "proteins": 32.0,
+      "fats": 10.0,
+      "carbohydrates": 28.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "429"
+  },
+  {
+    "name": "Мука кокосовая",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 15.0,
+      "carbohydrates": 25.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "430"
+  },
+  {
+    "name": "Мука миндальная",
+    "macros": {
+      "proteins": 21.0,
+      "fats": 50.0,
+      "carbohydrates": 20.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "431"
+  },
+  {
+    "name": "Мука нутовая",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 6.0,
+      "carbohydrates": 58.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "432"
+  },
+  {
+    "name": "Макароны твердых сортов",
+    "macros": {
+      "proteins": 13.0,
+      "fats": 1.5,
+      "carbohydrates": 72.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "433"
+  },
+  {
+    "name": "Макароны яичные",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 2.5,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "434"
+  },
+  {
+    "name": "Макароны цельнозерновые",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 2.5,
+      "carbohydrates": 68.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "435"
+  },
+  {
+    "name": "Лапша удон",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 0.5,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "436"
+  },
+  {
+    "name": "Лапша соба",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 1.0,
+      "carbohydrates": 73.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "437"
+  },
+  {
+    "name": "Ветчина",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 6.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "438"
+  },
+  {
+    "name": "Бекон",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 60.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "439"
+  },
+  {
+    "name": "Салями",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 35.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "440"
+  },
+  {
+    "name": "Пепперони",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 40.0,
+      "carbohydrates": 1.5
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "441"
+  },
+  {
+    "name": "Чоризо",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 30.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "442"
+  },
+  {
+    "name": "Прошутто",
+    "macros": {
+      "proteins": 28.0,
+      "fats": 10.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "443"
+  },
+  {
+    "name": "Пармская ветчина",
+    "macros": {
+      "proteins": 26.0,
+      "fats": 12.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "444"
+  },
+  {
+    "name": "Колбаса вареная",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 25.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "445"
+  },
+  {
+    "name": "Колбаса полукопченая",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 30.0,
+      "carbohydrates": 2.5
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "446"
+  },
+  {
+    "name": "Колбаса копченая",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 35.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "447"
+  },
+  {
+    "name": "Сосиски",
+    "macros": {
+      "proteins": 11.0,
+      "fats": 20.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "448"
+  },
+  {
+    "name": "Сардельки",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 25.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "449"
+  },
+  {
+    "name": "Паштет печеночный",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 20.0,
+      "carbohydrates": 5.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "450"
+  },
+  {
+    "name": "Паштет мясной",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 18.0,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "451"
+  },
+  {
+    "name": "Холодец",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 12.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "452"
+  },
+  {
+    "name": "Зельц",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 20.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "453"
+  },
+  {
+    "name": "Карбонат",
+    "macros": {
+      "proteins": 25.0,
+      "fats": 8.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "454"
+  },
+  {
+    "name": "Грудинка копченая",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 40.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "455"
+  },
+  {
+    "name": "Окорок",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "456"
+  },
+  {
+    "name": "Ростбиф",
+    "macros": {
+      "proteins": 24.0,
+      "fats": 8.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "PROTEIN",
+    "servingUnit": "г",
+    "description": "",
+    "id": "457"
+  },
+  {
+    "name": "Тунец в собственном соку",
+    "macros": {
+      "proteins": 23.0,
+      "fats": 1.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "458"
+  },
+  {
+    "name": "Тунец в масле",
+    "macros": {
+      "proteins": 22.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "459"
+  },
+  {
+    "name": "Лосось консервированный",
+    "macros": {
+      "proteins": 20.0,
+      "fats": 12.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "460"
+  },
+  {
+    "name": "Сардины в масле",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 20.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "461"
+  },
+  {
+    "name": "Сардины в томате",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 12.0,
+      "carbohydrates": 5.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "462"
+  },
+  {
+    "name": "Шпроты",
+    "macros": {
+      "proteins": 17.0,
+      "fats": 30.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "463"
+  },
+  {
+    "name": "Килька в томате",
+    "macros": {
+      "proteins": 14.0,
+      "fats": 10.0,
+      "carbohydrates": 6.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "464"
+  },
+  {
+    "name": "Горбуша консервированная",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 10.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "465"
+  },
+  {
+    "name": "Сайра консервированная",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "466"
+  },
+  {
+    "name": "Скумбрия консервированная",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 18.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "467"
+  },
+  {
+    "name": "Ставрида консервированная",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 12.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "468"
+  },
+  {
+    "name": "Печень трески",
+    "macros": {
+      "proteins": 6.0,
+      "fats": 65.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "469"
+  },
+  {
+    "name": "Икра красная",
+    "macros": {
+      "proteins": 32.0,
+      "fats": 15.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "470"
+  },
+  {
+    "name": "Икра черная",
+    "macros": {
+      "proteins": 28.0,
+      "fats": 12.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "471"
+  },
+  {
+    "name": "Икра минтая",
+    "macros": {
+      "proteins": 28.0,
+      "fats": 8.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "472"
+  },
+  {
+    "name": "Кальмары консервированные",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 2.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "473"
+  },
+  {
+    "name": "Креветки консервированные",
+    "macros": {
+      "proteins": 18.0,
+      "fats": 2.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "474"
+  },
+  {
+    "name": "Мидии консервированные",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 3.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "475"
+  },
+  {
+    "name": "Сельдь маринованная",
+    "macros": {
+      "proteins": 16.0,
+      "fats": 12.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "476"
+  },
+  {
+    "name": "Сельдь пряного посола",
+    "macros": {
+      "proteins": 15.0,
+      "fats": 14.0,
+      "carbohydrates": 2.0
+    },
+    "servingSize": 100.0,
+    "category": "FISH",
+    "servingUnit": "г",
+    "description": "",
+    "id": "477"
+  },
+  {
+    "name": "Майонез",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 67.0,
+      "carbohydrates": 4.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "478"
+  },
+  {
+    "name": "Майонез легкий",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 40.0,
+      "carbohydrates": 6.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "479"
+  },
+  {
+    "name": "Кетчуп",
+    "macros": {
+      "proteins": 1.5,
+      "fats": 0.5,
+      "carbohydrates": 25.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "480"
+  },
+  {
+    "name": "Соус барбекю",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.5,
+      "carbohydrates": 30.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "481"
+  },
+  {
+    "name": "Соус терияки",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 0.1,
+      "carbohydrates": 20.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "482"
+  },
+  {
+    "name": "Соус соевый",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 0.1,
+      "carbohydrates": 6.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "483"
+  },
+  {
+    "name": "Горчица",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 8.0,
+      "carbohydrates": 10.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "484"
+  },
+  {
+    "name": "Горчица дижонская",
+    "macros": {
+      "proteins": 5.0,
+      "fats": 6.0,
+      "carbohydrates": 8.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "485"
+  },
+  {
+    "name": "Хрен",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 0.5,
+      "carbohydrates": 10.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "486"
+  },
+  {
+    "name": "Аджика",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 1.0,
+      "carbohydrates": 8.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "487"
+  },
+  {
+    "name": "Ткемали",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.5,
+      "carbohydrates": 12.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "488"
+  },
+  {
+    "name": "Наршараб",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.2,
+      "carbohydrates": 35.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "489"
+  },
+  {
+    "name": "Соус песто",
+    "macros": {
+      "proteins": 5.0,
+      "fats": 25.0,
+      "carbohydrates": 3.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "490"
+  },
+  {
+    "name": "Соус болоньезе",
+    "macros": {
+      "proteins": 6.0,
+      "fats": 10.0,
+      "carbohydrates": 8.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "491"
+  },
+  {
+    "name": "Соус карри",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 8.0,
+      "carbohydrates": 10.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "492"
+  },
+  {
+    "name": "Соус сладкий чили",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.2,
+      "carbohydrates": 35.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "493"
+  },
+  {
+    "name": "Соус шрирача",
+    "macros": {
+      "proteins": 1.5,
+      "fats": 0.5,
+      "carbohydrates": 15.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "494"
+  },
+  {
+    "name": "Вустерширский соус",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.1,
+      "carbohydrates": 12.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "495"
+  },
+  {
+    "name": "Соус табаско",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.2,
+      "carbohydrates": 5.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "496"
+  },
+  {
+    "name": "Гуакамоле",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 12.0,
+      "carbohydrates": 5.0
+    },
+    "servingSize": 100.0,
+    "category": "SAUCES",
+    "servingUnit": "г",
+    "description": "",
+    "id": "497"
+  },
+  {
+    "name": "Масло оливковое",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "498"
+  },
+  {
+    "name": "Масло подсолнечное",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "499"
+  },
+  {
+    "name": "Масло сливочное",
+    "macros": {
+      "proteins": 0.5,
+      "fats": 82.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "500"
+  },
+  {
+    "name": "Масло кокосовое",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "501"
+  },
+  {
+    "name": "Масло льняное",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "502"
+  },
+  {
+    "name": "Масло кунжутное",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "503"
+  },
+  {
+    "name": "Масло арахисовое",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "504"
+  },
+  {
+    "name": "Масло виноградной косточки",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "505"
+  },
+  {
+    "name": "Маргарин",
+    "macros": {
+      "proteins": 0.2,
+      "fats": 80.0,
+      "carbohydrates": 0.5
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "506"
+  },
+  {
+    "name": "Спред",
+    "macros": {
+      "proteins": 0.5,
+      "fats": 60.0,
+      "carbohydrates": 1.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "507"
+  },
+  {
+    "name": "Жир свиной",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "508"
+  },
+  {
+    "name": "Жир говяжий",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "509"
+  },
+  {
+    "name": "Масло топленое",
+    "macros": {
+      "proteins": 0.3,
+      "fats": 99.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "510"
+  },
+  {
+    "name": "Масло рыжиковое",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "511"
+  },
+  {
+    "name": "Масло горчичное",
+    "macros": {
+      "proteins": 0.0,
+      "fats": 100.0,
+      "carbohydrates": 0.0
+    },
+    "servingSize": 100.0,
+    "category": "FATS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "512"
+  },
+  {
+    "name": "Пахлава",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 30.0,
+      "carbohydrates": 50.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "513"
+  },
+  {
+    "name": "Рахат-лукум",
+    "macros": {
+      "proteins": 0.8,
+      "fats": 0.5,
+      "carbohydrates": 80.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "514"
+  },
+  {
+    "name": "Козинак из семечек",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 25.0,
+      "carbohydrates": 55.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "515"
+  },
+  {
+    "name": "Козинак из орехов",
+    "macros": {
+      "proteins": 12.0,
+      "fats": 30.0,
+      "carbohydrates": 50.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "516"
+  },
+  {
+    "name": "Чурчхела",
+    "macros": {
+      "proteins": 2.0,
+      "fats": 1.0,
+      "carbohydrates": 75.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "517"
+  },
+  {
+    "name": "Гаджина",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 20.0,
+      "carbohydrates": 60.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "518"
+  },
+  {
+    "name": "Кята",
+    "macros": {
+      "proteins": 6.0,
+      "fats": 15.0,
+      "carbohydrates": 65.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "519"
+  },
+  {
+    "name": "Нама",
+    "macros": {
+      "proteins": 5.0,
+      "fats": 10.0,
+      "carbohydrates": 70.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "520"
+  },
+  {
+    "name": "Шакер-лукум",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 20.0,
+      "carbohydrates": 65.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "521"
+  },
+  {
+    "name": "Фисташковая пахлава",
+    "macros": {
+      "proteins": 10.0,
+      "fats": 35.0,
+      "carbohydrates": 45.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "522"
+  },
+  {
+    "name": "Мутаки",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 25.0,
+      "carbohydrates": 55.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "523"
+  },
+  {
+    "name": "Бадамбура",
+    "macros": {
+      "proteins": 8.0,
+      "fats": 20.0,
+      "carbohydrates": 60.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "524"
+  },
+  {
+    "name": "Шекербура",
+    "macros": {
+      "proteins": 7.0,
+      "fats": 18.0,
+      "carbohydrates": 62.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "525"
+  },
+  {
+    "name": "Курабье",
+    "macros": {
+      "proteins": 5.0,
+      "fats": 20.0,
+      "carbohydrates": 65.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "526"
+  },
+  {
+    "name": "Пастила белевская",
+    "macros": {
+      "proteins": 1.0,
+      "fats": 0.2,
+      "carbohydrates": 78.0
+    },
+    "servingSize": 100.0,
+    "category": "SWEETS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "527"
+  },
+  {
+    "name": "Каша овсяная на воде",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 1.5,
+      "carbohydrates": 15.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "528"
+  },
+  {
+    "name": "Каша овсяная на молоке",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 3.5,
+      "carbohydrates": 16.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "529"
+  },
+  {
+    "name": "Каша гречневая на воде",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 1.0,
+      "carbohydrates": 20.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "530"
+  },
+  {
+    "name": "Каша гречневая с маслом",
+    "macros": {
+      "proteins": 4.0,
+      "fats": 5.0,
+      "carbohydrates": 20.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "531"
+  },
+  {
+    "name": "Каша рисовая на воде",
+    "macros": {
+      "proteins": 2.5,
+      "fats": 0.5,
+      "carbohydrates": 25.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "532"
+  },
+  {
+    "name": "Каша рисовая на молоке",
+    "macros": {
+      "proteins": 3.5,
+      "fats": 3.0,
+      "carbohydrates": 22.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "533"
+  },
+  {
+    "name": "Каша пшенная на воде",
+    "macros": {
+      "proteins": 3.5,
+      "fats": 1.0,
+      "carbohydrates": 22.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "534"
+  },
+  {
+    "name": "Каша перловая на воде",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 0.5,
+      "carbohydrates": 20.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "535"
+  },
+  {
+    "name": "Каша ячневая на воде",
+    "macros": {
+      "proteins": 3.0,
+      "fats": 1.0,
+      "carbohydrates": 21.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "536"
+  },
+  {
+    "name": "Каша кукурузная на воде",
+    "macros": {
+      "proteins": 2.5,
+      "fats": 1.0,
+      "carbohydrates": 23.0
+    },
+    "servingSize": 100.0,
+    "category": "GRAINS",
+    "servingUnit": "г",
+    "description": "",
+    "id": "537"
+  }
+]

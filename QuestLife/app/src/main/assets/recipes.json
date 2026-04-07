@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "1",
+    "name": "Овсяная каша с бананом",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Овсяная каша с бананом",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Творожная запеканка",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Творожная запеканка",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Омлет с сыром",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Омлет с сыром",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Гречневая каша",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Гречневая каша",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Сырники",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Сырники",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Протеиновые панкейки",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Протеиновые панкейки",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Авокадо тост",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Авокадо тост",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Рисовая каша",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Рисовая каша",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Яичница с беконом",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Яичница с беконом",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Смузи боул",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Смузи боул",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Ленивая овсянка",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Ленивая овсянка",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Протеиновые блинчики",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Протеиновые блинчики",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Гранола с орехами",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Гранола с орехами",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Шакшука",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Шакшука",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Тост с арахисовой пастой",
+    "category": "BREAKFAST",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Тост с арахисовой пастой",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Курица с гречкой",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Курица с гречкой",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Паста с курицей",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Паста с курицей",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Рыба с рисом",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Рыба с рисом",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Говядина с картофелем",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Говядина с картофелем",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Индейка с булгуром",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Индейка с булгуром",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Лосось с киноа",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Лосось с киноа",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Чечевичный суп",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Чечевичный суп",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Стейк с овощами",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Стейк с овощами",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Котлеты с пюре",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Котлеты с пюре",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Тунец салат",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Тунец салат",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Плов с курицей",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Плов с курицей",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Индейка с бататом",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Индейка с бататом",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Минтай в томате",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Минтай в томате",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Бефстроганов",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Бефстроганов",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Курица карри",
+    "category": "LUNCH",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Курица карри",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "lunch"
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Салат с тунцом",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Салат с тунцом",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Курица с салатом",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Курица с салатом",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Рыба запеченная",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Рыба запеченная",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Творог с зеленью",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Творог с зеленью",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Омлет со шпинатом",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Омлет со шпинатом",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Креветки с авокадо",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Креветки с авокадо",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Индейка с брокколи",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Индейка с брокколи",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Цезарь с курицей",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Цезарь с курицей",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "39",
+    "name": "Лосось со спаржей",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Лосось со спаржей",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Стейк с фасолью",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Стейк с фасолью",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Творожная запеканка без сахара",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Творожная запеканка без сахара",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Тефтели куриные",
+    "category": "DINNER",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Тефтели куриные",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "dinner"
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Протеиновый коктейль",
+    "category": "SNACK",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Протеиновый коктейль",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "snack"
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Йогурт с орехами",
+    "category": "SNACK",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Йогурт с орехами",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "snack"
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Тост с хумусом",
+    "category": "SNACK",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Тост с хумусом",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "snack"
+    ]
+  },
+  {
+    "id": "46",
+    "name": "Фруктовый салат",
+    "category": "SNACK",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Фруктовый салат",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "snack"
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Протеиновый батончик",
+    "category": "SNACK",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Протеиновый батончик",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "snack"
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Творог с ягодами",
+    "category": "SNACK",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Творог с ягодами",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "snack"
+    ]
+  },
+  {
+    "id": "49",
+    "name": "Ореховая смесь",
+    "category": "SNACK",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Ореховая смесь",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "snack"
+    ]
+  },
+  {
+    "id": "50",
+    "name": "Зеленый смузи",
+    "category": "SNACK",
+    "difficulty": "EASY",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 1,
+    "description": "Вкусное блюдо Зеленый смузи",
+    "ingredients": [
+      {
+        "foodId": "1",
+        "amount": 100,
+        "unit": "г"
+      }
+    ],
+    "instructions": [
+      "Приготовить ингредиенты",
+      "Смешать",
+      "Подавать"
+    ],
+    "macros": {
+      "proteins": 20.0,
+      "fats": 10.0,
+      "carbohydrates": 30.0
+    },
+    "calories": 300,
+    "tags": [
+      "snack"
+    ]
+  }
+]
