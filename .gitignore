@@ -1,0 +1,56 @@
+```
+# Kotlin/Android build artifacts
+*.class
+*.dex
+*.jar
+*.aar
+
+# Android specific
+/build/
+app/build/
+.gradle/
+local.properties
+.pro
+cxx/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Python (if any Python tools used in project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Node.js (if any web components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled JavaScript (if applicable)
+*.js.map
+*.tsbuildinfo
+```

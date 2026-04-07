@@ -9,6 +9,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.questlife.app.models.*
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -18,9 +20,12 @@ fun AddQuestDialog(
 ) {
     var title by remember { mutableStateOf("") }
     var description by remember { mutableStateOf("") }
-    var selectedType by remember { mutableStateOf(QuestType.DAILY) }
+    var selectedType by remember { mutableStateOf(QuestType.CUSTOM) }
     var selectedDifficulty by remember { mutableStateOf(QuestDifficulty.EASY) }
-    var isDaily by remember { mutableStateOf(true) }
+    var selectedDateTime by remember { mutableStateOf<LocalDateTime?>(null) }
+    var hasReminder by remember { mutableStateOf(false) }
+    
+    val dateTimeFormatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm")
 
     AlertDialog(
         onDismissRequest = onDismiss,
@@ -52,34 +57,41 @@ fun AddQuestDialog(
                     maxLines = 3
                 )
 
-                // Тип квеста
+                // Дата и время выполнения
                 Column {
                     Text(
-                        "Тип квеста",
+                        "Дата и время выполнения",
                         style = MaterialTheme.typography.labelLarge
                     )
                     Spacer(modifier = Modifier.height(8.dp))
-
-                    val types = listOf(
-                        QuestType.DAILY to "📅 Ежедневный",
-                        QuestType.WEEKLY to "📆 Недельный",
-                        QuestType.MONTHLY to "📅 Месячный",
-                        QuestType.CUSTOM to "⚡ Другое"
-                    )
-
-                    types.forEach { (type, label) ->
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            RadioButton(
-                                selected = selectedType == type,
-                                onClick = { selectedType = type }
-                            )
-                            TextButton(onClick = { selectedType = type }) {
-                                Text(label)
-                            }
+                    
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(selectedDateTime?.format(dateTimeFormatter) ?: "Не выбрано")
+                        Button(onClick = { 
+                            // В реальном приложении здесь будет DatePickerDialog
+                            selectedDateTime = LocalDateTime.now().plusDays(1) 
+                        }) {
+                            Text("Выбрать")
                         }
+                    }
+                }
+
+                // Напоминание
+                if (selectedDateTime != null) {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text("Установить напоминание")
+                        Switch(
+                            checked = hasReminder,
+                            onCheckedChange = { hasReminder = it }
+                        )
                     }
                 }
 
@@ -114,19 +126,6 @@ fun AddQuestDialog(
                         }
                     }
                 }
-
-                // Ежедневный квест
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Text("Ежедневный квест")
-                    Switch(
-                        checked = isDaily,
-                        onCheckedChange = { isDaily = it }
-                    )
-                }
             }
         },
         confirmButton = {
@@ -149,7 +148,9 @@ fun AddQuestDialog(
                                 difficulty = selectedDifficulty,
                                 xpReward = xp,
                                 goldReward = gold,
-                                isCompleted = false
+                                isCompleted = false,
+                                scheduledDateTime = selectedDateTime,
+                                hasReminder = hasReminder
                             )
                         )
                         onDismiss()

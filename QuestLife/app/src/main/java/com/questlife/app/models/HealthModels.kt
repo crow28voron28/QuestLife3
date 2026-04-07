@@ -196,7 +196,7 @@ enum class AchievementType {
     MUSCLE_SPECIALIST
 }
 
-// ============= КВЕСТЫ =============
+// ============= КВЕСТЫ И КАЛЕНДАРЬ =============
 
 data class Quest(
     val id: String = UUID.randomUUID().toString(),
@@ -207,7 +207,9 @@ data class Quest(
     val xpReward: Int = 50,
     val goldReward: Int = 10,
     val isCompleted: Boolean = false,
-    val completedAt: LocalDateTime? = null
+    val completedAt: LocalDateTime? = null,
+    val scheduledDateTime: LocalDateTime? = null,
+    val hasReminder: Boolean = false
 )
 
 // Для совместимости
@@ -216,6 +218,20 @@ typealias HealthQuest = Quest
 enum class QuestType { DAILY, WEEKLY, MONTHLY, CUSTOM }
 enum class QuestDifficulty { TRIVIAL, EASY, MEDIUM, HARD, EPIC }
 enum class QuestCategory { PHYSICAL, MENTAL, SOCIAL, CREATIVE, HEALTH }
+
+// Модели для календаря задач
+data class CalendarTask(
+    val id: String = UUID.randomUUID().toString(),
+    val title: String = "",
+    val description: String = "",
+    val dateTime: LocalDateTime,
+    val isCompleted: Boolean = false,
+    val reminderEnabled: Boolean = true,
+    val reminderTime: LocalDateTime? = null,
+    val category: QuestCategory = QuestCategory.CUSTOM,
+    val xpReward: Int = 50,
+    val goldReward: Int = 10
+)
 
 // ============= ПЕРСОНАЖ И ИНВЕНТАРЬ =============
 
@@ -321,8 +337,7 @@ data class Character(
     val health: Int = 100,
     val maxHealth: Int = 100,
     val gold: Int = 0,
-    val profession: Profession = Profession.STUDENT,
-    val characterClass: CharacterClass = CharacterClass.WARRIOR,
+    val gender: String = "Мужской",
     val stats: CharacterStats = CharacterStats(),
     val equippedItems: EquippedItems = EquippedItems()
 )
